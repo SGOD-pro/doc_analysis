@@ -1,0 +1,286 @@
+{
+  "doc_id": "2c6cc45b",
+  "document_name": "2c6cc45b.pdf",
+  "nodes": [
+    {
+      "id": "German",
+      "label": "German",
+      "type": "NORP",
+      "type_label": "Nationality / Group",
+      "frequency": 7,
+      "degree": 4,
+      "centrality": 0.26667,
+      "betweenness": 0.05714,
+      "closeness": 0.27778,
+      "pagerank": 0.07713
+    },
+    {
+      "id": "WMT",
+      "label": "WMT",
+      "type": "BENCHMARK",
+      "type_label": "Benchmark / Dataset",
+      "frequency": 7,
+      "degree": 3,
+      "centrality": 0.2,
+      "betweenness": 0.0,
+      "closeness": 0.20833,
+      "pagerank": 0.07108
+    },
+    {
+      "id": "French",
+      "label": "French",
+      "type": "NORP",
+      "type_label": "Nationality / Group",
+      "frequency": 5,
+      "degree": 3,
+      "centrality": 0.2,
+      "betweenness": 0.0,
+      "closeness": 0.20833,
+      "pagerank": 0.07108
+    },
+    {
+      "id": "BLEU",
+      "label": "BLEU",
+      "type": "METRIC",
+      "type_label": "Evaluation Metric",
+      "frequency": 5,
+      "degree": 3,
+      "centrality": 0.2,
+      "betweenness": 0.0,
+      "closeness": 0.20833,
+      "pagerank": 0.07108
+    },
+    {
+      "id": "WSJ",
+      "label": "WSJ",
+      "type": "DATASET",
+      "type_label": "Dataset",
+      "frequency": 10,
+      "degree": 1,
+      "centrality": 0.06667,
+      "betweenness": 0.0,
+      "closeness": 0.06667,
+      "pagerank": 0.0625
+    },
+    {
+      "id": "Yoshua_Bengio",
+      "label": "Yoshua Bengio",
+      "type": "PERSON",
+      "type_label": "Person",
+      "frequency": 5,
+      "degree": 1,
+      "centrality": 0.06667,
+      "betweenness": 0.0,
+      "closeness": 0.06667,
+      "pagerank": 0.0625
+    },
+    {
+      "id": "Kyunghyun_Cho",
+      "label": "Kyunghyun Cho",
+      "type": "PERSON",
+      "type_label": "Person",
+      "frequency": 3,
+      "degree": 1,
+      "centrality": 0.06667,
+      "betweenness": 0.0,
+      "closeness": 0.06667,
+      "pagerank": 0.0625
+    },
+    {
+      "id": "Ashish",
+      "label": "Ashish",
+      "type": "PERSON",
+      "type_label": "Person",
+      "frequency": 2,
+      "degree": 1,
+      "centrality": 0.06667,
+      "betweenness": 0.0,
+      "closeness": 0.06667,
+      "pagerank": 0.0625
+    },
+    {
+      "id": "Illia",
+      "label": "Illia",
+      "type": "GPE",
+      "type_label": "Location (Geo-Political)",
+      "frequency": 2,
+      "degree": 1,
+      "centrality": 0.06667,
+      "betweenness": 0.0,
+      "closeness": 0.06667,
+      "pagerank": 0.0625
+    },
+    {
+      "id": "Zhu_et_al",
+      "label": "Zhu et al",
+      "type": "PERSON",
+      "type_label": "Person",
+      "frequency": 2,
+      "degree": 1,
+      "centrality": 0.06667,
+      "betweenness": 0.0,
+      "closeness": 0.06667,
+      "pagerank": 0.0625
+    },
+    {
+      "id": "Sepp_Hochreiter",
+      "label": "Sepp Hochreiter",
+      "type": "ORG",
+      "type_label": "Organization",
+      "frequency": 2,
+      "degree": 1,
+      "centrality": 0.06667,
+      "betweenness": 0.0,
+      "closeness": 0.06667,
+      "pagerank": 0.0625
+    },
+    {
+      "id": "Jürgen_Schmidhuber",
+      "label": "Jürgen Schmidhuber",
+      "type": "PERSON",
+      "type_label": "Person",
+      "frequency": 2,
+      "degree": 1,
+      "centrality": 0.06667,
+      "betweenness": 0.0,
+      "closeness": 0.06667,
+      "pagerank": 0.0625
+    },
+    {
+      "id": "Mike_Schuster",
+      "label": "Mike Schuster",
+      "type": "PERSON",
+      "type_label": "Person",
+      "frequency": 2,
+      "degree": 1,
+      "centrality": 0.06667,
+      "betweenness": 0.0,
+      "closeness": 0.06667,
+      "pagerank": 0.0625
+    },
+    {
+      "id": "Yonghui_Wu",
+      "label": "Yonghui Wu",
+      "type": "PERSON",
+      "type_label": "Person",
+      "frequency": 2,
+      "degree": 1,
+      "centrality": 0.06667,
+      "betweenness": 0.0,
+      "closeness": 0.06667,
+      "pagerank": 0.0625
+    },
+    {
+      "id": "Transformer",
+      "label": "Transformer",
+      "type": "MODEL",
+      "type_label": "AI / ML Model",
+      "frequency": 20,
+      "degree": 2,
+      "centrality": 0.13333,
+      "betweenness": 0.0381,
+      "closeness": 0.20833,
+      "pagerank": 0.05282
+    },
+    {
+      "id": "English",
+      "label": "English",
+      "type": "NORP",
+      "type_label": "Nationality / Group",
+      "frequency": 2,
+      "degree": 1,
+      "centrality": 0.06667,
+      "betweenness": 0.0,
+      "closeness": 0.13889,
+      "pagerank": 0.03182
+    }
+  ],
+  "edges": [
+    {
+      "source": "Transformer",
+      "target": "English",
+      "relationship": "developed",
+      "weight": 2
+    },
+    {
+      "source": "Transformer",
+      "target": "German",
+      "relationship": "authored",
+      "weight": 2
+    },
+    {
+      "source": "WSJ",
+      "target": "Zhu_et_al",
+      "relationship": "authored",
+      "weight": 2
+    },
+    {
+      "source": "German",
+      "target": "BLEU",
+      "relationship": "authored",
+      "weight": 2
+    },
+    {
+      "source": "German",
+      "target": "French",
+      "relationship": "authored",
+      "weight": 2
+    },
+    {
+      "source": "German",
+      "target": "WMT",
+      "relationship": "authored",
+      "weight": 2
+    },
+    {
+      "source": "WMT",
+      "target": "French",
+      "relationship": "developed",
+      "weight": 3
+    },
+    {
+      "source": "WMT",
+      "target": "BLEU",
+      "relationship": "developed",
+      "weight": 3
+    },
+    {
+      "source": "French",
+      "target": "BLEU",
+      "relationship": "developed",
+      "weight": 3
+    },
+    {
+      "source": "Yoshua_Bengio",
+      "target": "Kyunghyun_Cho",
+      "relationship": "authored",
+      "weight": 3
+    },
+    {
+      "source": "Ashish",
+      "target": "Illia",
+      "relationship": "developed",
+      "weight": 2
+    },
+    {
+      "source": "Sepp_Hochreiter",
+      "target": "Jürgen_Schmidhuber",
+      "relationship": "co-occurs_with",
+      "weight": 2
+    },
+    {
+      "source": "Mike_Schuster",
+      "target": "Yonghui_Wu",
+      "relationship": "co-occurs_with",
+      "weight": 2
+    }
+  ],
+  "analytics": {
+    "total_nodes": 16,
+    "total_edges": 13,
+    "density": 0.10833,
+    "most_connected_entity": "German",
+    "average_degree": 1.625,
+    "isolated_removed": 196
+  }
+}

@@ -1,0 +1,6207 @@
+{
+  "doc_id": "2c6cc45b",
+  "document_name": "2c6cc45b.pdf",
+  "total_entities": 212,
+  "unique_entities": 212,
+  "entity_types_found": [
+    "BENCHMARK",
+    "DATASET",
+    "EVENT",
+    "FUNCTION",
+    "GPE",
+    "JOURNAL",
+    "METRIC",
+    "MODEL",
+    "NORP",
+    "ORG",
+    "PERSON",
+    "PRODUCT",
+    "TOKEN",
+    "VENUE",
+    "WORK_OF_ART"
+  ],
+  "entities": [
+    {
+      "entity": "Transformer",
+      "type": "MODEL",
+      "type_label": "AI / ML Model",
+      "frequency": 20,
+      "page_count": 7,
+      "confidence": 0.9
+    },
+    {
+      "entity": "WSJ",
+      "type": "DATASET",
+      "type_label": "Dataset",
+      "frequency": 10,
+      "page_count": 2,
+      "confidence": 0.9
+    },
+    {
+      "entity": "EOS",
+      "type": "TOKEN",
+      "type_label": "Special Token",
+      "frequency": 10,
+      "page_count": 3,
+      "confidence": 0.9
+    },
+    {
+      "entity": "German",
+      "type": "NORP",
+      "type_label": "Nationality / Group",
+      "frequency": 7,
+      "page_count": 4,
+      "confidence": 1.0
+    },
+    {
+      "entity": "WMT",
+      "type": "BENCHMARK",
+      "type_label": "Benchmark / Dataset",
+      "frequency": 7,
+      "page_count": 4,
+      "confidence": 0.9
+    },
+    {
+      "entity": "CoRR",
+      "type": "JOURNAL",
+      "type_label": "Journal / Repository",
+      "frequency": 6,
+      "page_count": 3,
+      "confidence": 0.9
+    },
+    {
+      "entity": "French",
+      "type": "NORP",
+      "type_label": "Nationality / Group",
+      "frequency": 5,
+      "page_count": 3,
+      "confidence": 1.0
+    },
+    {
+      "entity": "BLEU",
+      "type": "METRIC",
+      "type_label": "Evaluation Metric",
+      "frequency": 5,
+      "page_count": 2,
+      "confidence": 0.9
+    },
+    {
+      "entity": "Yoshua Bengio",
+      "type": "PERSON",
+      "type_label": "Person",
+      "frequency": 5,
+      "page_count": 2,
+      "confidence": 1.0
+    },
+    {
+      "entity": "ACL",
+      "type": "VENUE",
+      "type_label": "Conference / Venue",
+      "frequency": 5,
+      "page_count": 2,
+      "confidence": 0.9
+    },
+    {
+      "entity": "Neural Information Processing Systems",
+      "type": "ORG",
+      "type_label": "Organization",
+      "frequency": 4,
+      "page_count": 2,
+      "confidence": 1.0
+    },
+    {
+      "entity": "Kyunghyun Cho",
+      "type": "PERSON",
+      "type_label": "Person",
+      "frequency": 3,
+      "page_count": 2,
+      "confidence": 1.0
+    },
+    {
+      "entity": "Oriol Vinyals",
+      "type": "ORG",
+      "type_label": "Organization",
+      "frequency": 3,
+      "page_count": 2,
+      "confidence": 1.0
+    },
+    {
+      "entity": "Google",
+      "type": "ORG",
+      "type_label": "Organization",
+      "frequency": 2,
+      "page_count": 2,
+      "confidence": 1.0
+    },
+    {
+      "entity": "Ashish",
+      "type": "PERSON",
+      "type_label": "Person",
+      "frequency": 2,
+      "page_count": 1,
+      "confidence": 0.9
+    },
+    {
+      "entity": "Noam",
+      "type": "PERSON",
+      "type_label": "Person",
+      "frequency": 2,
+      "page_count": 1,
+      "confidence": 1.0
+    },
+    {
+      "entity": "Google Brain",
+      "type": "ORG",
+      "type_label": "Organization",
+      "frequency": 2,
+      "page_count": 1,
+      "confidence": 1.0
+    },
+    {
+      "entity": "Illia",
+      "type": "GPE",
+      "type_label": "Location (Geo-Political)",
+      "frequency": 2,
+      "page_count": 1,
+      "confidence": 1.0
+    },
+    {
+      "entity": "English",
+      "type": "NORP",
+      "type_label": "Nationality / Group",
+      "frequency": 2,
+      "page_count": 2,
+      "confidence": 1.0
+    },
+    {
+      "entity": "ByteNet",
+      "type": "ORG",
+      "type_label": "Organization",
+      "frequency": 2,
+      "page_count": 1,
+      "confidence": 1.0
+    },
+    {
+      "entity": "Adam",
+      "type": "PERSON",
+      "type_label": "Person",
+      "frequency": 2,
+      "page_count": 2,
+      "confidence": 1.0
+    },
+    {
+      "entity": "RNN",
+      "type": "ORG",
+      "type_label": "Organization",
+      "frequency": 2,
+      "page_count": 2,
+      "confidence": 1.0
+    },
+    {
+      "entity": "Zhu et al",
+      "type": "PERSON",
+      "type_label": "Person",
+      "frequency": 2,
+      "page_count": 1,
+      "confidence": 1.0
+    },
+    {
+      "entity": "Nal Kalchbrenner",
+      "type": "PERSON",
+      "type_label": "Person",
+      "frequency": 2,
+      "page_count": 2,
+      "confidence": 1.0
+    },
+    {
+      "entity": "Geoffrey E Hinton",
+      "type": "PERSON",
+      "type_label": "Person",
+      "frequency": 2,
+      "page_count": 2,
+      "confidence": 1.0
+    },
+    {
+      "entity": "Quoc V. Le",
+      "type": "PERSON",
+      "type_label": "Person",
+      "frequency": 2,
+      "page_count": 2,
+      "confidence": 1.0
+    },
+    {
+      "entity": "Alex Graves",
+      "type": "PERSON",
+      "type_label": "Person",
+      "frequency": 2,
+      "page_count": 1,
+      "confidence": 1.0
+    },
+    {
+      "entity": "Sepp Hochreiter",
+      "type": "ORG",
+      "type_label": "Organization",
+      "frequency": 2,
+      "page_count": 1,
+      "confidence": 1.0
+    },
+    {
+      "entity": "Jürgen Schmidhuber",
+      "type": "PERSON",
+      "type_label": "Person",
+      "frequency": 2,
+      "page_count": 1,
+      "confidence": 1.0
+    },
+    {
+      "entity": "Mike Schuster",
+      "type": "PERSON",
+      "type_label": "Person",
+      "frequency": 2,
+      "page_count": 2,
+      "confidence": 1.0
+    },
+    {
+      "entity": "Noam Shazeer",
+      "type": "PERSON",
+      "type_label": "Person",
+      "frequency": 2,
+      "page_count": 2,
+      "confidence": 1.0
+    },
+    {
+      "entity": "Yonghui Wu",
+      "type": "PERSON",
+      "type_label": "Person",
+      "frequency": 2,
+      "page_count": 2,
+      "confidence": 1.0
+    },
+    {
+      "entity": "Thang Luong",
+      "type": "PERSON",
+      "type_label": "Person",
+      "frequency": 2,
+      "page_count": 1,
+      "confidence": 1.0
+    },
+    {
+      "entity": "American",
+      "type": "NORP",
+      "type_label": "Nationality / Group",
+      "frequency": 2,
+      "page_count": 1,
+      "confidence": 1.0
+    },
+    {
+      "entity": "Aidan N. Gomez∗†",
+      "type": "PERSON",
+      "type_label": "Person",
+      "frequency": 1,
+      "page_count": 1,
+      "confidence": 1.0
+    },
+    {
+      "entity": "University of Toronto aidan@cs.toronto.edu",
+      "type": "ORG",
+      "type_label": "Organization",
+      "frequency": 1,
+      "page_count": 1,
+      "confidence": 1.0
+    },
+    {
+      "entity": "Łukasz Kaiser∗",
+      "type": "ORG",
+      "type_label": "Organization",
+      "frequency": 1,
+      "page_count": 1,
+      "confidence": 1.0
+    },
+    {
+      "entity": "Jakob",
+      "type": "PERSON",
+      "type_label": "Person",
+      "frequency": 1,
+      "page_count": 1,
+      "confidence": 1.0
+    },
+    {
+      "entity": "Niki",
+      "type": "ORG",
+      "type_label": "Organization",
+      "frequency": 1,
+      "page_count": 1,
+      "confidence": 1.0
+    },
+    {
+      "entity": "Aidan",
+      "type": "PERSON",
+      "type_label": "Person",
+      "frequency": 1,
+      "page_count": 1,
+      "confidence": 1.0
+    },
+    {
+      "entity": "Google Research",
+      "type": "ORG",
+      "type_label": "Organization",
+      "frequency": 1,
+      "page_count": 1,
+      "confidence": 1.0
+    },
+    {
+      "entity": "Conference on Neural Information Processing Systems",
+      "type": "ORG",
+      "type_label": "Organization",
+      "frequency": 1,
+      "page_count": 1,
+      "confidence": 1.0
+    },
+    {
+      "entity": "Long Beach",
+      "type": "GPE",
+      "type_label": "Location (Geo-Political)",
+      "frequency": 1,
+      "page_count": 1,
+      "confidence": 1.0
+    },
+    {
+      "entity": "GPU",
+      "type": "PERSON",
+      "type_label": "Person",
+      "frequency": 1,
+      "page_count": 1,
+      "confidence": 1.0
+    },
+    {
+      "entity": "ConvS2S",
+      "type": "ORG",
+      "type_label": "Organization",
+      "frequency": 1,
+      "page_count": 1,
+      "confidence": 1.0
+    },
+    {
+      "entity": "Multi-Head Attention",
+      "type": "ORG",
+      "type_label": "Organization",
+      "frequency": 1,
+      "page_count": 1,
+      "confidence": 1.0
+    },
+    {
+      "entity": "LayerNorm(x + Sublayer(x",
+      "type": "PERSON",
+      "type_label": "Person",
+      "frequency": 1,
+      "page_count": 1,
+      "confidence": 1.0
+    },
+    {
+      "entity": "Sublayer(x",
+      "type": "PERSON",
+      "type_label": "Person",
+      "frequency": 1,
+      "page_count": 1,
+      "confidence": 1.0
+    },
+    {
+      "entity": "Dot-Product Attention",
+      "type": "ORG",
+      "type_label": "Organization",
+      "frequency": 1,
+      "page_count": 1,
+      "confidence": 1.0
+    },
+    {
+      "entity": "Scaled Dot-Product Attention",
+      "type": "WORK_OF_ART",
+      "type_label": "Work of Art",
+      "frequency": 1,
+      "page_count": 1,
+      "confidence": 1.0
+    },
+    {
+      "entity": "Multi-Head Attention Instead",
+      "type": "ORG",
+      "type_label": "Organization",
+      "frequency": 1,
+      "page_count": 1,
+      "confidence": 1.0
+    },
+    {
+      "entity": "variance dk",
+      "type": "PERSON",
+      "type_label": "Person",
+      "frequency": 1,
+      "page_count": 1,
+      "confidence": 1.0
+    },
+    {
+      "entity": "KW K",
+      "type": "ORG",
+      "type_label": "Organization",
+      "frequency": 1,
+      "page_count": 1,
+      "confidence": 1.0
+    },
+    {
+      "entity": "W K",
+      "type": "ORG",
+      "type_label": "Organization",
+      "frequency": 1,
+      "page_count": 1,
+      "confidence": 1.0
+    },
+    {
+      "entity": "Feed-Forward Networks",
+      "type": "ORG",
+      "type_label": "Organization",
+      "frequency": 1,
+      "page_count": 1,
+      "confidence": 1.0
+    },
+    {
+      "entity": "ReLU",
+      "type": "FUNCTION",
+      "type_label": "Mathematical Function",
+      "frequency": 1,
+      "page_count": 1,
+      "confidence": 0.9
+    },
+    {
+      "entity": "xW1",
+      "type": "GPE",
+      "type_label": "Location (Geo-Political)",
+      "frequency": 1,
+      "page_count": 1,
+      "confidence": 1.0
+    },
+    {
+      "entity": "linear",
+      "type": "ORG",
+      "type_label": "Organization",
+      "frequency": 1,
+      "page_count": 1,
+      "confidence": 1.0
+    },
+    {
+      "entity": "Layer Type Complexity per Layer Sequential",
+      "type": "ORG",
+      "type_label": "Organization",
+      "frequency": 1,
+      "page_count": 1,
+      "confidence": 1.0
+    },
+    {
+      "entity": "Self-Attention",
+      "type": "ORG",
+      "type_label": "Organization",
+      "frequency": 1,
+      "page_count": 1,
+      "confidence": 1.0
+    },
+    {
+      "entity": "Positional Encoding Since",
+      "type": "ORG",
+      "type_label": "Organization",
+      "frequency": 1,
+      "page_count": 1,
+      "confidence": 1.0
+    },
+    {
+      "entity": "PE(pos,2i+1",
+      "type": "PERSON",
+      "type_label": "Person",
+      "frequency": 1,
+      "page_count": 1,
+      "confidence": 1.0
+    },
+    {
+      "entity": "kernel width",
+      "type": "ORG",
+      "type_label": "Organization",
+      "frequency": 1,
+      "page_count": 1,
+      "confidence": 1.0
+    },
+    {
+      "entity": "Training Data",
+      "type": "ORG",
+      "type_label": "Organization",
+      "frequency": 1,
+      "page_count": 1,
+      "confidence": 1.0
+    },
+    {
+      "entity": "byte",
+      "type": "ORG",
+      "type_label": "Organization",
+      "frequency": 1,
+      "page_count": 1,
+      "confidence": 1.0
+    },
+    {
+      "entity": "English-French",
+      "type": "NORP",
+      "type_label": "Nationality / Group",
+      "frequency": 1,
+      "page_count": 1,
+      "confidence": 1.0
+    },
+    {
+      "entity": "Hardware",
+      "type": "PRODUCT",
+      "type_label": "Product",
+      "frequency": 1,
+      "page_count": 1,
+      "confidence": 1.0
+    },
+    {
+      "entity": "Schedule",
+      "type": "PERSON",
+      "type_label": "Person",
+      "frequency": 1,
+      "page_count": 1,
+      "confidence": 1.0
+    },
+    {
+      "entity": "Deep-Att + PosUnk",
+      "type": "WORK_OF_ART",
+      "type_label": "Work of Art",
+      "frequency": 1,
+      "page_count": 1,
+      "confidence": 1.0
+    },
+    {
+      "entity": "MoE",
+      "type": "PRODUCT",
+      "type_label": "Product",
+      "frequency": 1,
+      "page_count": 1,
+      "confidence": 1.0
+    },
+    {
+      "entity": "Deep-Att + PosUnk Ensemble",
+      "type": "WORK_OF_ART",
+      "type_label": "Work of Art",
+      "frequency": 1,
+      "page_count": 1,
+      "confidence": 1.0
+    },
+    {
+      "entity": "Ensemble",
+      "type": "WORK_OF_ART",
+      "type_label": "Work of Art",
+      "frequency": 1,
+      "page_count": 1,
+      "confidence": 1.0
+    },
+    {
+      "entity": "Label Smoothing",
+      "type": "PERSON",
+      "type_label": "Person",
+      "frequency": 1,
+      "page_count": 1,
+      "confidence": 1.0
+    },
+    {
+      "entity": "the Wall Street Journal",
+      "type": "ORG",
+      "type_label": "Organization",
+      "frequency": 1,
+      "page_count": 1,
+      "confidence": 1.0
+    },
+    {
+      "entity": "Penn Treebank",
+      "type": "DATASET",
+      "type_label": "Dataset",
+      "frequency": 1,
+      "page_count": 1,
+      "confidence": 0.9
+    },
+    {
+      "entity": "BerkleyParser",
+      "type": "ORG",
+      "type_label": "Organization",
+      "frequency": 1,
+      "page_count": 1,
+      "confidence": 1.0
+    },
+    {
+      "entity": "Vinyals & Kaiser el al",
+      "type": "ORG",
+      "type_label": "Organization",
+      "frequency": 1,
+      "page_count": 1,
+      "confidence": 1.0
+    },
+    {
+      "entity": "Luong",
+      "type": "PERSON",
+      "type_label": "Person",
+      "frequency": 1,
+      "page_count": 1,
+      "confidence": 1.0
+    },
+    {
+      "entity": "Dyer et al",
+      "type": "PRODUCT",
+      "type_label": "Product",
+      "frequency": 1,
+      "page_count": 1,
+      "confidence": 1.0
+    },
+    {
+      "entity": "Recurrent Neural Network Grammar",
+      "type": "ORG",
+      "type_label": "Organization",
+      "frequency": 1,
+      "page_count": 1,
+      "confidence": 1.0
+    },
+    {
+      "entity": "Stephan Gouws",
+      "type": "PERSON",
+      "type_label": "Person",
+      "frequency": 1,
+      "page_count": 1,
+      "confidence": 1.0
+    },
+    {
+      "entity": "Lei Ba",
+      "type": "PERSON",
+      "type_label": "Person",
+      "frequency": 1,
+      "page_count": 1,
+      "confidence": 1.0
+    },
+    {
+      "entity": "Jamie Ryan Kiros",
+      "type": "PERSON",
+      "type_label": "Person",
+      "frequency": 1,
+      "page_count": 1,
+      "confidence": 1.0
+    },
+    {
+      "entity": "Dzmitry Bahdanau",
+      "type": "PERSON",
+      "type_label": "Person",
+      "frequency": 1,
+      "page_count": 1,
+      "confidence": 1.0
+    },
+    {
+      "entity": "Denny Britz",
+      "type": "PERSON",
+      "type_label": "Person",
+      "frequency": 1,
+      "page_count": 1,
+      "confidence": 1.0
+    },
+    {
+      "entity": "Anna Goldie",
+      "type": "PERSON",
+      "type_label": "Person",
+      "frequency": 1,
+      "page_count": 1,
+      "confidence": 1.0
+    },
+    {
+      "entity": "Minh-Thang Luong",
+      "type": "PERSON",
+      "type_label": "Person",
+      "frequency": 1,
+      "page_count": 1,
+      "confidence": 1.0
+    },
+    {
+      "entity": "Jianpeng Cheng",
+      "type": "PERSON",
+      "type_label": "Person",
+      "frequency": 1,
+      "page_count": 1,
+      "confidence": 1.0
+    },
+    {
+      "entity": "Li Dong",
+      "type": "PERSON",
+      "type_label": "Person",
+      "frequency": 1,
+      "page_count": 1,
+      "confidence": 1.0
+    },
+    {
+      "entity": "Mirella Lapata",
+      "type": "PERSON",
+      "type_label": "Person",
+      "frequency": 1,
+      "page_count": 1,
+      "confidence": 1.0
+    },
+    {
+      "entity": "Bart van Merrienboer",
+      "type": "PERSON",
+      "type_label": "Person",
+      "frequency": 1,
+      "page_count": 1,
+      "confidence": 1.0
+    },
+    {
+      "entity": "Caglar Gulcehre",
+      "type": "PERSON",
+      "type_label": "Person",
+      "frequency": 1,
+      "page_count": 1,
+      "confidence": 1.0
+    },
+    {
+      "entity": "Fethi Bougares",
+      "type": "ORG",
+      "type_label": "Organization",
+      "frequency": 1,
+      "page_count": 1,
+      "confidence": 1.0
+    },
+    {
+      "entity": "Holger Schwenk",
+      "type": "PERSON",
+      "type_label": "Person",
+      "frequency": 1,
+      "page_count": 1,
+      "confidence": 1.0
+    },
+    {
+      "entity": "Junyoung Chung",
+      "type": "PERSON",
+      "type_label": "Person",
+      "frequency": 1,
+      "page_count": 1,
+      "confidence": 1.0
+    },
+    {
+      "entity": "Çaglar Gülçehre",
+      "type": "GPE",
+      "type_label": "Location (Geo-Political)",
+      "frequency": 1,
+      "page_count": 1,
+      "confidence": 1.0
+    },
+    {
+      "entity": "Chris Dyer",
+      "type": "PERSON",
+      "type_label": "Person",
+      "frequency": 1,
+      "page_count": 1,
+      "confidence": 1.0
+    },
+    {
+      "entity": "Adhiguna Kuncoro",
+      "type": "PERSON",
+      "type_label": "Person",
+      "frequency": 1,
+      "page_count": 1,
+      "confidence": 1.0
+    },
+    {
+      "entity": "Miguel Ballesteros",
+      "type": "PERSON",
+      "type_label": "Person",
+      "frequency": 1,
+      "page_count": 1,
+      "confidence": 1.0
+    },
+    {
+      "entity": "Noah A. Smith",
+      "type": "PERSON",
+      "type_label": "Person",
+      "frequency": 1,
+      "page_count": 1,
+      "confidence": 1.0
+    },
+    {
+      "entity": "Proc",
+      "type": "GPE",
+      "type_label": "Location (Geo-Political)",
+      "frequency": 1,
+      "page_count": 1,
+      "confidence": 1.0
+    },
+    {
+      "entity": "NAACL",
+      "type": "VENUE",
+      "type_label": "Conference / Venue",
+      "frequency": 1,
+      "page_count": 1,
+      "confidence": 0.9
+    },
+    {
+      "entity": "Jonas Gehring",
+      "type": "PERSON",
+      "type_label": "Person",
+      "frequency": 1,
+      "page_count": 1,
+      "confidence": 1.0
+    },
+    {
+      "entity": "Michael Auli",
+      "type": "PERSON",
+      "type_label": "Person",
+      "frequency": 1,
+      "page_count": 1,
+      "confidence": 1.0
+    },
+    {
+      "entity": "David Grangier",
+      "type": "PERSON",
+      "type_label": "Person",
+      "frequency": 1,
+      "page_count": 1,
+      "confidence": 1.0
+    },
+    {
+      "entity": "Denis Yarats",
+      "type": "PERSON",
+      "type_label": "Person",
+      "frequency": 1,
+      "page_count": 1,
+      "confidence": 1.0
+    },
+    {
+      "entity": "Yann N. Dauphin",
+      "type": "PERSON",
+      "type_label": "Person",
+      "frequency": 1,
+      "page_count": 1,
+      "confidence": 1.0
+    },
+    {
+      "entity": "arXiv:1705.03122v2",
+      "type": "ORG",
+      "type_label": "Organization",
+      "frequency": 1,
+      "page_count": 1,
+      "confidence": 1.0
+    },
+    {
+      "entity": "Xiangyu Zhang",
+      "type": "PERSON",
+      "type_label": "Person",
+      "frequency": 1,
+      "page_count": 1,
+      "confidence": 1.0
+    },
+    {
+      "entity": "Shaoqing Ren",
+      "type": "PERSON",
+      "type_label": "Person",
+      "frequency": 1,
+      "page_count": 1,
+      "confidence": 1.0
+    },
+    {
+      "entity": "Jian Sun",
+      "type": "PERSON",
+      "type_label": "Person",
+      "frequency": 1,
+      "page_count": 1,
+      "confidence": 1.0
+    },
+    {
+      "entity": "the IEEE Conference on Computer Vision",
+      "type": "ORG",
+      "type_label": "Organization",
+      "frequency": 1,
+      "page_count": 1,
+      "confidence": 1.0
+    },
+    {
+      "entity": "Paolo Frasconi",
+      "type": "PERSON",
+      "type_label": "Person",
+      "frequency": 1,
+      "page_count": 1,
+      "confidence": 1.0
+    },
+    {
+      "entity": "Zhongqiang Huang",
+      "type": "PERSON",
+      "type_label": "Person",
+      "frequency": 1,
+      "page_count": 1,
+      "confidence": 1.0
+    },
+    {
+      "entity": "Mary Harper",
+      "type": "PERSON",
+      "type_label": "Person",
+      "frequency": 1,
+      "page_count": 1,
+      "confidence": 1.0
+    },
+    {
+      "entity": "the 2009 Conference on Empirical Methods",
+      "type": "EVENT",
+      "type_label": "Event",
+      "frequency": 1,
+      "page_count": 1,
+      "confidence": 1.0
+    },
+    {
+      "entity": "Samy Bengio",
+      "type": "PERSON",
+      "type_label": "Person",
+      "frequency": 1,
+      "page_count": 1,
+      "confidence": 1.0
+    },
+    {
+      "entity": "Learning Representations",
+      "type": "WORK_OF_ART",
+      "type_label": "Work of Art",
+      "frequency": 1,
+      "page_count": 1,
+      "confidence": 1.0
+    },
+    {
+      "entity": "Lasse Espeholt",
+      "type": "ORG",
+      "type_label": "Organization",
+      "frequency": 1,
+      "page_count": 1,
+      "confidence": 1.0
+    },
+    {
+      "entity": "Karen Simonyan",
+      "type": "PERSON",
+      "type_label": "Person",
+      "frequency": 1,
+      "page_count": 1,
+      "confidence": 1.0
+    },
+    {
+      "entity": "Aaron",
+      "type": "PERSON",
+      "type_label": "Person",
+      "frequency": 1,
+      "page_count": 1,
+      "confidence": 1.0
+    },
+    {
+      "entity": "Oord",
+      "type": "PERSON",
+      "type_label": "Person",
+      "frequency": 1,
+      "page_count": 1,
+      "confidence": 1.0
+    },
+    {
+      "entity": "Kavukcuoglu",
+      "type": "PERSON",
+      "type_label": "Person",
+      "frequency": 1,
+      "page_count": 1,
+      "confidence": 1.0
+    },
+    {
+      "entity": "Yoon Kim",
+      "type": "PERSON",
+      "type_label": "Person",
+      "frequency": 1,
+      "page_count": 1,
+      "confidence": 1.0
+    },
+    {
+      "entity": "Carl Denton",
+      "type": "PERSON",
+      "type_label": "Person",
+      "frequency": 1,
+      "page_count": 1,
+      "confidence": 1.0
+    },
+    {
+      "entity": "Luong Hoang",
+      "type": "PERSON",
+      "type_label": "Person",
+      "frequency": 1,
+      "page_count": 1,
+      "confidence": 1.0
+    },
+    {
+      "entity": "Alexander M. Rush",
+      "type": "PERSON",
+      "type_label": "Person",
+      "frequency": 1,
+      "page_count": 1,
+      "confidence": 1.0
+    },
+    {
+      "entity": "Diederik Kingma",
+      "type": "PERSON",
+      "type_label": "Person",
+      "frequency": 1,
+      "page_count": 1,
+      "confidence": 1.0
+    },
+    {
+      "entity": "Jimmy Ba",
+      "type": "PERSON",
+      "type_label": "Person",
+      "frequency": 1,
+      "page_count": 1,
+      "confidence": 1.0
+    },
+    {
+      "entity": "Kuchaiev",
+      "type": "GPE",
+      "type_label": "Location (Geo-Political)",
+      "frequency": 1,
+      "page_count": 1,
+      "confidence": 1.0
+    },
+    {
+      "entity": "Boris Ginsburg",
+      "type": "PERSON",
+      "type_label": "Person",
+      "frequency": 1,
+      "page_count": 1,
+      "confidence": 1.0
+    },
+    {
+      "entity": "arXiv:1703.10722",
+      "type": "GPE",
+      "type_label": "Location (Geo-Political)",
+      "frequency": 1,
+      "page_count": 1,
+      "confidence": 1.0
+    },
+    {
+      "entity": "Zhouhan Lin",
+      "type": "PERSON",
+      "type_label": "Person",
+      "frequency": 1,
+      "page_count": 1,
+      "confidence": 1.0
+    },
+    {
+      "entity": "Minwei Feng",
+      "type": "PERSON",
+      "type_label": "Person",
+      "frequency": 1,
+      "page_count": 1,
+      "confidence": 1.0
+    },
+    {
+      "entity": "Cicero Nogueira",
+      "type": "PERSON",
+      "type_label": "Person",
+      "frequency": 1,
+      "page_count": 1,
+      "confidence": 1.0
+    },
+    {
+      "entity": "Santos",
+      "type": "GPE",
+      "type_label": "Location (Geo-Political)",
+      "frequency": 1,
+      "page_count": 1,
+      "confidence": 1.0
+    },
+    {
+      "entity": "Mo Yu",
+      "type": "PERSON",
+      "type_label": "Person",
+      "frequency": 1,
+      "page_count": 1,
+      "confidence": 1.0
+    },
+    {
+      "entity": "Bing Xiang",
+      "type": "PERSON",
+      "type_label": "Person",
+      "frequency": 1,
+      "page_count": 1,
+      "confidence": 1.0
+    },
+    {
+      "entity": "Bowen Zhou",
+      "type": "PERSON",
+      "type_label": "Person",
+      "frequency": 1,
+      "page_count": 1,
+      "confidence": 1.0
+    },
+    {
+      "entity": "Lukasz Kaiser",
+      "type": "PERSON",
+      "type_label": "Person",
+      "frequency": 1,
+      "page_count": 1,
+      "confidence": 1.0
+    },
+    {
+      "entity": "Hieu Pham",
+      "type": "PERSON",
+      "type_label": "Person",
+      "frequency": 1,
+      "page_count": 1,
+      "confidence": 1.0
+    },
+    {
+      "entity": "Christopher D Manning",
+      "type": "PERSON",
+      "type_label": "Person",
+      "frequency": 1,
+      "page_count": 1,
+      "confidence": 1.0
+    },
+    {
+      "entity": "Mary Ann Marcinkiewicz",
+      "type": "PERSON",
+      "type_label": "Person",
+      "frequency": 1,
+      "page_count": 1,
+      "confidence": 1.0
+    },
+    {
+      "entity": "Beatrice Santorini",
+      "type": "PERSON",
+      "type_label": "Person",
+      "frequency": 1,
+      "page_count": 1,
+      "confidence": 1.0
+    },
+    {
+      "entity": "David McClosky",
+      "type": "PERSON",
+      "type_label": "Person",
+      "frequency": 1,
+      "page_count": 1,
+      "confidence": 1.0
+    },
+    {
+      "entity": "Eugene Charniak",
+      "type": "PERSON",
+      "type_label": "Person",
+      "frequency": 1,
+      "page_count": 1,
+      "confidence": 1.0
+    },
+    {
+      "entity": "Mark Johnson",
+      "type": "PERSON",
+      "type_label": "Person",
+      "frequency": 1,
+      "page_count": 1,
+      "confidence": 1.0
+    },
+    {
+      "entity": "the Human Language Technology Conference of the NAACL",
+      "type": "ORG",
+      "type_label": "Organization",
+      "frequency": 1,
+      "page_count": 1,
+      "confidence": 1.0
+    },
+    {
+      "entity": "Main Conference",
+      "type": "PERSON",
+      "type_label": "Person",
+      "frequency": 1,
+      "page_count": 1,
+      "confidence": 1.0
+    },
+    {
+      "entity": "Ankur Parikh",
+      "type": "ORG",
+      "type_label": "Organization",
+      "frequency": 1,
+      "page_count": 1,
+      "confidence": 1.0
+    },
+    {
+      "entity": "Oscar Täckström",
+      "type": "PERSON",
+      "type_label": "Person",
+      "frequency": 1,
+      "page_count": 1,
+      "confidence": 1.0
+    },
+    {
+      "entity": "Dipanjan Das",
+      "type": "PERSON",
+      "type_label": "Person",
+      "frequency": 1,
+      "page_count": 1,
+      "confidence": 1.0
+    },
+    {
+      "entity": "Jakob Uszkoreit",
+      "type": "PERSON",
+      "type_label": "Person",
+      "frequency": 1,
+      "page_count": 1,
+      "confidence": 1.0
+    },
+    {
+      "entity": "Caiming Xiong",
+      "type": "PERSON",
+      "type_label": "Person",
+      "frequency": 1,
+      "page_count": 1,
+      "confidence": 1.0
+    },
+    {
+      "entity": "Richard Socher",
+      "type": "PERSON",
+      "type_label": "Person",
+      "frequency": 1,
+      "page_count": 1,
+      "confidence": 1.0
+    },
+    {
+      "entity": "Slav Petrov",
+      "type": "PERSON",
+      "type_label": "Person",
+      "frequency": 1,
+      "page_count": 1,
+      "confidence": 1.0
+    },
+    {
+      "entity": "Leon Barrett",
+      "type": "PERSON",
+      "type_label": "Person",
+      "frequency": 1,
+      "page_count": 1,
+      "confidence": 1.0
+    },
+    {
+      "entity": "Romain Thibaux",
+      "type": "GPE",
+      "type_label": "Location (Geo-Political)",
+      "frequency": 1,
+      "page_count": 1,
+      "confidence": 1.0
+    },
+    {
+      "entity": "Dan Klein",
+      "type": "PERSON",
+      "type_label": "Person",
+      "frequency": 1,
+      "page_count": 1,
+      "confidence": 1.0
+    },
+    {
+      "entity": "the 21st International Conference on Computational Linguistics",
+      "type": "ORG",
+      "type_label": "Organization",
+      "frequency": 1,
+      "page_count": 1,
+      "confidence": 1.0
+    },
+    {
+      "entity": "Wolf",
+      "type": "PERSON",
+      "type_label": "Person",
+      "frequency": 1,
+      "page_count": 1,
+      "confidence": 1.0
+    },
+    {
+      "entity": "Rico Sennrich",
+      "type": "PERSON",
+      "type_label": "Person",
+      "frequency": 1,
+      "page_count": 1,
+      "confidence": 1.0
+    },
+    {
+      "entity": "Barry Haddow",
+      "type": "PERSON",
+      "type_label": "Person",
+      "frequency": 1,
+      "page_count": 1,
+      "confidence": 1.0
+    },
+    {
+      "entity": "Alexandra Birch",
+      "type": "ORG",
+      "type_label": "Organization",
+      "frequency": 1,
+      "page_count": 1,
+      "confidence": 1.0
+    },
+    {
+      "entity": "Azalia Mirhoseini",
+      "type": "ORG",
+      "type_label": "Organization",
+      "frequency": 1,
+      "page_count": 1,
+      "confidence": 1.0
+    },
+    {
+      "entity": "Krzysztof Maziarz",
+      "type": "PERSON",
+      "type_label": "Person",
+      "frequency": 1,
+      "page_count": 1,
+      "confidence": 1.0
+    },
+    {
+      "entity": "Andy Davis",
+      "type": "PERSON",
+      "type_label": "Person",
+      "frequency": 1,
+      "page_count": 1,
+      "confidence": 1.0
+    },
+    {
+      "entity": "Quoc Le",
+      "type": "PERSON",
+      "type_label": "Person",
+      "frequency": 1,
+      "page_count": 1,
+      "confidence": 1.0
+    },
+    {
+      "entity": "Geoffrey Hinton",
+      "type": "PERSON",
+      "type_label": "Person",
+      "frequency": 1,
+      "page_count": 1,
+      "confidence": 1.0
+    },
+    {
+      "entity": "Jeff Dean",
+      "type": "PERSON",
+      "type_label": "Person",
+      "frequency": 1,
+      "page_count": 1,
+      "confidence": 1.0
+    },
+    {
+      "entity": "Nitish Srivastava",
+      "type": "PERSON",
+      "type_label": "Person",
+      "frequency": 1,
+      "page_count": 1,
+      "confidence": 1.0
+    },
+    {
+      "entity": "Alex Krizhevsky",
+      "type": "PERSON",
+      "type_label": "Person",
+      "frequency": 1,
+      "page_count": 1,
+      "confidence": 1.0
+    },
+    {
+      "entity": "Ruslan",
+      "type": "PERSON",
+      "type_label": "Person",
+      "frequency": 1,
+      "page_count": 1,
+      "confidence": 1.0
+    },
+    {
+      "entity": "Journal of Machine Learning Research",
+      "type": "ORG",
+      "type_label": "Organization",
+      "frequency": 1,
+      "page_count": 1,
+      "confidence": 1.0
+    },
+    {
+      "entity": "Sainbayar Sukhbaatar",
+      "type": "PERSON",
+      "type_label": "Person",
+      "frequency": 1,
+      "page_count": 1,
+      "confidence": 1.0
+    },
+    {
+      "entity": "Arthur Szlam",
+      "type": "PERSON",
+      "type_label": "Person",
+      "frequency": 1,
+      "page_count": 1,
+      "confidence": 1.0
+    },
+    {
+      "entity": "Jason Weston",
+      "type": "PERSON",
+      "type_label": "Person",
+      "frequency": 1,
+      "page_count": 1,
+      "confidence": 1.0
+    },
+    {
+      "entity": "Rob Fergus",
+      "type": "PERSON",
+      "type_label": "Person",
+      "frequency": 1,
+      "page_count": 1,
+      "confidence": 1.0
+    },
+    {
+      "entity": "C. Cortes",
+      "type": "GPE",
+      "type_label": "Location (Geo-Political)",
+      "frequency": 1,
+      "page_count": 1,
+      "confidence": 1.0
+    },
+    {
+      "entity": "N. D. Lawrence",
+      "type": "PERSON",
+      "type_label": "Person",
+      "frequency": 1,
+      "page_count": 1,
+      "confidence": 1.0
+    },
+    {
+      "entity": "D. D. Lee",
+      "type": "PERSON",
+      "type_label": "Person",
+      "frequency": 1,
+      "page_count": 1,
+      "confidence": 1.0
+    },
+    {
+      "entity": "R. Garnett",
+      "type": "PERSON",
+      "type_label": "Person",
+      "frequency": 1,
+      "page_count": 1,
+      "confidence": 1.0
+    },
+    {
+      "entity": "Curran Associates",
+      "type": "ORG",
+      "type_label": "Organization",
+      "frequency": 1,
+      "page_count": 1,
+      "confidence": 1.0
+    },
+    {
+      "entity": "Quoc VV Le",
+      "type": "ORG",
+      "type_label": "Organization",
+      "frequency": 1,
+      "page_count": 1,
+      "confidence": 1.0
+    },
+    {
+      "entity": "Christian Szegedy",
+      "type": "PERSON",
+      "type_label": "Person",
+      "frequency": 1,
+      "page_count": 1,
+      "confidence": 1.0
+    },
+    {
+      "entity": "Vincent Vanhoucke",
+      "type": "PERSON",
+      "type_label": "Person",
+      "frequency": 1,
+      "page_count": 1,
+      "confidence": 1.0
+    },
+    {
+      "entity": "Sergey Ioffe",
+      "type": "PERSON",
+      "type_label": "Person",
+      "frequency": 1,
+      "page_count": 1,
+      "confidence": 1.0
+    },
+    {
+      "entity": "Jonathon Shlens",
+      "type": "PERSON",
+      "type_label": "Person",
+      "frequency": 1,
+      "page_count": 1,
+      "confidence": 1.0
+    },
+    {
+      "entity": "Zbigniew Wojna",
+      "type": "PERSON",
+      "type_label": "Person",
+      "frequency": 1,
+      "page_count": 1,
+      "confidence": 1.0
+    },
+    {
+      "entity": "Vinyals & Kaiser",
+      "type": "ORG",
+      "type_label": "Organization",
+      "frequency": 1,
+      "page_count": 1,
+      "confidence": 1.0
+    },
+    {
+      "entity": "Koo",
+      "type": "PERSON",
+      "type_label": "Person",
+      "frequency": 1,
+      "page_count": 1,
+      "confidence": 1.0
+    },
+    {
+      "entity": "Sutskever",
+      "type": "GPE",
+      "type_label": "Location (Geo-Political)",
+      "frequency": 1,
+      "page_count": 1,
+      "confidence": 1.0
+    },
+    {
+      "entity": "Hinton",
+      "type": "GPE",
+      "type_label": "Location (Geo-Political)",
+      "frequency": 1,
+      "page_count": 1,
+      "confidence": 1.0
+    },
+    {
+      "entity": "Grammar",
+      "type": "PERSON",
+      "type_label": "Person",
+      "frequency": 1,
+      "page_count": 1,
+      "confidence": 1.0
+    },
+    {
+      "entity": "Zhifeng Chen",
+      "type": "PERSON",
+      "type_label": "Person",
+      "frequency": 1,
+      "page_count": 1,
+      "confidence": 1.0
+    },
+    {
+      "entity": "Quoc V Le",
+      "type": "PERSON",
+      "type_label": "Person",
+      "frequency": 1,
+      "page_count": 1,
+      "confidence": 1.0
+    },
+    {
+      "entity": "Mohammad Norouzi",
+      "type": "PERSON",
+      "type_label": "Person",
+      "frequency": 1,
+      "page_count": 1,
+      "confidence": 1.0
+    },
+    {
+      "entity": "Wolfgang Macherey",
+      "type": "PERSON",
+      "type_label": "Person",
+      "frequency": 1,
+      "page_count": 1,
+      "confidence": 1.0
+    },
+    {
+      "entity": "Maxim Krikun",
+      "type": "PERSON",
+      "type_label": "Person",
+      "frequency": 1,
+      "page_count": 1,
+      "confidence": 1.0
+    },
+    {
+      "entity": "Yuan Cao",
+      "type": "PERSON",
+      "type_label": "Person",
+      "frequency": 1,
+      "page_count": 1,
+      "confidence": 1.0
+    },
+    {
+      "entity": "Qin Gao",
+      "type": "PERSON",
+      "type_label": "Person",
+      "frequency": 1,
+      "page_count": 1,
+      "confidence": 1.0
+    },
+    {
+      "entity": "Klaus Macherey",
+      "type": "PERSON",
+      "type_label": "Person",
+      "frequency": 1,
+      "page_count": 1,
+      "confidence": 1.0
+    },
+    {
+      "entity": "Jie Zhou",
+      "type": "PERSON",
+      "type_label": "Person",
+      "frequency": 1,
+      "page_count": 1,
+      "confidence": 1.0
+    },
+    {
+      "entity": "Ying Cao",
+      "type": "PERSON",
+      "type_label": "Person",
+      "frequency": 1,
+      "page_count": 1,
+      "confidence": 1.0
+    },
+    {
+      "entity": "Xuguang Wang",
+      "type": "PERSON",
+      "type_label": "Person",
+      "frequency": 1,
+      "page_count": 1,
+      "confidence": 1.0
+    },
+    {
+      "entity": "Peng Li",
+      "type": "PERSON",
+      "type_label": "Person",
+      "frequency": 1,
+      "page_count": 1,
+      "confidence": 1.0
+    },
+    {
+      "entity": "Wei Xu",
+      "type": "PERSON",
+      "type_label": "Person",
+      "frequency": 1,
+      "page_count": 1,
+      "confidence": 1.0
+    },
+    {
+      "entity": "Muhua Zhu",
+      "type": "PERSON",
+      "type_label": "Person",
+      "frequency": 1,
+      "page_count": 1,
+      "confidence": 1.0
+    },
+    {
+      "entity": "Yue Zhang",
+      "type": "PERSON",
+      "type_label": "Person",
+      "frequency": 1,
+      "page_count": 1,
+      "confidence": 1.0
+    },
+    {
+      "entity": "Wenliang Chen",
+      "type": "PERSON",
+      "type_label": "Person",
+      "frequency": 1,
+      "page_count": 1,
+      "confidence": 1.0
+    },
+    {
+      "entity": "Min Zhang",
+      "type": "PERSON",
+      "type_label": "Person",
+      "frequency": 1,
+      "page_count": 1,
+      "confidence": 1.0
+    },
+    {
+      "entity": "Jingbo Zhu",
+      "type": "PERSON",
+      "type_label": "Person",
+      "frequency": 1,
+      "page_count": 1,
+      "confidence": 1.0
+    }
+  ],
+  "by_type": {
+    "MODEL": [
+      {
+        "entity": "Transformer",
+        "type": "MODEL",
+        "type_label": "AI / ML Model",
+        "frequency": 20,
+        "page_count": 7,
+        "confidence": 0.9
+      }
+    ],
+    "DATASET": [
+      {
+        "entity": "WSJ",
+        "type": "DATASET",
+        "type_label": "Dataset",
+        "frequency": 10,
+        "page_count": 2,
+        "confidence": 0.9
+      },
+      {
+        "entity": "Penn Treebank",
+        "type": "DATASET",
+        "type_label": "Dataset",
+        "frequency": 1,
+        "page_count": 1,
+        "confidence": 0.9
+      }
+    ],
+    "TOKEN": [
+      {
+        "entity": "EOS",
+        "type": "TOKEN",
+        "type_label": "Special Token",
+        "frequency": 10,
+        "page_count": 3,
+        "confidence": 0.9
+      }
+    ],
+    "NORP": [
+      {
+        "entity": "German",
+        "type": "NORP",
+        "type_label": "Nationality / Group",
+        "frequency": 7,
+        "page_count": 4,
+        "confidence": 1.0
+      },
+      {
+        "entity": "French",
+        "type": "NORP",
+        "type_label": "Nationality / Group",
+        "frequency": 5,
+        "page_count": 3,
+        "confidence": 1.0
+      },
+      {
+        "entity": "English",
+        "type": "NORP",
+        "type_label": "Nationality / Group",
+        "frequency": 2,
+        "page_count": 2,
+        "confidence": 1.0
+      },
+      {
+        "entity": "American",
+        "type": "NORP",
+        "type_label": "Nationality / Group",
+        "frequency": 2,
+        "page_count": 1,
+        "confidence": 1.0
+      },
+      {
+        "entity": "English-French",
+        "type": "NORP",
+        "type_label": "Nationality / Group",
+        "frequency": 1,
+        "page_count": 1,
+        "confidence": 1.0
+      }
+    ],
+    "BENCHMARK": [
+      {
+        "entity": "WMT",
+        "type": "BENCHMARK",
+        "type_label": "Benchmark / Dataset",
+        "frequency": 7,
+        "page_count": 4,
+        "confidence": 0.9
+      }
+    ],
+    "JOURNAL": [
+      {
+        "entity": "CoRR",
+        "type": "JOURNAL",
+        "type_label": "Journal / Repository",
+        "frequency": 6,
+        "page_count": 3,
+        "confidence": 0.9
+      }
+    ],
+    "METRIC": [
+      {
+        "entity": "BLEU",
+        "type": "METRIC",
+        "type_label": "Evaluation Metric",
+        "frequency": 5,
+        "page_count": 2,
+        "confidence": 0.9
+      }
+    ],
+    "PERSON": [
+      {
+        "entity": "Yoshua Bengio",
+        "type": "PERSON",
+        "type_label": "Person",
+        "frequency": 5,
+        "page_count": 2,
+        "confidence": 1.0
+      },
+      {
+        "entity": "Kyunghyun Cho",
+        "type": "PERSON",
+        "type_label": "Person",
+        "frequency": 3,
+        "page_count": 2,
+        "confidence": 1.0
+      },
+      {
+        "entity": "Ashish",
+        "type": "PERSON",
+        "type_label": "Person",
+        "frequency": 2,
+        "page_count": 1,
+        "confidence": 0.9
+      },
+      {
+        "entity": "Noam",
+        "type": "PERSON",
+        "type_label": "Person",
+        "frequency": 2,
+        "page_count": 1,
+        "confidence": 1.0
+      },
+      {
+        "entity": "Adam",
+        "type": "PERSON",
+        "type_label": "Person",
+        "frequency": 2,
+        "page_count": 2,
+        "confidence": 1.0
+      },
+      {
+        "entity": "Zhu et al",
+        "type": "PERSON",
+        "type_label": "Person",
+        "frequency": 2,
+        "page_count": 1,
+        "confidence": 1.0
+      },
+      {
+        "entity": "Nal Kalchbrenner",
+        "type": "PERSON",
+        "type_label": "Person",
+        "frequency": 2,
+        "page_count": 2,
+        "confidence": 1.0
+      },
+      {
+        "entity": "Geoffrey E Hinton",
+        "type": "PERSON",
+        "type_label": "Person",
+        "frequency": 2,
+        "page_count": 2,
+        "confidence": 1.0
+      },
+      {
+        "entity": "Quoc V. Le",
+        "type": "PERSON",
+        "type_label": "Person",
+        "frequency": 2,
+        "page_count": 2,
+        "confidence": 1.0
+      },
+      {
+        "entity": "Alex Graves",
+        "type": "PERSON",
+        "type_label": "Person",
+        "frequency": 2,
+        "page_count": 1,
+        "confidence": 1.0
+      },
+      {
+        "entity": "Jürgen Schmidhuber",
+        "type": "PERSON",
+        "type_label": "Person",
+        "frequency": 2,
+        "page_count": 1,
+        "confidence": 1.0
+      },
+      {
+        "entity": "Mike Schuster",
+        "type": "PERSON",
+        "type_label": "Person",
+        "frequency": 2,
+        "page_count": 2,
+        "confidence": 1.0
+      },
+      {
+        "entity": "Noam Shazeer",
+        "type": "PERSON",
+        "type_label": "Person",
+        "frequency": 2,
+        "page_count": 2,
+        "confidence": 1.0
+      },
+      {
+        "entity": "Yonghui Wu",
+        "type": "PERSON",
+        "type_label": "Person",
+        "frequency": 2,
+        "page_count": 2,
+        "confidence": 1.0
+      },
+      {
+        "entity": "Thang Luong",
+        "type": "PERSON",
+        "type_label": "Person",
+        "frequency": 2,
+        "page_count": 1,
+        "confidence": 1.0
+      }
+    ],
+    "VENUE": [
+      {
+        "entity": "ACL",
+        "type": "VENUE",
+        "type_label": "Conference / Venue",
+        "frequency": 5,
+        "page_count": 2,
+        "confidence": 0.9
+      },
+      {
+        "entity": "NAACL",
+        "type": "VENUE",
+        "type_label": "Conference / Venue",
+        "frequency": 1,
+        "page_count": 1,
+        "confidence": 0.9
+      }
+    ],
+    "ORG": [
+      {
+        "entity": "Neural Information Processing Systems",
+        "type": "ORG",
+        "type_label": "Organization",
+        "frequency": 4,
+        "page_count": 2,
+        "confidence": 1.0
+      },
+      {
+        "entity": "Oriol Vinyals",
+        "type": "ORG",
+        "type_label": "Organization",
+        "frequency": 3,
+        "page_count": 2,
+        "confidence": 1.0
+      },
+      {
+        "entity": "Google",
+        "type": "ORG",
+        "type_label": "Organization",
+        "frequency": 2,
+        "page_count": 2,
+        "confidence": 1.0
+      },
+      {
+        "entity": "Google Brain",
+        "type": "ORG",
+        "type_label": "Organization",
+        "frequency": 2,
+        "page_count": 1,
+        "confidence": 1.0
+      },
+      {
+        "entity": "ByteNet",
+        "type": "ORG",
+        "type_label": "Organization",
+        "frequency": 2,
+        "page_count": 1,
+        "confidence": 1.0
+      },
+      {
+        "entity": "RNN",
+        "type": "ORG",
+        "type_label": "Organization",
+        "frequency": 2,
+        "page_count": 2,
+        "confidence": 1.0
+      },
+      {
+        "entity": "Sepp Hochreiter",
+        "type": "ORG",
+        "type_label": "Organization",
+        "frequency": 2,
+        "page_count": 1,
+        "confidence": 1.0
+      },
+      {
+        "entity": "University of Toronto aidan@cs.toronto.edu",
+        "type": "ORG",
+        "type_label": "Organization",
+        "frequency": 1,
+        "page_count": 1,
+        "confidence": 1.0
+      },
+      {
+        "entity": "Łukasz Kaiser∗",
+        "type": "ORG",
+        "type_label": "Organization",
+        "frequency": 1,
+        "page_count": 1,
+        "confidence": 1.0
+      },
+      {
+        "entity": "Niki",
+        "type": "ORG",
+        "type_label": "Organization",
+        "frequency": 1,
+        "page_count": 1,
+        "confidence": 1.0
+      },
+      {
+        "entity": "Google Research",
+        "type": "ORG",
+        "type_label": "Organization",
+        "frequency": 1,
+        "page_count": 1,
+        "confidence": 1.0
+      },
+      {
+        "entity": "Conference on Neural Information Processing Systems",
+        "type": "ORG",
+        "type_label": "Organization",
+        "frequency": 1,
+        "page_count": 1,
+        "confidence": 1.0
+      },
+      {
+        "entity": "ConvS2S",
+        "type": "ORG",
+        "type_label": "Organization",
+        "frequency": 1,
+        "page_count": 1,
+        "confidence": 1.0
+      },
+      {
+        "entity": "Multi-Head Attention",
+        "type": "ORG",
+        "type_label": "Organization",
+        "frequency": 1,
+        "page_count": 1,
+        "confidence": 1.0
+      },
+      {
+        "entity": "Dot-Product Attention",
+        "type": "ORG",
+        "type_label": "Organization",
+        "frequency": 1,
+        "page_count": 1,
+        "confidence": 1.0
+      }
+    ],
+    "GPE": [
+      {
+        "entity": "Illia",
+        "type": "GPE",
+        "type_label": "Location (Geo-Political)",
+        "frequency": 2,
+        "page_count": 1,
+        "confidence": 1.0
+      },
+      {
+        "entity": "Long Beach",
+        "type": "GPE",
+        "type_label": "Location (Geo-Political)",
+        "frequency": 1,
+        "page_count": 1,
+        "confidence": 1.0
+      },
+      {
+        "entity": "xW1",
+        "type": "GPE",
+        "type_label": "Location (Geo-Political)",
+        "frequency": 1,
+        "page_count": 1,
+        "confidence": 1.0
+      },
+      {
+        "entity": "Çaglar Gülçehre",
+        "type": "GPE",
+        "type_label": "Location (Geo-Political)",
+        "frequency": 1,
+        "page_count": 1,
+        "confidence": 1.0
+      },
+      {
+        "entity": "Proc",
+        "type": "GPE",
+        "type_label": "Location (Geo-Political)",
+        "frequency": 1,
+        "page_count": 1,
+        "confidence": 1.0
+      },
+      {
+        "entity": "Kuchaiev",
+        "type": "GPE",
+        "type_label": "Location (Geo-Political)",
+        "frequency": 1,
+        "page_count": 1,
+        "confidence": 1.0
+      },
+      {
+        "entity": "arXiv:1703.10722",
+        "type": "GPE",
+        "type_label": "Location (Geo-Political)",
+        "frequency": 1,
+        "page_count": 1,
+        "confidence": 1.0
+      },
+      {
+        "entity": "Santos",
+        "type": "GPE",
+        "type_label": "Location (Geo-Political)",
+        "frequency": 1,
+        "page_count": 1,
+        "confidence": 1.0
+      },
+      {
+        "entity": "Romain Thibaux",
+        "type": "GPE",
+        "type_label": "Location (Geo-Political)",
+        "frequency": 1,
+        "page_count": 1,
+        "confidence": 1.0
+      },
+      {
+        "entity": "C. Cortes",
+        "type": "GPE",
+        "type_label": "Location (Geo-Political)",
+        "frequency": 1,
+        "page_count": 1,
+        "confidence": 1.0
+      },
+      {
+        "entity": "Sutskever",
+        "type": "GPE",
+        "type_label": "Location (Geo-Political)",
+        "frequency": 1,
+        "page_count": 1,
+        "confidence": 1.0
+      },
+      {
+        "entity": "Hinton",
+        "type": "GPE",
+        "type_label": "Location (Geo-Political)",
+        "frequency": 1,
+        "page_count": 1,
+        "confidence": 1.0
+      }
+    ],
+    "WORK_OF_ART": [
+      {
+        "entity": "Scaled Dot-Product Attention",
+        "type": "WORK_OF_ART",
+        "type_label": "Work of Art",
+        "frequency": 1,
+        "page_count": 1,
+        "confidence": 1.0
+      },
+      {
+        "entity": "Deep-Att + PosUnk",
+        "type": "WORK_OF_ART",
+        "type_label": "Work of Art",
+        "frequency": 1,
+        "page_count": 1,
+        "confidence": 1.0
+      },
+      {
+        "entity": "Deep-Att + PosUnk Ensemble",
+        "type": "WORK_OF_ART",
+        "type_label": "Work of Art",
+        "frequency": 1,
+        "page_count": 1,
+        "confidence": 1.0
+      },
+      {
+        "entity": "Ensemble",
+        "type": "WORK_OF_ART",
+        "type_label": "Work of Art",
+        "frequency": 1,
+        "page_count": 1,
+        "confidence": 1.0
+      },
+      {
+        "entity": "Learning Representations",
+        "type": "WORK_OF_ART",
+        "type_label": "Work of Art",
+        "frequency": 1,
+        "page_count": 1,
+        "confidence": 1.0
+      }
+    ],
+    "FUNCTION": [
+      {
+        "entity": "ReLU",
+        "type": "FUNCTION",
+        "type_label": "Mathematical Function",
+        "frequency": 1,
+        "page_count": 1,
+        "confidence": 0.9
+      }
+    ],
+    "PRODUCT": [
+      {
+        "entity": "Hardware",
+        "type": "PRODUCT",
+        "type_label": "Product",
+        "frequency": 1,
+        "page_count": 1,
+        "confidence": 1.0
+      },
+      {
+        "entity": "MoE",
+        "type": "PRODUCT",
+        "type_label": "Product",
+        "frequency": 1,
+        "page_count": 1,
+        "confidence": 1.0
+      },
+      {
+        "entity": "Dyer et al",
+        "type": "PRODUCT",
+        "type_label": "Product",
+        "frequency": 1,
+        "page_count": 1,
+        "confidence": 1.0
+      }
+    ],
+    "EVENT": [
+      {
+        "entity": "the 2009 Conference on Empirical Methods",
+        "type": "EVENT",
+        "type_label": "Event",
+        "frequency": 1,
+        "page_count": 1,
+        "confidence": 1.0
+      }
+    ]
+  },
+  "sentence_mentions": [
+    {
+      "entity": "Google",
+      "canonical": "google",
+      "type": "ORG",
+      "page": 1,
+      "sentence_idx": 0
+    },
+    {
+      "entity": "Ashish",
+      "canonical": "ashish",
+      "type": "PERSON",
+      "page": 1,
+      "sentence_idx": 1
+    },
+    {
+      "entity": "Noam",
+      "canonical": "noam",
+      "type": "PERSON",
+      "page": 1,
+      "sentence_idx": 1
+    },
+    {
+      "entity": "Aidan N. Gomez∗†",
+      "canonical": "aidan n. gomez∗†",
+      "type": "PERSON",
+      "page": 1,
+      "sentence_idx": 1
+    },
+    {
+      "entity": "University of Toronto aidan@cs.toronto.edu",
+      "canonical": "university of toronto aidan@cs.toronto.edu",
+      "type": "ORG",
+      "page": 1,
+      "sentence_idx": 1
+    },
+    {
+      "entity": "Łukasz Kaiser∗",
+      "canonical": "łukasz kaiser∗",
+      "type": "ORG",
+      "page": 1,
+      "sentence_idx": 1
+    },
+    {
+      "entity": "Google Brain",
+      "canonical": "google brain",
+      "type": "ORG",
+      "page": 1,
+      "sentence_idx": 1
+    },
+    {
+      "entity": "Illia",
+      "canonical": "illia",
+      "type": "GPE",
+      "page": 1,
+      "sentence_idx": 1
+    },
+    {
+      "entity": "Transformer",
+      "canonical": "transformer",
+      "type": "MODEL",
+      "page": 1,
+      "sentence_idx": 4
+    },
+    {
+      "entity": "German",
+      "canonical": "german",
+      "type": "NORP",
+      "page": 1,
+      "sentence_idx": 6
+    },
+    {
+      "entity": "WMT",
+      "canonical": "wmt",
+      "type": "BENCHMARK",
+      "page": 1,
+      "sentence_idx": 7
+    },
+    {
+      "entity": "French",
+      "canonical": "french",
+      "type": "NORP",
+      "page": 1,
+      "sentence_idx": 7
+    },
+    {
+      "entity": "BLEU",
+      "canonical": "bleu",
+      "type": "METRIC",
+      "page": 1,
+      "sentence_idx": 7
+    },
+    {
+      "entity": "Transformer",
+      "canonical": "transformer",
+      "type": "MODEL",
+      "page": 1,
+      "sentence_idx": 8
+    },
+    {
+      "entity": "English",
+      "canonical": "english",
+      "type": "NORP",
+      "page": 1,
+      "sentence_idx": 8
+    },
+    {
+      "entity": "Jakob",
+      "canonical": "jakob",
+      "type": "PERSON",
+      "page": 1,
+      "sentence_idx": 11
+    },
+    {
+      "entity": "Ashish",
+      "canonical": "ashish",
+      "type": "PERSON",
+      "page": 1,
+      "sentence_idx": 12
+    },
+    {
+      "entity": "Illia",
+      "canonical": "illia",
+      "type": "GPE",
+      "page": 1,
+      "sentence_idx": 12
+    },
+    {
+      "entity": "Transformer",
+      "canonical": "transformer",
+      "type": "MODEL",
+      "page": 1,
+      "sentence_idx": 12
+    },
+    {
+      "entity": "Noam",
+      "canonical": "noam",
+      "type": "PERSON",
+      "page": 1,
+      "sentence_idx": 13
+    },
+    {
+      "entity": "Niki",
+      "canonical": "niki",
+      "type": "ORG",
+      "page": 1,
+      "sentence_idx": 14
+    },
+    {
+      "entity": "Aidan",
+      "canonical": "aidan",
+      "type": "PERSON",
+      "page": 1,
+      "sentence_idx": 16
+    },
+    {
+      "entity": "Google Brain",
+      "canonical": "google brain",
+      "type": "LOC",
+      "page": 1,
+      "sentence_idx": 17
+    },
+    {
+      "entity": "Google Research",
+      "canonical": "google research",
+      "type": "ORG",
+      "page": 1,
+      "sentence_idx": 18
+    },
+    {
+      "entity": "Conference on Neural Information Processing Systems",
+      "canonical": "conference on neural information processing systems",
+      "type": "ORG",
+      "page": 1,
+      "sentence_idx": 19
+    },
+    {
+      "entity": "Long Beach",
+      "canonical": "long beach",
+      "type": "GPE",
+      "page": 1,
+      "sentence_idx": 19
+    },
+    {
+      "entity": "Transformer",
+      "canonical": "transformer",
+      "type": "MODEL",
+      "page": 2,
+      "sentence_idx": 11
+    },
+    {
+      "entity": "Transformer",
+      "canonical": "transformer",
+      "type": "MODEL",
+      "page": 2,
+      "sentence_idx": 12
+    },
+    {
+      "entity": "GPU",
+      "canonical": "gpu",
+      "type": "PERSON",
+      "page": 2,
+      "sentence_idx": 13
+    },
+    {
+      "entity": "ByteNet",
+      "canonical": "bytenet",
+      "type": "ORG",
+      "page": 2,
+      "sentence_idx": 14
+    },
+    {
+      "entity": "ConvS2S",
+      "canonical": "convs2s",
+      "type": "ORG",
+      "page": 2,
+      "sentence_idx": 16
+    },
+    {
+      "entity": "ByteNet",
+      "canonical": "bytenet",
+      "type": "ORG",
+      "page": 2,
+      "sentence_idx": 16
+    },
+    {
+      "entity": "Transformer",
+      "canonical": "transformer",
+      "type": "MODEL",
+      "page": 2,
+      "sentence_idx": 18
+    },
+    {
+      "entity": "Multi-Head Attention",
+      "canonical": "multi-head attention",
+      "type": "ORG",
+      "page": 2,
+      "sentence_idx": 18
+    },
+    {
+      "entity": "Transformer",
+      "canonical": "transformer",
+      "type": "MODEL",
+      "page": 2,
+      "sentence_idx": 23
+    },
+    {
+      "entity": "Transformer",
+      "canonical": "transformer",
+      "type": "MODEL",
+      "page": 2,
+      "sentence_idx": 24
+    },
+    {
+      "entity": "Transformer",
+      "canonical": "transformer",
+      "type": "MODEL",
+      "page": 3,
+      "sentence_idx": 0
+    },
+    {
+      "entity": "Transformer",
+      "canonical": "transformer",
+      "type": "MODEL",
+      "page": 3,
+      "sentence_idx": 1
+    },
+    {
+      "entity": "LayerNorm(x + Sublayer(x",
+      "canonical": "layernorm(x + sublayer(x",
+      "type": "PERSON",
+      "page": 3,
+      "sentence_idx": 7
+    },
+    {
+      "entity": "Sublayer(x",
+      "canonical": "sublayer(x",
+      "type": "PERSON",
+      "page": 3,
+      "sentence_idx": 7
+    },
+    {
+      "entity": "Dot-Product Attention",
+      "canonical": "dot-product attention",
+      "type": "ORG",
+      "page": 4,
+      "sentence_idx": 0
+    },
+    {
+      "entity": "Scaled Dot-Product Attention",
+      "canonical": "scaled dot-product attention",
+      "type": "WORK_OF_ART",
+      "page": 4,
+      "sentence_idx": 1
+    },
+    {
+      "entity": "Multi-Head Attention Instead",
+      "canonical": "multi-head attention instead",
+      "type": "ORG",
+      "page": 4,
+      "sentence_idx": 15
+    },
+    {
+      "entity": "variance dk",
+      "canonical": "variance dk",
+      "type": "PERSON",
+      "page": 4,
+      "sentence_idx": 17
+    },
+    {
+      "entity": "KW K",
+      "canonical": "kw k",
+      "type": "ORG",
+      "page": 5,
+      "sentence_idx": 5
+    },
+    {
+      "entity": "W K",
+      "canonical": "w k",
+      "type": "ORG",
+      "page": 5,
+      "sentence_idx": 5
+    },
+    {
+      "entity": "Transformer",
+      "canonical": "transformer",
+      "type": "MODEL",
+      "page": 5,
+      "sentence_idx": 9
+    },
+    {
+      "entity": "Feed-Forward Networks",
+      "canonical": "feed-forward networks",
+      "type": "ORG",
+      "page": 5,
+      "sentence_idx": 19
+    },
+    {
+      "entity": "ReLU",
+      "canonical": "relu",
+      "type": "FUNCTION",
+      "page": 5,
+      "sentence_idx": 20
+    },
+    {
+      "entity": "xW1",
+      "canonical": "xw1",
+      "type": "GPE",
+      "page": 5,
+      "sentence_idx": 20
+    },
+    {
+      "entity": "linear",
+      "canonical": "linear",
+      "type": "ORG",
+      "page": 5,
+      "sentence_idx": 24
+    },
+    {
+      "entity": "Layer Type Complexity per Layer Sequential",
+      "canonical": "layer type complexity per layer sequential",
+      "type": "ORG",
+      "page": 6,
+      "sentence_idx": 2
+    },
+    {
+      "entity": "Self-Attention",
+      "canonical": "self-attention",
+      "type": "ORG",
+      "page": 6,
+      "sentence_idx": 5
+    },
+    {
+      "entity": "Positional Encoding Since",
+      "canonical": "positional encoding since",
+      "type": "ORG",
+      "page": 6,
+      "sentence_idx": 5
+    },
+    {
+      "entity": "PE(pos,2i+1",
+      "canonical": "pe(pos,2i+1",
+      "type": "PERSON",
+      "page": 6,
+      "sentence_idx": 10
+    },
+    {
+      "entity": "kernel width",
+      "canonical": "kernel width",
+      "type": "ORG",
+      "page": 7,
+      "sentence_idx": 4
+    },
+    {
+      "entity": "Training Data",
+      "canonical": "training data",
+      "type": "ORG",
+      "page": 7,
+      "sentence_idx": 15
+    },
+    {
+      "entity": "WMT",
+      "canonical": "wmt",
+      "type": "BENCHMARK",
+      "page": 7,
+      "sentence_idx": 15
+    },
+    {
+      "entity": "byte",
+      "canonical": "byte",
+      "type": "ORG",
+      "page": 7,
+      "sentence_idx": 16
+    },
+    {
+      "entity": "English-French",
+      "canonical": "english-french",
+      "type": "NORP",
+      "page": 7,
+      "sentence_idx": 17
+    },
+    {
+      "entity": "WMT",
+      "canonical": "wmt",
+      "type": "BENCHMARK",
+      "page": 7,
+      "sentence_idx": 17
+    },
+    {
+      "entity": "Hardware",
+      "canonical": "hardware",
+      "type": "PRODUCT",
+      "page": 7,
+      "sentence_idx": 20
+    },
+    {
+      "entity": "Schedule",
+      "canonical": "schedule",
+      "type": "PERSON",
+      "page": 7,
+      "sentence_idx": 20
+    },
+    {
+      "entity": "Adam",
+      "canonical": "adam",
+      "type": "PERSON",
+      "page": 7,
+      "sentence_idx": 25
+    },
+    {
+      "entity": "Transformer",
+      "canonical": "transformer",
+      "type": "MODEL",
+      "page": 8,
+      "sentence_idx": 0
+    },
+    {
+      "entity": "BLEU",
+      "canonical": "bleu",
+      "type": "METRIC",
+      "page": 8,
+      "sentence_idx": 0
+    },
+    {
+      "entity": "German",
+      "canonical": "german",
+      "type": "NORP",
+      "page": 8,
+      "sentence_idx": 0
+    },
+    {
+      "entity": "French",
+      "canonical": "french",
+      "type": "NORP",
+      "page": 8,
+      "sentence_idx": 0
+    },
+    {
+      "entity": "Deep-Att + PosUnk",
+      "canonical": "deep-att + posunk",
+      "type": "WORK_OF_ART",
+      "page": 8,
+      "sentence_idx": 2
+    },
+    {
+      "entity": "MoE",
+      "canonical": "moe",
+      "type": "PRODUCT",
+      "page": 8,
+      "sentence_idx": 2
+    },
+    {
+      "entity": "Deep-Att + PosUnk Ensemble",
+      "canonical": "deep-att + posunk ensemble",
+      "type": "WORK_OF_ART",
+      "page": 8,
+      "sentence_idx": 3
+    },
+    {
+      "entity": "Ensemble",
+      "canonical": "ensemble",
+      "type": "WORK_OF_ART",
+      "page": 8,
+      "sentence_idx": 4
+    },
+    {
+      "entity": "Label Smoothing",
+      "canonical": "label smoothing",
+      "type": "PERSON",
+      "page": 8,
+      "sentence_idx": 9
+    },
+    {
+      "entity": "BLEU",
+      "canonical": "bleu",
+      "type": "METRIC",
+      "page": 8,
+      "sentence_idx": 11
+    },
+    {
+      "entity": "WMT",
+      "canonical": "wmt",
+      "type": "BENCHMARK",
+      "page": 8,
+      "sentence_idx": 12
+    },
+    {
+      "entity": "German",
+      "canonical": "german",
+      "type": "NORP",
+      "page": 8,
+      "sentence_idx": 12
+    },
+    {
+      "entity": "BLEU",
+      "canonical": "bleu",
+      "type": "METRIC",
+      "page": 8,
+      "sentence_idx": 12
+    },
+    {
+      "entity": "WMT",
+      "canonical": "wmt",
+      "type": "BENCHMARK",
+      "page": 8,
+      "sentence_idx": 16
+    },
+    {
+      "entity": "French",
+      "canonical": "french",
+      "type": "NORP",
+      "page": 8,
+      "sentence_idx": 16
+    },
+    {
+      "entity": "BLEU",
+      "canonical": "bleu",
+      "type": "METRIC",
+      "page": 8,
+      "sentence_idx": 16
+    },
+    {
+      "entity": "French",
+      "canonical": "french",
+      "type": "NORP",
+      "page": 8,
+      "sentence_idx": 17
+    },
+    {
+      "entity": "Transformer",
+      "canonical": "transformer",
+      "type": "MODEL",
+      "page": 8,
+      "sentence_idx": 25
+    },
+    {
+      "entity": "German",
+      "canonical": "german",
+      "type": "NORP",
+      "page": 8,
+      "sentence_idx": 25
+    },
+    {
+      "entity": "Transformer",
+      "canonical": "transformer",
+      "type": "MODEL",
+      "page": 9,
+      "sentence_idx": 0
+    },
+    {
+      "entity": "German",
+      "canonical": "german",
+      "type": "NORP",
+      "page": 9,
+      "sentence_idx": 2
+    },
+    {
+      "entity": "Transformer",
+      "canonical": "transformer",
+      "type": "MODEL",
+      "page": 9,
+      "sentence_idx": 13
+    },
+    {
+      "entity": "RNN",
+      "canonical": "rnn",
+      "type": "ORG",
+      "page": 9,
+      "sentence_idx": 15
+    },
+    {
+      "entity": "the Wall Street Journal",
+      "canonical": "the wall street journal",
+      "type": "ORG",
+      "page": 9,
+      "sentence_idx": 16
+    },
+    {
+      "entity": "WSJ",
+      "canonical": "wsj",
+      "type": "DATASET",
+      "page": 9,
+      "sentence_idx": 16
+    },
+    {
+      "entity": "Penn Treebank",
+      "canonical": "penn treebank",
+      "type": "DATASET",
+      "page": 9,
+      "sentence_idx": 16
+    },
+    {
+      "entity": "BerkleyParser",
+      "canonical": "berkleyparser",
+      "type": "ORG",
+      "page": 9,
+      "sentence_idx": 18
+    },
+    {
+      "entity": "WSJ",
+      "canonical": "wsj",
+      "type": "DATASET",
+      "page": 9,
+      "sentence_idx": 20
+    },
+    {
+      "entity": "German",
+      "canonical": "german",
+      "type": "NORP",
+      "page": 9,
+      "sentence_idx": 21
+    },
+    {
+      "entity": "Transformer",
+      "canonical": "transformer",
+      "type": "MODEL",
+      "page": 10,
+      "sentence_idx": 0
+    },
+    {
+      "entity": "English",
+      "canonical": "english",
+      "type": "NORP",
+      "page": 10,
+      "sentence_idx": 0
+    },
+    {
+      "entity": "WSJ",
+      "canonical": "wsj",
+      "type": "DATASET",
+      "page": 10,
+      "sentence_idx": 0
+    },
+    {
+      "entity": "WSJ",
+      "canonical": "wsj",
+      "type": "DATASET",
+      "page": 10,
+      "sentence_idx": 1
+    },
+    {
+      "entity": "WSJ",
+      "canonical": "wsj",
+      "type": "DATASET",
+      "page": 10,
+      "sentence_idx": 2
+    },
+    {
+      "entity": "Zhu et al",
+      "canonical": "zhu et al",
+      "type": "PERSON",
+      "page": 10,
+      "sentence_idx": 2
+    },
+    {
+      "entity": "WSJ",
+      "canonical": "wsj",
+      "type": "DATASET",
+      "page": 10,
+      "sentence_idx": 3
+    },
+    {
+      "entity": "WSJ",
+      "canonical": "wsj",
+      "type": "DATASET",
+      "page": 10,
+      "sentence_idx": 4
+    },
+    {
+      "entity": "WSJ",
+      "canonical": "wsj",
+      "type": "DATASET",
+      "page": 10,
+      "sentence_idx": 4
+    },
+    {
+      "entity": "Zhu et al",
+      "canonical": "zhu et al",
+      "type": "PERSON",
+      "page": 10,
+      "sentence_idx": 4
+    },
+    {
+      "entity": "Vinyals & Kaiser el al",
+      "canonical": "vinyals & kaiser el al",
+      "type": "ORG",
+      "page": 10,
+      "sentence_idx": 7
+    },
+    {
+      "entity": "Luong",
+      "canonical": "luong",
+      "type": "PERSON",
+      "page": 10,
+      "sentence_idx": 8
+    },
+    {
+      "entity": "Dyer et al",
+      "canonical": "dyer et al",
+      "type": "PRODUCT",
+      "page": 10,
+      "sentence_idx": 9
+    },
+    {
+      "entity": "WSJ",
+      "canonical": "wsj",
+      "type": "DATASET",
+      "page": 10,
+      "sentence_idx": 11
+    },
+    {
+      "entity": "Recurrent Neural Network Grammar",
+      "canonical": "recurrent neural network grammar",
+      "type": "ORG",
+      "page": 10,
+      "sentence_idx": 12
+    },
+    {
+      "entity": "RNN",
+      "canonical": "rnn",
+      "type": "ORG",
+      "page": 10,
+      "sentence_idx": 13
+    },
+    {
+      "entity": "Transformer",
+      "canonical": "transformer",
+      "type": "MODEL",
+      "page": 10,
+      "sentence_idx": 13
+    },
+    {
+      "entity": "WSJ",
+      "canonical": "wsj",
+      "type": "DATASET",
+      "page": 10,
+      "sentence_idx": 14
+    },
+    {
+      "entity": "Transformer",
+      "canonical": "transformer",
+      "type": "MODEL",
+      "page": 10,
+      "sentence_idx": 16
+    },
+    {
+      "entity": "Transformer",
+      "canonical": "transformer",
+      "type": "MODEL",
+      "page": 10,
+      "sentence_idx": 17
+    },
+    {
+      "entity": "WMT",
+      "canonical": "wmt",
+      "type": "BENCHMARK",
+      "page": 10,
+      "sentence_idx": 18
+    },
+    {
+      "entity": "German",
+      "canonical": "german",
+      "type": "NORP",
+      "page": 10,
+      "sentence_idx": 18
+    },
+    {
+      "entity": "WMT",
+      "canonical": "wmt",
+      "type": "BENCHMARK",
+      "page": 10,
+      "sentence_idx": 18
+    },
+    {
+      "entity": "French",
+      "canonical": "french",
+      "type": "NORP",
+      "page": 10,
+      "sentence_idx": 18
+    },
+    {
+      "entity": "Transformer",
+      "canonical": "transformer",
+      "type": "MODEL",
+      "page": 10,
+      "sentence_idx": 21
+    },
+    {
+      "entity": "Nal Kalchbrenner",
+      "canonical": "nal kalchbrenner",
+      "type": "PERSON",
+      "page": 10,
+      "sentence_idx": 24
+    },
+    {
+      "entity": "Stephan Gouws",
+      "canonical": "stephan gouws",
+      "type": "PERSON",
+      "page": 10,
+      "sentence_idx": 24
+    },
+    {
+      "entity": "Lei Ba",
+      "canonical": "lei ba",
+      "type": "PERSON",
+      "page": 10,
+      "sentence_idx": 25
+    },
+    {
+      "entity": "Jamie Ryan Kiros",
+      "canonical": "jamie ryan kiros",
+      "type": "PERSON",
+      "page": 10,
+      "sentence_idx": 25
+    },
+    {
+      "entity": "Geoffrey E Hinton",
+      "canonical": "geoffrey e hinton",
+      "type": "PERSON",
+      "page": 10,
+      "sentence_idx": 25
+    },
+    {
+      "entity": "Dzmitry Bahdanau",
+      "canonical": "dzmitry bahdanau",
+      "type": "PERSON",
+      "page": 10,
+      "sentence_idx": 28
+    },
+    {
+      "entity": "Kyunghyun Cho",
+      "canonical": "kyunghyun cho",
+      "type": "PERSON",
+      "page": 10,
+      "sentence_idx": 28
+    },
+    {
+      "entity": "Yoshua Bengio",
+      "canonical": "yoshua bengio",
+      "type": "PERSON",
+      "page": 10,
+      "sentence_idx": 28
+    },
+    {
+      "entity": "CoRR",
+      "canonical": "corr",
+      "type": "JOURNAL",
+      "page": 10,
+      "sentence_idx": 30
+    },
+    {
+      "entity": "Denny Britz",
+      "canonical": "denny britz",
+      "type": "PERSON",
+      "page": 10,
+      "sentence_idx": 31
+    },
+    {
+      "entity": "Anna Goldie",
+      "canonical": "anna goldie",
+      "type": "PERSON",
+      "page": 10,
+      "sentence_idx": 31
+    },
+    {
+      "entity": "Minh-Thang Luong",
+      "canonical": "minh-thang luong",
+      "type": "PERSON",
+      "page": 10,
+      "sentence_idx": 31
+    },
+    {
+      "entity": "Quoc V. Le",
+      "canonical": "quoc v. le",
+      "type": "PERSON",
+      "page": 10,
+      "sentence_idx": 31
+    },
+    {
+      "entity": "CoRR",
+      "canonical": "corr",
+      "type": "JOURNAL",
+      "page": 10,
+      "sentence_idx": 33
+    },
+    {
+      "entity": "Jianpeng Cheng",
+      "canonical": "jianpeng cheng",
+      "type": "PERSON",
+      "page": 10,
+      "sentence_idx": 34
+    },
+    {
+      "entity": "Li Dong",
+      "canonical": "li dong",
+      "type": "PERSON",
+      "page": 10,
+      "sentence_idx": 34
+    },
+    {
+      "entity": "Mirella Lapata",
+      "canonical": "mirella lapata",
+      "type": "PERSON",
+      "page": 10,
+      "sentence_idx": 34
+    },
+    {
+      "entity": "Kyunghyun Cho",
+      "canonical": "kyunghyun cho",
+      "type": "PERSON",
+      "page": 11,
+      "sentence_idx": 0
+    },
+    {
+      "entity": "Bart van Merrienboer",
+      "canonical": "bart van merrienboer",
+      "type": "PERSON",
+      "page": 11,
+      "sentence_idx": 0
+    },
+    {
+      "entity": "Caglar Gulcehre",
+      "canonical": "caglar gulcehre",
+      "type": "PERSON",
+      "page": 11,
+      "sentence_idx": 0
+    },
+    {
+      "entity": "Fethi Bougares",
+      "canonical": "fethi bougares",
+      "type": "ORG",
+      "page": 11,
+      "sentence_idx": 0
+    },
+    {
+      "entity": "Holger Schwenk",
+      "canonical": "holger schwenk",
+      "type": "PERSON",
+      "page": 11,
+      "sentence_idx": 0
+    },
+    {
+      "entity": "Yoshua Bengio",
+      "canonical": "yoshua bengio",
+      "type": "PERSON",
+      "page": 11,
+      "sentence_idx": 0
+    },
+    {
+      "entity": "CoRR",
+      "canonical": "corr",
+      "type": "JOURNAL",
+      "page": 11,
+      "sentence_idx": 2
+    },
+    {
+      "entity": "Junyoung Chung",
+      "canonical": "junyoung chung",
+      "type": "PERSON",
+      "page": 11,
+      "sentence_idx": 6
+    },
+    {
+      "entity": "Çaglar Gülçehre",
+      "canonical": "çaglar gülçehre",
+      "type": "GPE",
+      "page": 11,
+      "sentence_idx": 6
+    },
+    {
+      "entity": "Kyunghyun Cho",
+      "canonical": "kyunghyun cho",
+      "type": "PERSON",
+      "page": 11,
+      "sentence_idx": 6
+    },
+    {
+      "entity": "Yoshua Bengio",
+      "canonical": "yoshua bengio",
+      "type": "PERSON",
+      "page": 11,
+      "sentence_idx": 6
+    },
+    {
+      "entity": "CoRR",
+      "canonical": "corr",
+      "type": "JOURNAL",
+      "page": 11,
+      "sentence_idx": 8
+    },
+    {
+      "entity": "Chris Dyer",
+      "canonical": "chris dyer",
+      "type": "PERSON",
+      "page": 11,
+      "sentence_idx": 9
+    },
+    {
+      "entity": "Adhiguna Kuncoro",
+      "canonical": "adhiguna kuncoro",
+      "type": "PERSON",
+      "page": 11,
+      "sentence_idx": 9
+    },
+    {
+      "entity": "Miguel Ballesteros",
+      "canonical": "miguel ballesteros",
+      "type": "PERSON",
+      "page": 11,
+      "sentence_idx": 9
+    },
+    {
+      "entity": "Noah A. Smith",
+      "canonical": "noah a. smith",
+      "type": "PERSON",
+      "page": 11,
+      "sentence_idx": 9
+    },
+    {
+      "entity": "Proc",
+      "canonical": "proc",
+      "type": "GPE",
+      "page": 11,
+      "sentence_idx": 11
+    },
+    {
+      "entity": "NAACL",
+      "canonical": "naacl",
+      "type": "VENUE",
+      "page": 11,
+      "sentence_idx": 11
+    },
+    {
+      "entity": "Jonas Gehring",
+      "canonical": "jonas gehring",
+      "type": "PERSON",
+      "page": 11,
+      "sentence_idx": 12
+    },
+    {
+      "entity": "Michael Auli",
+      "canonical": "michael auli",
+      "type": "PERSON",
+      "page": 11,
+      "sentence_idx": 12
+    },
+    {
+      "entity": "David Grangier",
+      "canonical": "david grangier",
+      "type": "PERSON",
+      "page": 11,
+      "sentence_idx": 12
+    },
+    {
+      "entity": "Denis Yarats",
+      "canonical": "denis yarats",
+      "type": "PERSON",
+      "page": 11,
+      "sentence_idx": 12
+    },
+    {
+      "entity": "Yann N. Dauphin",
+      "canonical": "yann n. dauphin",
+      "type": "PERSON",
+      "page": 11,
+      "sentence_idx": 12
+    },
+    {
+      "entity": "arXiv:1705.03122v2",
+      "canonical": "arxiv:1705.03122v2",
+      "type": "ORG",
+      "page": 11,
+      "sentence_idx": 14
+    },
+    {
+      "entity": "Alex Graves",
+      "canonical": "alex graves",
+      "type": "PERSON",
+      "page": 11,
+      "sentence_idx": 15
+    },
+    {
+      "entity": "Xiangyu Zhang",
+      "canonical": "xiangyu zhang",
+      "type": "PERSON",
+      "page": 11,
+      "sentence_idx": 17
+    },
+    {
+      "entity": "Shaoqing Ren",
+      "canonical": "shaoqing ren",
+      "type": "PERSON",
+      "page": 11,
+      "sentence_idx": 17
+    },
+    {
+      "entity": "Jian Sun",
+      "canonical": "jian sun",
+      "type": "PERSON",
+      "page": 11,
+      "sentence_idx": 17
+    },
+    {
+      "entity": "the IEEE Conference on Computer Vision",
+      "canonical": "the ieee conference on computer vision",
+      "type": "ORG",
+      "page": 11,
+      "sentence_idx": 19
+    },
+    {
+      "entity": "Sepp Hochreiter",
+      "canonical": "sepp hochreiter",
+      "type": "ORG",
+      "page": 11,
+      "sentence_idx": 20
+    },
+    {
+      "entity": "Yoshua Bengio",
+      "canonical": "yoshua bengio",
+      "type": "PERSON",
+      "page": 11,
+      "sentence_idx": 20
+    },
+    {
+      "entity": "Paolo Frasconi",
+      "canonical": "paolo frasconi",
+      "type": "PERSON",
+      "page": 11,
+      "sentence_idx": 20
+    },
+    {
+      "entity": "Jürgen Schmidhuber",
+      "canonical": "jürgen schmidhuber",
+      "type": "PERSON",
+      "page": 11,
+      "sentence_idx": 20
+    },
+    {
+      "entity": "Sepp Hochreiter",
+      "canonical": "sepp hochreiter",
+      "type": "ORG",
+      "page": 11,
+      "sentence_idx": 22
+    },
+    {
+      "entity": "Jürgen Schmidhuber",
+      "canonical": "jürgen schmidhuber",
+      "type": "PERSON",
+      "page": 11,
+      "sentence_idx": 22
+    },
+    {
+      "entity": "Zhongqiang Huang",
+      "canonical": "zhongqiang huang",
+      "type": "PERSON",
+      "page": 11,
+      "sentence_idx": 25
+    },
+    {
+      "entity": "Mary Harper",
+      "canonical": "mary harper",
+      "type": "PERSON",
+      "page": 11,
+      "sentence_idx": 25
+    },
+    {
+      "entity": "the 2009 Conference on Empirical Methods",
+      "canonical": "the 2009 conference on empirical methods",
+      "type": "EVENT",
+      "page": 11,
+      "sentence_idx": 27
+    },
+    {
+      "entity": "ACL",
+      "canonical": "acl",
+      "type": "VENUE",
+      "page": 11,
+      "sentence_idx": 28
+    },
+    {
+      "entity": "Oriol Vinyals",
+      "canonical": "oriol vinyals",
+      "type": "ORG",
+      "page": 11,
+      "sentence_idx": 29
+    },
+    {
+      "entity": "Mike Schuster",
+      "canonical": "mike schuster",
+      "type": "PERSON",
+      "page": 11,
+      "sentence_idx": 29
+    },
+    {
+      "entity": "Noam Shazeer",
+      "canonical": "noam shazeer",
+      "type": "PERSON",
+      "page": 11,
+      "sentence_idx": 29
+    },
+    {
+      "entity": "Yonghui Wu",
+      "canonical": "yonghui wu",
+      "type": "PERSON",
+      "page": 11,
+      "sentence_idx": 29
+    },
+    {
+      "entity": "Samy Bengio",
+      "canonical": "samy bengio",
+      "type": "PERSON",
+      "page": 11,
+      "sentence_idx": 32
+    },
+    {
+      "entity": "Neural Information Processing Systems",
+      "canonical": "neural information processing systems",
+      "type": "ORG",
+      "page": 11,
+      "sentence_idx": 34
+    },
+    {
+      "entity": "Learning Representations",
+      "canonical": "learning representations",
+      "type": "WORK_OF_ART",
+      "page": 11,
+      "sentence_idx": 37
+    },
+    {
+      "entity": "Nal Kalchbrenner",
+      "canonical": "nal kalchbrenner",
+      "type": "PERSON",
+      "page": 11,
+      "sentence_idx": 38
+    },
+    {
+      "entity": "Lasse Espeholt",
+      "canonical": "lasse espeholt",
+      "type": "ORG",
+      "page": 11,
+      "sentence_idx": 38
+    },
+    {
+      "entity": "Karen Simonyan",
+      "canonical": "karen simonyan",
+      "type": "PERSON",
+      "page": 11,
+      "sentence_idx": 38
+    },
+    {
+      "entity": "Aaron",
+      "canonical": "aaron",
+      "type": "PERSON",
+      "page": 11,
+      "sentence_idx": 38
+    },
+    {
+      "entity": "Oord",
+      "canonical": "oord",
+      "type": "PERSON",
+      "page": 11,
+      "sentence_idx": 38
+    },
+    {
+      "entity": "Alex Graves",
+      "canonical": "alex graves",
+      "type": "PERSON",
+      "page": 11,
+      "sentence_idx": 38
+    },
+    {
+      "entity": "Kavukcuoglu",
+      "canonical": "kavukcuoglu",
+      "type": "PERSON",
+      "page": 11,
+      "sentence_idx": 38
+    },
+    {
+      "entity": "Yoon Kim",
+      "canonical": "yoon kim",
+      "type": "PERSON",
+      "page": 11,
+      "sentence_idx": 41
+    },
+    {
+      "entity": "Carl Denton",
+      "canonical": "carl denton",
+      "type": "PERSON",
+      "page": 11,
+      "sentence_idx": 41
+    },
+    {
+      "entity": "Luong Hoang",
+      "canonical": "luong hoang",
+      "type": "PERSON",
+      "page": 11,
+      "sentence_idx": 41
+    },
+    {
+      "entity": "Alexander M. Rush",
+      "canonical": "alexander m. rush",
+      "type": "PERSON",
+      "page": 11,
+      "sentence_idx": 41
+    },
+    {
+      "entity": "Diederik Kingma",
+      "canonical": "diederik kingma",
+      "type": "PERSON",
+      "page": 11,
+      "sentence_idx": 44
+    },
+    {
+      "entity": "Jimmy Ba",
+      "canonical": "jimmy ba",
+      "type": "PERSON",
+      "page": 11,
+      "sentence_idx": 44
+    },
+    {
+      "entity": "Adam",
+      "canonical": "adam",
+      "type": "PERSON",
+      "page": 11,
+      "sentence_idx": 45
+    },
+    {
+      "entity": "Kuchaiev",
+      "canonical": "kuchaiev",
+      "type": "GPE",
+      "page": 11,
+      "sentence_idx": 47
+    },
+    {
+      "entity": "Boris Ginsburg",
+      "canonical": "boris ginsburg",
+      "type": "PERSON",
+      "page": 11,
+      "sentence_idx": 47
+    },
+    {
+      "entity": "arXiv:1703.10722",
+      "canonical": "arxiv:1703.10722",
+      "type": "GPE",
+      "page": 11,
+      "sentence_idx": 49
+    },
+    {
+      "entity": "Zhouhan Lin",
+      "canonical": "zhouhan lin",
+      "type": "PERSON",
+      "page": 11,
+      "sentence_idx": 50
+    },
+    {
+      "entity": "Minwei Feng",
+      "canonical": "minwei feng",
+      "type": "PERSON",
+      "page": 11,
+      "sentence_idx": 50
+    },
+    {
+      "entity": "Cicero Nogueira",
+      "canonical": "cicero nogueira",
+      "type": "PERSON",
+      "page": 11,
+      "sentence_idx": 50
+    },
+    {
+      "entity": "Santos",
+      "canonical": "santos",
+      "type": "GPE",
+      "page": 11,
+      "sentence_idx": 50
+    },
+    {
+      "entity": "Mo Yu",
+      "canonical": "mo yu",
+      "type": "PERSON",
+      "page": 11,
+      "sentence_idx": 50
+    },
+    {
+      "entity": "Bing Xiang",
+      "canonical": "bing xiang",
+      "type": "PERSON",
+      "page": 11,
+      "sentence_idx": 50
+    },
+    {
+      "entity": "Bowen Zhou",
+      "canonical": "bowen zhou",
+      "type": "PERSON",
+      "page": 11,
+      "sentence_idx": 50
+    },
+    {
+      "entity": "Yoshua Bengio",
+      "canonical": "yoshua bengio",
+      "type": "PERSON",
+      "page": 11,
+      "sentence_idx": 50
+    },
+    {
+      "entity": "Thang Luong",
+      "canonical": "thang luong",
+      "type": "PERSON",
+      "page": 11,
+      "sentence_idx": 53
+    },
+    {
+      "entity": "Quoc V. Le",
+      "canonical": "quoc v. le",
+      "type": "PERSON",
+      "page": 11,
+      "sentence_idx": 53
+    },
+    {
+      "entity": "Oriol Vinyals",
+      "canonical": "oriol vinyals",
+      "type": "ORG",
+      "page": 11,
+      "sentence_idx": 53
+    },
+    {
+      "entity": "Lukasz Kaiser",
+      "canonical": "lukasz kaiser",
+      "type": "PERSON",
+      "page": 11,
+      "sentence_idx": 53
+    },
+    {
+      "entity": "Thang Luong",
+      "canonical": "thang luong",
+      "type": "PERSON",
+      "page": 11,
+      "sentence_idx": 56
+    },
+    {
+      "entity": "Hieu Pham",
+      "canonical": "hieu pham",
+      "type": "PERSON",
+      "page": 11,
+      "sentence_idx": 56
+    },
+    {
+      "entity": "Christopher D Manning",
+      "canonical": "christopher d manning",
+      "type": "PERSON",
+      "page": 11,
+      "sentence_idx": 56
+    },
+    {
+      "entity": "Mary Ann Marcinkiewicz",
+      "canonical": "mary ann marcinkiewicz",
+      "type": "PERSON",
+      "page": 12,
+      "sentence_idx": 0
+    },
+    {
+      "entity": "Beatrice Santorini",
+      "canonical": "beatrice santorini",
+      "type": "PERSON",
+      "page": 12,
+      "sentence_idx": 0
+    },
+    {
+      "entity": "David McClosky",
+      "canonical": "david mcclosky",
+      "type": "PERSON",
+      "page": 12,
+      "sentence_idx": 3
+    },
+    {
+      "entity": "Eugene Charniak",
+      "canonical": "eugene charniak",
+      "type": "PERSON",
+      "page": 12,
+      "sentence_idx": 3
+    },
+    {
+      "entity": "Mark Johnson",
+      "canonical": "mark johnson",
+      "type": "PERSON",
+      "page": 12,
+      "sentence_idx": 3
+    },
+    {
+      "entity": "the Human Language Technology Conference of the NAACL",
+      "canonical": "the human language technology conference of the naacl",
+      "type": "ORG",
+      "page": 12,
+      "sentence_idx": 5
+    },
+    {
+      "entity": "Main Conference",
+      "canonical": "main conference",
+      "type": "PERSON",
+      "page": 12,
+      "sentence_idx": 5
+    },
+    {
+      "entity": "ACL",
+      "canonical": "acl",
+      "type": "VENUE",
+      "page": 12,
+      "sentence_idx": 6
+    },
+    {
+      "entity": "Ankur Parikh",
+      "canonical": "ankur parikh",
+      "type": "ORG",
+      "page": 12,
+      "sentence_idx": 7
+    },
+    {
+      "entity": "Oscar Täckström",
+      "canonical": "oscar täckström",
+      "type": "PERSON",
+      "page": 12,
+      "sentence_idx": 7
+    },
+    {
+      "entity": "Dipanjan Das",
+      "canonical": "dipanjan das",
+      "type": "PERSON",
+      "page": 12,
+      "sentence_idx": 7
+    },
+    {
+      "entity": "Jakob Uszkoreit",
+      "canonical": "jakob uszkoreit",
+      "type": "PERSON",
+      "page": 12,
+      "sentence_idx": 7
+    },
+    {
+      "entity": "Caiming Xiong",
+      "canonical": "caiming xiong",
+      "type": "PERSON",
+      "page": 12,
+      "sentence_idx": 10
+    },
+    {
+      "entity": "Richard Socher",
+      "canonical": "richard socher",
+      "type": "PERSON",
+      "page": 12,
+      "sentence_idx": 10
+    },
+    {
+      "entity": "Slav Petrov",
+      "canonical": "slav petrov",
+      "type": "PERSON",
+      "page": 12,
+      "sentence_idx": 13
+    },
+    {
+      "entity": "Leon Barrett",
+      "canonical": "leon barrett",
+      "type": "PERSON",
+      "page": 12,
+      "sentence_idx": 13
+    },
+    {
+      "entity": "Romain Thibaux",
+      "canonical": "romain thibaux",
+      "type": "GPE",
+      "page": 12,
+      "sentence_idx": 13
+    },
+    {
+      "entity": "Dan Klein",
+      "canonical": "dan klein",
+      "type": "PERSON",
+      "page": 12,
+      "sentence_idx": 13
+    },
+    {
+      "entity": "the 21st International Conference on Computational Linguistics",
+      "canonical": "the 21st international conference on computational linguistics",
+      "type": "ORG",
+      "page": 12,
+      "sentence_idx": 15
+    },
+    {
+      "entity": "ACL",
+      "canonical": "acl",
+      "type": "VENUE",
+      "page": 12,
+      "sentence_idx": 15
+    },
+    {
+      "entity": "ACL",
+      "canonical": "acl",
+      "type": "VENUE",
+      "page": 12,
+      "sentence_idx": 16
+    },
+    {
+      "entity": "Wolf",
+      "canonical": "wolf",
+      "type": "PERSON",
+      "page": 12,
+      "sentence_idx": 17
+    },
+    {
+      "entity": "Rico Sennrich",
+      "canonical": "rico sennrich",
+      "type": "PERSON",
+      "page": 12,
+      "sentence_idx": 19
+    },
+    {
+      "entity": "Barry Haddow",
+      "canonical": "barry haddow",
+      "type": "PERSON",
+      "page": 12,
+      "sentence_idx": 19
+    },
+    {
+      "entity": "Alexandra Birch",
+      "canonical": "alexandra birch",
+      "type": "ORG",
+      "page": 12,
+      "sentence_idx": 19
+    },
+    {
+      "entity": "Noam Shazeer",
+      "canonical": "noam shazeer",
+      "type": "PERSON",
+      "page": 12,
+      "sentence_idx": 22
+    },
+    {
+      "entity": "Azalia Mirhoseini",
+      "canonical": "azalia mirhoseini",
+      "type": "ORG",
+      "page": 12,
+      "sentence_idx": 22
+    },
+    {
+      "entity": "Krzysztof Maziarz",
+      "canonical": "krzysztof maziarz",
+      "type": "PERSON",
+      "page": 12,
+      "sentence_idx": 22
+    },
+    {
+      "entity": "Andy Davis",
+      "canonical": "andy davis",
+      "type": "PERSON",
+      "page": 12,
+      "sentence_idx": 22
+    },
+    {
+      "entity": "Quoc Le",
+      "canonical": "quoc le",
+      "type": "PERSON",
+      "page": 12,
+      "sentence_idx": 22
+    },
+    {
+      "entity": "Geoffrey Hinton",
+      "canonical": "geoffrey hinton",
+      "type": "PERSON",
+      "page": 12,
+      "sentence_idx": 22
+    },
+    {
+      "entity": "Jeff Dean",
+      "canonical": "jeff dean",
+      "type": "PERSON",
+      "page": 12,
+      "sentence_idx": 22
+    },
+    {
+      "entity": "Nitish Srivastava",
+      "canonical": "nitish srivastava",
+      "type": "PERSON",
+      "page": 12,
+      "sentence_idx": 24
+    },
+    {
+      "entity": "Geoffrey E Hinton",
+      "canonical": "geoffrey e hinton",
+      "type": "PERSON",
+      "page": 12,
+      "sentence_idx": 24
+    },
+    {
+      "entity": "Alex Krizhevsky",
+      "canonical": "alex krizhevsky",
+      "type": "PERSON",
+      "page": 12,
+      "sentence_idx": 24
+    },
+    {
+      "entity": "Ruslan",
+      "canonical": "ruslan",
+      "type": "PERSON",
+      "page": 12,
+      "sentence_idx": 24
+    },
+    {
+      "entity": "Journal of Machine Learning Research",
+      "canonical": "journal of machine learning research",
+      "type": "ORG",
+      "page": 12,
+      "sentence_idx": 25
+    },
+    {
+      "entity": "Sainbayar Sukhbaatar",
+      "canonical": "sainbayar sukhbaatar",
+      "type": "PERSON",
+      "page": 12,
+      "sentence_idx": 26
+    },
+    {
+      "entity": "Arthur Szlam",
+      "canonical": "arthur szlam",
+      "type": "PERSON",
+      "page": 12,
+      "sentence_idx": 26
+    },
+    {
+      "entity": "Jason Weston",
+      "canonical": "jason weston",
+      "type": "PERSON",
+      "page": 12,
+      "sentence_idx": 26
+    },
+    {
+      "entity": "Rob Fergus",
+      "canonical": "rob fergus",
+      "type": "PERSON",
+      "page": 12,
+      "sentence_idx": 26
+    },
+    {
+      "entity": "C. Cortes",
+      "canonical": "c. cortes",
+      "type": "GPE",
+      "page": 12,
+      "sentence_idx": 28
+    },
+    {
+      "entity": "N. D. Lawrence",
+      "canonical": "n. d. lawrence",
+      "type": "PERSON",
+      "page": 12,
+      "sentence_idx": 28
+    },
+    {
+      "entity": "D. D. Lee",
+      "canonical": "d. d. lee",
+      "type": "PERSON",
+      "page": 12,
+      "sentence_idx": 28
+    },
+    {
+      "entity": "R. Garnett",
+      "canonical": "r. garnett",
+      "type": "PERSON",
+      "page": 12,
+      "sentence_idx": 28
+    },
+    {
+      "entity": "Neural Information Processing Systems",
+      "canonical": "neural information processing systems",
+      "type": "ORG",
+      "page": 12,
+      "sentence_idx": 28
+    },
+    {
+      "entity": "Curran Associates",
+      "canonical": "curran associates",
+      "type": "ORG",
+      "page": 12,
+      "sentence_idx": 29
+    },
+    {
+      "entity": "Oriol Vinyals",
+      "canonical": "oriol vinyals",
+      "type": "ORG",
+      "page": 12,
+      "sentence_idx": 30
+    },
+    {
+      "entity": "Quoc VV Le",
+      "canonical": "quoc vv le",
+      "type": "ORG",
+      "page": 12,
+      "sentence_idx": 30
+    },
+    {
+      "entity": "Neural Information Processing Systems",
+      "canonical": "neural information processing systems",
+      "type": "ORG",
+      "page": 12,
+      "sentence_idx": 32
+    },
+    {
+      "entity": "Christian Szegedy",
+      "canonical": "christian szegedy",
+      "type": "PERSON",
+      "page": 12,
+      "sentence_idx": 33
+    },
+    {
+      "entity": "Vincent Vanhoucke",
+      "canonical": "vincent vanhoucke",
+      "type": "PERSON",
+      "page": 12,
+      "sentence_idx": 33
+    },
+    {
+      "entity": "Sergey Ioffe",
+      "canonical": "sergey ioffe",
+      "type": "PERSON",
+      "page": 12,
+      "sentence_idx": 33
+    },
+    {
+      "entity": "Jonathon Shlens",
+      "canonical": "jonathon shlens",
+      "type": "PERSON",
+      "page": 12,
+      "sentence_idx": 33
+    },
+    {
+      "entity": "Zbigniew Wojna",
+      "canonical": "zbigniew wojna",
+      "type": "PERSON",
+      "page": 12,
+      "sentence_idx": 33
+    },
+    {
+      "entity": "CoRR",
+      "canonical": "corr",
+      "type": "JOURNAL",
+      "page": 12,
+      "sentence_idx": 35
+    },
+    {
+      "entity": "Vinyals & Kaiser",
+      "canonical": "vinyals & kaiser",
+      "type": "ORG",
+      "page": 12,
+      "sentence_idx": 36
+    },
+    {
+      "entity": "Koo",
+      "canonical": "koo",
+      "type": "PERSON",
+      "page": 12,
+      "sentence_idx": 36
+    },
+    {
+      "entity": "Sutskever",
+      "canonical": "sutskever",
+      "type": "GPE",
+      "page": 12,
+      "sentence_idx": 36
+    },
+    {
+      "entity": "Hinton",
+      "canonical": "hinton",
+      "type": "GPE",
+      "page": 12,
+      "sentence_idx": 36
+    },
+    {
+      "entity": "Grammar",
+      "canonical": "grammar",
+      "type": "PERSON",
+      "page": 12,
+      "sentence_idx": 37
+    },
+    {
+      "entity": "Neural Information Processing Systems",
+      "canonical": "neural information processing systems",
+      "type": "ORG",
+      "page": 12,
+      "sentence_idx": 38
+    },
+    {
+      "entity": "Yonghui Wu",
+      "canonical": "yonghui wu",
+      "type": "PERSON",
+      "page": 12,
+      "sentence_idx": 39
+    },
+    {
+      "entity": "Mike Schuster",
+      "canonical": "mike schuster",
+      "type": "PERSON",
+      "page": 12,
+      "sentence_idx": 39
+    },
+    {
+      "entity": "Zhifeng Chen",
+      "canonical": "zhifeng chen",
+      "type": "PERSON",
+      "page": 12,
+      "sentence_idx": 39
+    },
+    {
+      "entity": "Quoc V Le",
+      "canonical": "quoc v le",
+      "type": "PERSON",
+      "page": 12,
+      "sentence_idx": 39
+    },
+    {
+      "entity": "Mohammad Norouzi",
+      "canonical": "mohammad norouzi",
+      "type": "PERSON",
+      "page": 12,
+      "sentence_idx": 39
+    },
+    {
+      "entity": "Wolfgang Macherey",
+      "canonical": "wolfgang macherey",
+      "type": "PERSON",
+      "page": 12,
+      "sentence_idx": 39
+    },
+    {
+      "entity": "Maxim Krikun",
+      "canonical": "maxim krikun",
+      "type": "PERSON",
+      "page": 12,
+      "sentence_idx": 39
+    },
+    {
+      "entity": "Yuan Cao",
+      "canonical": "yuan cao",
+      "type": "PERSON",
+      "page": 12,
+      "sentence_idx": 39
+    },
+    {
+      "entity": "Qin Gao",
+      "canonical": "qin gao",
+      "type": "PERSON",
+      "page": 12,
+      "sentence_idx": 39
+    },
+    {
+      "entity": "Klaus Macherey",
+      "canonical": "klaus macherey",
+      "type": "PERSON",
+      "page": 12,
+      "sentence_idx": 39
+    },
+    {
+      "entity": "Google",
+      "canonical": "google",
+      "type": "ORG",
+      "page": 12,
+      "sentence_idx": 40
+    },
+    {
+      "entity": "Jie Zhou",
+      "canonical": "jie zhou",
+      "type": "PERSON",
+      "page": 12,
+      "sentence_idx": 42
+    },
+    {
+      "entity": "Ying Cao",
+      "canonical": "ying cao",
+      "type": "PERSON",
+      "page": 12,
+      "sentence_idx": 42
+    },
+    {
+      "entity": "Xuguang Wang",
+      "canonical": "xuguang wang",
+      "type": "PERSON",
+      "page": 12,
+      "sentence_idx": 42
+    },
+    {
+      "entity": "Peng Li",
+      "canonical": "peng li",
+      "type": "PERSON",
+      "page": 12,
+      "sentence_idx": 42
+    },
+    {
+      "entity": "Wei Xu",
+      "canonical": "wei xu",
+      "type": "PERSON",
+      "page": 12,
+      "sentence_idx": 42
+    },
+    {
+      "entity": "CoRR",
+      "canonical": "corr",
+      "type": "JOURNAL",
+      "page": 12,
+      "sentence_idx": 44
+    },
+    {
+      "entity": "Muhua Zhu",
+      "canonical": "muhua zhu",
+      "type": "PERSON",
+      "page": 12,
+      "sentence_idx": 45
+    },
+    {
+      "entity": "Yue Zhang",
+      "canonical": "yue zhang",
+      "type": "PERSON",
+      "page": 12,
+      "sentence_idx": 45
+    },
+    {
+      "entity": "Wenliang Chen",
+      "canonical": "wenliang chen",
+      "type": "PERSON",
+      "page": 12,
+      "sentence_idx": 45
+    },
+    {
+      "entity": "Min Zhang",
+      "canonical": "min zhang",
+      "type": "PERSON",
+      "page": 12,
+      "sentence_idx": 45
+    },
+    {
+      "entity": "Jingbo Zhu",
+      "canonical": "jingbo zhu",
+      "type": "PERSON",
+      "page": 12,
+      "sentence_idx": 45
+    },
+    {
+      "entity": "ACL",
+      "canonical": "acl",
+      "type": "VENUE",
+      "page": 12,
+      "sentence_idx": 48
+    },
+    {
+      "entity": "American",
+      "canonical": "american",
+      "type": "NORP",
+      "page": 13,
+      "sentence_idx": 0
+    },
+    {
+      "entity": "EOS",
+      "canonical": "eos",
+      "type": "TOKEN",
+      "page": 13,
+      "sentence_idx": 1
+    },
+    {
+      "entity": "American",
+      "canonical": "american",
+      "type": "NORP",
+      "page": 13,
+      "sentence_idx": 1
+    },
+    {
+      "entity": "EOS",
+      "canonical": "eos",
+      "type": "TOKEN",
+      "page": 13,
+      "sentence_idx": 2
+    },
+    {
+      "entity": "EOS",
+      "canonical": "eos",
+      "type": "TOKEN",
+      "page": 14,
+      "sentence_idx": 1
+    },
+    {
+      "entity": "EOS",
+      "canonical": "eos",
+      "type": "TOKEN",
+      "page": 14,
+      "sentence_idx": 2
+    },
+    {
+      "entity": "EOS",
+      "canonical": "eos",
+      "type": "TOKEN",
+      "page": 14,
+      "sentence_idx": 3
+    },
+    {
+      "entity": "EOS",
+      "canonical": "eos",
+      "type": "TOKEN",
+      "page": 14,
+      "sentence_idx": 4
+    },
+    {
+      "entity": "EOS",
+      "canonical": "eos",
+      "type": "TOKEN",
+      "page": 15,
+      "sentence_idx": 1
+    },
+    {
+      "entity": "EOS",
+      "canonical": "eos",
+      "type": "TOKEN",
+      "page": 15,
+      "sentence_idx": 2
+    },
+    {
+      "entity": "EOS",
+      "canonical": "eos",
+      "type": "TOKEN",
+      "page": 15,
+      "sentence_idx": 3
+    },
+    {
+      "entity": "EOS",
+      "canonical": "eos",
+      "type": "TOKEN",
+      "page": 15,
+      "sentence_idx": 4
+    }
+  ],
+  "mentions": [
+    {
+      "entity": "Google",
+      "type": "ORG",
+      "page": 1
+    },
+    {
+      "entity": "Ashish",
+      "type": "PERSON",
+      "page": 1
+    },
+    {
+      "entity": "Noam",
+      "type": "PERSON",
+      "page": 1
+    },
+    {
+      "entity": "Aidan N. Gomez∗†",
+      "type": "PERSON",
+      "page": 1
+    },
+    {
+      "entity": "University of Toronto aidan@cs.toronto.edu",
+      "type": "ORG",
+      "page": 1
+    },
+    {
+      "entity": "Łukasz Kaiser∗",
+      "type": "ORG",
+      "page": 1
+    },
+    {
+      "entity": "Google Brain",
+      "type": "ORG",
+      "page": 1
+    },
+    {
+      "entity": "Illia",
+      "type": "GPE",
+      "page": 1
+    },
+    {
+      "entity": "Transformer",
+      "type": "MODEL",
+      "page": 1
+    },
+    {
+      "entity": "German",
+      "type": "NORP",
+      "page": 1
+    },
+    {
+      "entity": "WMT",
+      "type": "BENCHMARK",
+      "page": 1
+    },
+    {
+      "entity": "French",
+      "type": "NORP",
+      "page": 1
+    },
+    {
+      "entity": "BLEU",
+      "type": "METRIC",
+      "page": 1
+    },
+    {
+      "entity": "Transformer",
+      "type": "MODEL",
+      "page": 1
+    },
+    {
+      "entity": "English",
+      "type": "NORP",
+      "page": 1
+    },
+    {
+      "entity": "Jakob",
+      "type": "PERSON",
+      "page": 1
+    },
+    {
+      "entity": "Ashish",
+      "type": "PERSON",
+      "page": 1
+    },
+    {
+      "entity": "Illia",
+      "type": "GPE",
+      "page": 1
+    },
+    {
+      "entity": "Transformer",
+      "type": "MODEL",
+      "page": 1
+    },
+    {
+      "entity": "Noam",
+      "type": "PERSON",
+      "page": 1
+    },
+    {
+      "entity": "Niki",
+      "type": "ORG",
+      "page": 1
+    },
+    {
+      "entity": "Aidan",
+      "type": "PERSON",
+      "page": 1
+    },
+    {
+      "entity": "Google Brain",
+      "type": "LOC",
+      "page": 1
+    },
+    {
+      "entity": "Google Research",
+      "type": "ORG",
+      "page": 1
+    },
+    {
+      "entity": "Conference on Neural Information Processing Systems",
+      "type": "ORG",
+      "page": 1
+    },
+    {
+      "entity": "Long Beach",
+      "type": "GPE",
+      "page": 1
+    },
+    {
+      "entity": "Transformer",
+      "type": "MODEL",
+      "page": 2
+    },
+    {
+      "entity": "Transformer",
+      "type": "MODEL",
+      "page": 2
+    },
+    {
+      "entity": "GPU",
+      "type": "PERSON",
+      "page": 2
+    },
+    {
+      "entity": "ByteNet",
+      "type": "ORG",
+      "page": 2
+    },
+    {
+      "entity": "ConvS2S",
+      "type": "ORG",
+      "page": 2
+    },
+    {
+      "entity": "ByteNet",
+      "type": "ORG",
+      "page": 2
+    },
+    {
+      "entity": "Transformer",
+      "type": "MODEL",
+      "page": 2
+    },
+    {
+      "entity": "Multi-Head Attention",
+      "type": "ORG",
+      "page": 2
+    },
+    {
+      "entity": "Transformer",
+      "type": "MODEL",
+      "page": 2
+    },
+    {
+      "entity": "Transformer",
+      "type": "MODEL",
+      "page": 2
+    },
+    {
+      "entity": "Transformer",
+      "type": "MODEL",
+      "page": 3
+    },
+    {
+      "entity": "Transformer",
+      "type": "MODEL",
+      "page": 3
+    },
+    {
+      "entity": "LayerNorm(x + Sublayer(x",
+      "type": "PERSON",
+      "page": 3
+    },
+    {
+      "entity": "Sublayer(x",
+      "type": "PERSON",
+      "page": 3
+    },
+    {
+      "entity": "Dot-Product Attention",
+      "type": "ORG",
+      "page": 4
+    },
+    {
+      "entity": "Scaled Dot-Product Attention",
+      "type": "WORK_OF_ART",
+      "page": 4
+    },
+    {
+      "entity": "Multi-Head Attention Instead",
+      "type": "ORG",
+      "page": 4
+    },
+    {
+      "entity": "variance dk",
+      "type": "PERSON",
+      "page": 4
+    },
+    {
+      "entity": "KW K",
+      "type": "ORG",
+      "page": 5
+    },
+    {
+      "entity": "W K",
+      "type": "ORG",
+      "page": 5
+    },
+    {
+      "entity": "Transformer",
+      "type": "MODEL",
+      "page": 5
+    },
+    {
+      "entity": "Feed-Forward Networks",
+      "type": "ORG",
+      "page": 5
+    },
+    {
+      "entity": "ReLU",
+      "type": "FUNCTION",
+      "page": 5
+    },
+    {
+      "entity": "xW1",
+      "type": "GPE",
+      "page": 5
+    },
+    {
+      "entity": "linear",
+      "type": "ORG",
+      "page": 5
+    },
+    {
+      "entity": "Layer Type Complexity per Layer Sequential",
+      "type": "ORG",
+      "page": 6
+    },
+    {
+      "entity": "Self-Attention",
+      "type": "ORG",
+      "page": 6
+    },
+    {
+      "entity": "Positional Encoding Since",
+      "type": "ORG",
+      "page": 6
+    },
+    {
+      "entity": "PE(pos,2i+1",
+      "type": "PERSON",
+      "page": 6
+    },
+    {
+      "entity": "kernel width",
+      "type": "ORG",
+      "page": 7
+    },
+    {
+      "entity": "Training Data",
+      "type": "ORG",
+      "page": 7
+    },
+    {
+      "entity": "WMT",
+      "type": "BENCHMARK",
+      "page": 7
+    },
+    {
+      "entity": "byte",
+      "type": "ORG",
+      "page": 7
+    },
+    {
+      "entity": "English-French",
+      "type": "NORP",
+      "page": 7
+    },
+    {
+      "entity": "WMT",
+      "type": "BENCHMARK",
+      "page": 7
+    },
+    {
+      "entity": "Hardware",
+      "type": "PRODUCT",
+      "page": 7
+    },
+    {
+      "entity": "Schedule",
+      "type": "PERSON",
+      "page": 7
+    },
+    {
+      "entity": "Adam",
+      "type": "PERSON",
+      "page": 7
+    },
+    {
+      "entity": "Transformer",
+      "type": "MODEL",
+      "page": 8
+    },
+    {
+      "entity": "BLEU",
+      "type": "METRIC",
+      "page": 8
+    },
+    {
+      "entity": "German",
+      "type": "NORP",
+      "page": 8
+    },
+    {
+      "entity": "French",
+      "type": "NORP",
+      "page": 8
+    },
+    {
+      "entity": "Deep-Att + PosUnk",
+      "type": "WORK_OF_ART",
+      "page": 8
+    },
+    {
+      "entity": "MoE",
+      "type": "PRODUCT",
+      "page": 8
+    },
+    {
+      "entity": "Deep-Att + PosUnk Ensemble",
+      "type": "WORK_OF_ART",
+      "page": 8
+    },
+    {
+      "entity": "Ensemble",
+      "type": "WORK_OF_ART",
+      "page": 8
+    },
+    {
+      "entity": "Label Smoothing",
+      "type": "PERSON",
+      "page": 8
+    },
+    {
+      "entity": "BLEU",
+      "type": "METRIC",
+      "page": 8
+    },
+    {
+      "entity": "WMT",
+      "type": "BENCHMARK",
+      "page": 8
+    },
+    {
+      "entity": "German",
+      "type": "NORP",
+      "page": 8
+    },
+    {
+      "entity": "BLEU",
+      "type": "METRIC",
+      "page": 8
+    },
+    {
+      "entity": "WMT",
+      "type": "BENCHMARK",
+      "page": 8
+    },
+    {
+      "entity": "French",
+      "type": "NORP",
+      "page": 8
+    },
+    {
+      "entity": "BLEU",
+      "type": "METRIC",
+      "page": 8
+    },
+    {
+      "entity": "French",
+      "type": "NORP",
+      "page": 8
+    },
+    {
+      "entity": "Transformer",
+      "type": "MODEL",
+      "page": 8
+    },
+    {
+      "entity": "German",
+      "type": "NORP",
+      "page": 8
+    },
+    {
+      "entity": "Transformer",
+      "type": "MODEL",
+      "page": 9
+    },
+    {
+      "entity": "German",
+      "type": "NORP",
+      "page": 9
+    },
+    {
+      "entity": "Transformer",
+      "type": "MODEL",
+      "page": 9
+    },
+    {
+      "entity": "RNN",
+      "type": "ORG",
+      "page": 9
+    },
+    {
+      "entity": "the Wall Street Journal",
+      "type": "ORG",
+      "page": 9
+    },
+    {
+      "entity": "WSJ",
+      "type": "DATASET",
+      "page": 9
+    },
+    {
+      "entity": "Penn Treebank",
+      "type": "DATASET",
+      "page": 9
+    },
+    {
+      "entity": "BerkleyParser",
+      "type": "ORG",
+      "page": 9
+    },
+    {
+      "entity": "WSJ",
+      "type": "DATASET",
+      "page": 9
+    },
+    {
+      "entity": "German",
+      "type": "NORP",
+      "page": 9
+    },
+    {
+      "entity": "Transformer",
+      "type": "MODEL",
+      "page": 10
+    },
+    {
+      "entity": "English",
+      "type": "NORP",
+      "page": 10
+    },
+    {
+      "entity": "WSJ",
+      "type": "DATASET",
+      "page": 10
+    },
+    {
+      "entity": "WSJ",
+      "type": "DATASET",
+      "page": 10
+    },
+    {
+      "entity": "WSJ",
+      "type": "DATASET",
+      "page": 10
+    },
+    {
+      "entity": "Zhu et al",
+      "type": "PERSON",
+      "page": 10
+    },
+    {
+      "entity": "WSJ",
+      "type": "DATASET",
+      "page": 10
+    },
+    {
+      "entity": "WSJ",
+      "type": "DATASET",
+      "page": 10
+    },
+    {
+      "entity": "WSJ",
+      "type": "DATASET",
+      "page": 10
+    },
+    {
+      "entity": "Zhu et al",
+      "type": "PERSON",
+      "page": 10
+    },
+    {
+      "entity": "Vinyals & Kaiser el al",
+      "type": "ORG",
+      "page": 10
+    },
+    {
+      "entity": "Luong",
+      "type": "PERSON",
+      "page": 10
+    },
+    {
+      "entity": "Dyer et al",
+      "type": "PRODUCT",
+      "page": 10
+    },
+    {
+      "entity": "WSJ",
+      "type": "DATASET",
+      "page": 10
+    },
+    {
+      "entity": "Recurrent Neural Network Grammar",
+      "type": "ORG",
+      "page": 10
+    },
+    {
+      "entity": "RNN",
+      "type": "ORG",
+      "page": 10
+    },
+    {
+      "entity": "Transformer",
+      "type": "MODEL",
+      "page": 10
+    },
+    {
+      "entity": "WSJ",
+      "type": "DATASET",
+      "page": 10
+    },
+    {
+      "entity": "Transformer",
+      "type": "MODEL",
+      "page": 10
+    },
+    {
+      "entity": "Transformer",
+      "type": "MODEL",
+      "page": 10
+    },
+    {
+      "entity": "WMT",
+      "type": "BENCHMARK",
+      "page": 10
+    },
+    {
+      "entity": "German",
+      "type": "NORP",
+      "page": 10
+    },
+    {
+      "entity": "WMT",
+      "type": "BENCHMARK",
+      "page": 10
+    },
+    {
+      "entity": "French",
+      "type": "NORP",
+      "page": 10
+    },
+    {
+      "entity": "Transformer",
+      "type": "MODEL",
+      "page": 10
+    },
+    {
+      "entity": "Nal Kalchbrenner",
+      "type": "PERSON",
+      "page": 10
+    },
+    {
+      "entity": "Stephan Gouws",
+      "type": "PERSON",
+      "page": 10
+    },
+    {
+      "entity": "Lei Ba",
+      "type": "PERSON",
+      "page": 10
+    },
+    {
+      "entity": "Jamie Ryan Kiros",
+      "type": "PERSON",
+      "page": 10
+    },
+    {
+      "entity": "Geoffrey E Hinton",
+      "type": "PERSON",
+      "page": 10
+    },
+    {
+      "entity": "Dzmitry Bahdanau",
+      "type": "PERSON",
+      "page": 10
+    },
+    {
+      "entity": "Kyunghyun Cho",
+      "type": "PERSON",
+      "page": 10
+    },
+    {
+      "entity": "Yoshua Bengio",
+      "type": "PERSON",
+      "page": 10
+    },
+    {
+      "entity": "CoRR",
+      "type": "JOURNAL",
+      "page": 10
+    },
+    {
+      "entity": "Denny Britz",
+      "type": "PERSON",
+      "page": 10
+    },
+    {
+      "entity": "Anna Goldie",
+      "type": "PERSON",
+      "page": 10
+    },
+    {
+      "entity": "Minh-Thang Luong",
+      "type": "PERSON",
+      "page": 10
+    },
+    {
+      "entity": "Quoc V. Le",
+      "type": "PERSON",
+      "page": 10
+    },
+    {
+      "entity": "CoRR",
+      "type": "JOURNAL",
+      "page": 10
+    },
+    {
+      "entity": "Jianpeng Cheng",
+      "type": "PERSON",
+      "page": 10
+    },
+    {
+      "entity": "Li Dong",
+      "type": "PERSON",
+      "page": 10
+    },
+    {
+      "entity": "Mirella Lapata",
+      "type": "PERSON",
+      "page": 10
+    },
+    {
+      "entity": "Kyunghyun Cho",
+      "type": "PERSON",
+      "page": 11
+    },
+    {
+      "entity": "Bart van Merrienboer",
+      "type": "PERSON",
+      "page": 11
+    },
+    {
+      "entity": "Caglar Gulcehre",
+      "type": "PERSON",
+      "page": 11
+    },
+    {
+      "entity": "Fethi Bougares",
+      "type": "ORG",
+      "page": 11
+    },
+    {
+      "entity": "Holger Schwenk",
+      "type": "PERSON",
+      "page": 11
+    },
+    {
+      "entity": "Yoshua Bengio",
+      "type": "PERSON",
+      "page": 11
+    },
+    {
+      "entity": "CoRR",
+      "type": "JOURNAL",
+      "page": 11
+    },
+    {
+      "entity": "Junyoung Chung",
+      "type": "PERSON",
+      "page": 11
+    },
+    {
+      "entity": "Çaglar Gülçehre",
+      "type": "GPE",
+      "page": 11
+    },
+    {
+      "entity": "Kyunghyun Cho",
+      "type": "PERSON",
+      "page": 11
+    },
+    {
+      "entity": "Yoshua Bengio",
+      "type": "PERSON",
+      "page": 11
+    },
+    {
+      "entity": "CoRR",
+      "type": "JOURNAL",
+      "page": 11
+    },
+    {
+      "entity": "Chris Dyer",
+      "type": "PERSON",
+      "page": 11
+    },
+    {
+      "entity": "Adhiguna Kuncoro",
+      "type": "PERSON",
+      "page": 11
+    },
+    {
+      "entity": "Miguel Ballesteros",
+      "type": "PERSON",
+      "page": 11
+    },
+    {
+      "entity": "Noah A. Smith",
+      "type": "PERSON",
+      "page": 11
+    },
+    {
+      "entity": "Proc",
+      "type": "GPE",
+      "page": 11
+    },
+    {
+      "entity": "NAACL",
+      "type": "VENUE",
+      "page": 11
+    },
+    {
+      "entity": "Jonas Gehring",
+      "type": "PERSON",
+      "page": 11
+    },
+    {
+      "entity": "Michael Auli",
+      "type": "PERSON",
+      "page": 11
+    },
+    {
+      "entity": "David Grangier",
+      "type": "PERSON",
+      "page": 11
+    },
+    {
+      "entity": "Denis Yarats",
+      "type": "PERSON",
+      "page": 11
+    },
+    {
+      "entity": "Yann N. Dauphin",
+      "type": "PERSON",
+      "page": 11
+    },
+    {
+      "entity": "arXiv:1705.03122v2",
+      "type": "ORG",
+      "page": 11
+    },
+    {
+      "entity": "Alex Graves",
+      "type": "PERSON",
+      "page": 11
+    },
+    {
+      "entity": "Xiangyu Zhang",
+      "type": "PERSON",
+      "page": 11
+    },
+    {
+      "entity": "Shaoqing Ren",
+      "type": "PERSON",
+      "page": 11
+    },
+    {
+      "entity": "Jian Sun",
+      "type": "PERSON",
+      "page": 11
+    },
+    {
+      "entity": "the IEEE Conference on Computer Vision",
+      "type": "ORG",
+      "page": 11
+    },
+    {
+      "entity": "Sepp Hochreiter",
+      "type": "ORG",
+      "page": 11
+    },
+    {
+      "entity": "Yoshua Bengio",
+      "type": "PERSON",
+      "page": 11
+    },
+    {
+      "entity": "Paolo Frasconi",
+      "type": "PERSON",
+      "page": 11
+    },
+    {
+      "entity": "Jürgen Schmidhuber",
+      "type": "PERSON",
+      "page": 11
+    },
+    {
+      "entity": "Sepp Hochreiter",
+      "type": "ORG",
+      "page": 11
+    },
+    {
+      "entity": "Jürgen Schmidhuber",
+      "type": "PERSON",
+      "page": 11
+    },
+    {
+      "entity": "Zhongqiang Huang",
+      "type": "PERSON",
+      "page": 11
+    },
+    {
+      "entity": "Mary Harper",
+      "type": "PERSON",
+      "page": 11
+    },
+    {
+      "entity": "the 2009 Conference on Empirical Methods",
+      "type": "EVENT",
+      "page": 11
+    },
+    {
+      "entity": "ACL",
+      "type": "VENUE",
+      "page": 11
+    },
+    {
+      "entity": "Oriol Vinyals",
+      "type": "ORG",
+      "page": 11
+    },
+    {
+      "entity": "Mike Schuster",
+      "type": "PERSON",
+      "page": 11
+    },
+    {
+      "entity": "Noam Shazeer",
+      "type": "PERSON",
+      "page": 11
+    },
+    {
+      "entity": "Yonghui Wu",
+      "type": "PERSON",
+      "page": 11
+    },
+    {
+      "entity": "Samy Bengio",
+      "type": "PERSON",
+      "page": 11
+    },
+    {
+      "entity": "Neural Information Processing Systems",
+      "type": "ORG",
+      "page": 11
+    },
+    {
+      "entity": "Learning Representations",
+      "type": "WORK_OF_ART",
+      "page": 11
+    },
+    {
+      "entity": "Nal Kalchbrenner",
+      "type": "PERSON",
+      "page": 11
+    },
+    {
+      "entity": "Lasse Espeholt",
+      "type": "ORG",
+      "page": 11
+    },
+    {
+      "entity": "Karen Simonyan",
+      "type": "PERSON",
+      "page": 11
+    },
+    {
+      "entity": "Aaron",
+      "type": "PERSON",
+      "page": 11
+    },
+    {
+      "entity": "Oord",
+      "type": "PERSON",
+      "page": 11
+    },
+    {
+      "entity": "Alex Graves",
+      "type": "PERSON",
+      "page": 11
+    },
+    {
+      "entity": "Kavukcuoglu",
+      "type": "PERSON",
+      "page": 11
+    },
+    {
+      "entity": "Yoon Kim",
+      "type": "PERSON",
+      "page": 11
+    },
+    {
+      "entity": "Carl Denton",
+      "type": "PERSON",
+      "page": 11
+    },
+    {
+      "entity": "Luong Hoang",
+      "type": "PERSON",
+      "page": 11
+    },
+    {
+      "entity": "Alexander M. Rush",
+      "type": "PERSON",
+      "page": 11
+    },
+    {
+      "entity": "Diederik Kingma",
+      "type": "PERSON",
+      "page": 11
+    },
+    {
+      "entity": "Jimmy Ba",
+      "type": "PERSON",
+      "page": 11
+    },
+    {
+      "entity": "Adam",
+      "type": "PERSON",
+      "page": 11
+    },
+    {
+      "entity": "Kuchaiev",
+      "type": "GPE",
+      "page": 11
+    },
+    {
+      "entity": "Boris Ginsburg",
+      "type": "PERSON",
+      "page": 11
+    },
+    {
+      "entity": "arXiv:1703.10722",
+      "type": "GPE",
+      "page": 11
+    },
+    {
+      "entity": "Zhouhan Lin",
+      "type": "PERSON",
+      "page": 11
+    },
+    {
+      "entity": "Minwei Feng",
+      "type": "PERSON",
+      "page": 11
+    },
+    {
+      "entity": "Cicero Nogueira",
+      "type": "PERSON",
+      "page": 11
+    },
+    {
+      "entity": "Santos",
+      "type": "GPE",
+      "page": 11
+    },
+    {
+      "entity": "Mo Yu",
+      "type": "PERSON",
+      "page": 11
+    },
+    {
+      "entity": "Bing Xiang",
+      "type": "PERSON",
+      "page": 11
+    },
+    {
+      "entity": "Bowen Zhou",
+      "type": "PERSON",
+      "page": 11
+    },
+    {
+      "entity": "Yoshua Bengio",
+      "type": "PERSON",
+      "page": 11
+    },
+    {
+      "entity": "Thang Luong",
+      "type": "PERSON",
+      "page": 11
+    },
+    {
+      "entity": "Quoc V. Le",
+      "type": "PERSON",
+      "page": 11
+    },
+    {
+      "entity": "Oriol Vinyals",
+      "type": "ORG",
+      "page": 11
+    },
+    {
+      "entity": "Lukasz Kaiser",
+      "type": "PERSON",
+      "page": 11
+    },
+    {
+      "entity": "Thang Luong",
+      "type": "PERSON",
+      "page": 11
+    },
+    {
+      "entity": "Hieu Pham",
+      "type": "PERSON",
+      "page": 11
+    },
+    {
+      "entity": "Christopher D Manning",
+      "type": "PERSON",
+      "page": 11
+    },
+    {
+      "entity": "Mary Ann Marcinkiewicz",
+      "type": "PERSON",
+      "page": 12
+    },
+    {
+      "entity": "Beatrice Santorini",
+      "type": "PERSON",
+      "page": 12
+    },
+    {
+      "entity": "David McClosky",
+      "type": "PERSON",
+      "page": 12
+    },
+    {
+      "entity": "Eugene Charniak",
+      "type": "PERSON",
+      "page": 12
+    },
+    {
+      "entity": "Mark Johnson",
+      "type": "PERSON",
+      "page": 12
+    },
+    {
+      "entity": "the Human Language Technology Conference of the NAACL",
+      "type": "ORG",
+      "page": 12
+    },
+    {
+      "entity": "Main Conference",
+      "type": "PERSON",
+      "page": 12
+    },
+    {
+      "entity": "ACL",
+      "type": "VENUE",
+      "page": 12
+    },
+    {
+      "entity": "Ankur Parikh",
+      "type": "ORG",
+      "page": 12
+    },
+    {
+      "entity": "Oscar Täckström",
+      "type": "PERSON",
+      "page": 12
+    },
+    {
+      "entity": "Dipanjan Das",
+      "type": "PERSON",
+      "page": 12
+    },
+    {
+      "entity": "Jakob Uszkoreit",
+      "type": "PERSON",
+      "page": 12
+    },
+    {
+      "entity": "Caiming Xiong",
+      "type": "PERSON",
+      "page": 12
+    },
+    {
+      "entity": "Richard Socher",
+      "type": "PERSON",
+      "page": 12
+    },
+    {
+      "entity": "Slav Petrov",
+      "type": "PERSON",
+      "page": 12
+    },
+    {
+      "entity": "Leon Barrett",
+      "type": "PERSON",
+      "page": 12
+    },
+    {
+      "entity": "Romain Thibaux",
+      "type": "GPE",
+      "page": 12
+    },
+    {
+      "entity": "Dan Klein",
+      "type": "PERSON",
+      "page": 12
+    },
+    {
+      "entity": "the 21st International Conference on Computational Linguistics",
+      "type": "ORG",
+      "page": 12
+    },
+    {
+      "entity": "ACL",
+      "type": "VENUE",
+      "page": 12
+    },
+    {
+      "entity": "ACL",
+      "type": "VENUE",
+      "page": 12
+    },
+    {
+      "entity": "Wolf",
+      "type": "PERSON",
+      "page": 12
+    },
+    {
+      "entity": "Rico Sennrich",
+      "type": "PERSON",
+      "page": 12
+    },
+    {
+      "entity": "Barry Haddow",
+      "type": "PERSON",
+      "page": 12
+    },
+    {
+      "entity": "Alexandra Birch",
+      "type": "ORG",
+      "page": 12
+    },
+    {
+      "entity": "Noam Shazeer",
+      "type": "PERSON",
+      "page": 12
+    },
+    {
+      "entity": "Azalia Mirhoseini",
+      "type": "ORG",
+      "page": 12
+    },
+    {
+      "entity": "Krzysztof Maziarz",
+      "type": "PERSON",
+      "page": 12
+    },
+    {
+      "entity": "Andy Davis",
+      "type": "PERSON",
+      "page": 12
+    },
+    {
+      "entity": "Quoc Le",
+      "type": "PERSON",
+      "page": 12
+    },
+    {
+      "entity": "Geoffrey Hinton",
+      "type": "PERSON",
+      "page": 12
+    },
+    {
+      "entity": "Jeff Dean",
+      "type": "PERSON",
+      "page": 12
+    },
+    {
+      "entity": "Nitish Srivastava",
+      "type": "PERSON",
+      "page": 12
+    },
+    {
+      "entity": "Geoffrey E Hinton",
+      "type": "PERSON",
+      "page": 12
+    },
+    {
+      "entity": "Alex Krizhevsky",
+      "type": "PERSON",
+      "page": 12
+    },
+    {
+      "entity": "Ruslan",
+      "type": "PERSON",
+      "page": 12
+    },
+    {
+      "entity": "Journal of Machine Learning Research",
+      "type": "ORG",
+      "page": 12
+    },
+    {
+      "entity": "Sainbayar Sukhbaatar",
+      "type": "PERSON",
+      "page": 12
+    },
+    {
+      "entity": "Arthur Szlam",
+      "type": "PERSON",
+      "page": 12
+    },
+    {
+      "entity": "Jason Weston",
+      "type": "PERSON",
+      "page": 12
+    },
+    {
+      "entity": "Rob Fergus",
+      "type": "PERSON",
+      "page": 12
+    },
+    {
+      "entity": "C. Cortes",
+      "type": "GPE",
+      "page": 12
+    },
+    {
+      "entity": "N. D. Lawrence",
+      "type": "PERSON",
+      "page": 12
+    },
+    {
+      "entity": "D. D. Lee",
+      "type": "PERSON",
+      "page": 12
+    },
+    {
+      "entity": "R. Garnett",
+      "type": "PERSON",
+      "page": 12
+    },
+    {
+      "entity": "Neural Information Processing Systems",
+      "type": "ORG",
+      "page": 12
+    },
+    {
+      "entity": "Curran Associates",
+      "type": "ORG",
+      "page": 12
+    },
+    {
+      "entity": "Oriol Vinyals",
+      "type": "ORG",
+      "page": 12
+    },
+    {
+      "entity": "Quoc VV Le",
+      "type": "ORG",
+      "page": 12
+    },
+    {
+      "entity": "Neural Information Processing Systems",
+      "type": "ORG",
+      "page": 12
+    },
+    {
+      "entity": "Christian Szegedy",
+      "type": "PERSON",
+      "page": 12
+    },
+    {
+      "entity": "Vincent Vanhoucke",
+      "type": "PERSON",
+      "page": 12
+    },
+    {
+      "entity": "Sergey Ioffe",
+      "type": "PERSON",
+      "page": 12
+    },
+    {
+      "entity": "Jonathon Shlens",
+      "type": "PERSON",
+      "page": 12
+    },
+    {
+      "entity": "Zbigniew Wojna",
+      "type": "PERSON",
+      "page": 12
+    },
+    {
+      "entity": "CoRR",
+      "type": "JOURNAL",
+      "page": 12
+    },
+    {
+      "entity": "Vinyals & Kaiser",
+      "type": "ORG",
+      "page": 12
+    },
+    {
+      "entity": "Koo",
+      "type": "PERSON",
+      "page": 12
+    },
+    {
+      "entity": "Sutskever",
+      "type": "GPE",
+      "page": 12
+    },
+    {
+      "entity": "Hinton",
+      "type": "GPE",
+      "page": 12
+    },
+    {
+      "entity": "Grammar",
+      "type": "PERSON",
+      "page": 12
+    },
+    {
+      "entity": "Neural Information Processing Systems",
+      "type": "ORG",
+      "page": 12
+    },
+    {
+      "entity": "Yonghui Wu",
+      "type": "PERSON",
+      "page": 12
+    },
+    {
+      "entity": "Mike Schuster",
+      "type": "PERSON",
+      "page": 12
+    },
+    {
+      "entity": "Zhifeng Chen",
+      "type": "PERSON",
+      "page": 12
+    },
+    {
+      "entity": "Quoc V Le",
+      "type": "PERSON",
+      "page": 12
+    },
+    {
+      "entity": "Mohammad Norouzi",
+      "type": "PERSON",
+      "page": 12
+    },
+    {
+      "entity": "Wolfgang Macherey",
+      "type": "PERSON",
+      "page": 12
+    },
+    {
+      "entity": "Maxim Krikun",
+      "type": "PERSON",
+      "page": 12
+    },
+    {
+      "entity": "Yuan Cao",
+      "type": "PERSON",
+      "page": 12
+    },
+    {
+      "entity": "Qin Gao",
+      "type": "PERSON",
+      "page": 12
+    },
+    {
+      "entity": "Klaus Macherey",
+      "type": "PERSON",
+      "page": 12
+    },
+    {
+      "entity": "Google",
+      "type": "ORG",
+      "page": 12
+    },
+    {
+      "entity": "Jie Zhou",
+      "type": "PERSON",
+      "page": 12
+    },
+    {
+      "entity": "Ying Cao",
+      "type": "PERSON",
+      "page": 12
+    },
+    {
+      "entity": "Xuguang Wang",
+      "type": "PERSON",
+      "page": 12
+    },
+    {
+      "entity": "Peng Li",
+      "type": "PERSON",
+      "page": 12
+    },
+    {
+      "entity": "Wei Xu",
+      "type": "PERSON",
+      "page": 12
+    },
+    {
+      "entity": "CoRR",
+      "type": "JOURNAL",
+      "page": 12
+    },
+    {
+      "entity": "Muhua Zhu",
+      "type": "PERSON",
+      "page": 12
+    },
+    {
+      "entity": "Yue Zhang",
+      "type": "PERSON",
+      "page": 12
+    },
+    {
+      "entity": "Wenliang Chen",
+      "type": "PERSON",
+      "page": 12
+    },
+    {
+      "entity": "Min Zhang",
+      "type": "PERSON",
+      "page": 12
+    },
+    {
+      "entity": "Jingbo Zhu",
+      "type": "PERSON",
+      "page": 12
+    },
+    {
+      "entity": "ACL",
+      "type": "VENUE",
+      "page": 12
+    },
+    {
+      "entity": "American",
+      "type": "NORP",
+      "page": 13
+    },
+    {
+      "entity": "EOS",
+      "type": "TOKEN",
+      "page": 13
+    },
+    {
+      "entity": "American",
+      "type": "NORP",
+      "page": 13
+    },
+    {
+      "entity": "EOS",
+      "type": "TOKEN",
+      "page": 13
+    },
+    {
+      "entity": "EOS",
+      "type": "TOKEN",
+      "page": 14
+    },
+    {
+      "entity": "EOS",
+      "type": "TOKEN",
+      "page": 14
+    },
+    {
+      "entity": "EOS",
+      "type": "TOKEN",
+      "page": 14
+    },
+    {
+      "entity": "EOS",
+      "type": "TOKEN",
+      "page": 14
+    },
+    {
+      "entity": "EOS",
+      "type": "TOKEN",
+      "page": 15
+    },
+    {
+      "entity": "EOS",
+      "type": "TOKEN",
+      "page": 15
+    },
+    {
+      "entity": "EOS",
+      "type": "TOKEN",
+      "page": 15
+    },
+    {
+      "entity": "EOS",
+      "type": "TOKEN",
+      "page": 15
+    }
+  ],
+  "top_entities": [
+    {
+      "entity": "Transformer",
+      "type": "MODEL",
+      "type_label": "AI / ML Model",
+      "frequency": 20,
+      "page_count": 7,
+      "confidence": 0.9
+    },
+    {
+      "entity": "WSJ",
+      "type": "DATASET",
+      "type_label": "Dataset",
+      "frequency": 10,
+      "page_count": 2,
+      "confidence": 0.9
+    },
+    {
+      "entity": "EOS",
+      "type": "TOKEN",
+      "type_label": "Special Token",
+      "frequency": 10,
+      "page_count": 3,
+      "confidence": 0.9
+    },
+    {
+      "entity": "German",
+      "type": "NORP",
+      "type_label": "Nationality / Group",
+      "frequency": 7,
+      "page_count": 4,
+      "confidence": 1.0
+    },
+    {
+      "entity": "WMT",
+      "type": "BENCHMARK",
+      "type_label": "Benchmark / Dataset",
+      "frequency": 7,
+      "page_count": 4,
+      "confidence": 0.9
+    },
+    {
+      "entity": "CoRR",
+      "type": "JOURNAL",
+      "type_label": "Journal / Repository",
+      "frequency": 6,
+      "page_count": 3,
+      "confidence": 0.9
+    },
+    {
+      "entity": "French",
+      "type": "NORP",
+      "type_label": "Nationality / Group",
+      "frequency": 5,
+      "page_count": 3,
+      "confidence": 1.0
+    },
+    {
+      "entity": "BLEU",
+      "type": "METRIC",
+      "type_label": "Evaluation Metric",
+      "frequency": 5,
+      "page_count": 2,
+      "confidence": 0.9
+    },
+    {
+      "entity": "Yoshua Bengio",
+      "type": "PERSON",
+      "type_label": "Person",
+      "frequency": 5,
+      "page_count": 2,
+      "confidence": 1.0
+    },
+    {
+      "entity": "ACL",
+      "type": "VENUE",
+      "type_label": "Conference / Venue",
+      "frequency": 5,
+      "page_count": 2,
+      "confidence": 0.9
+    },
+    {
+      "entity": "Neural Information Processing Systems",
+      "type": "ORG",
+      "type_label": "Organization",
+      "frequency": 4,
+      "page_count": 2,
+      "confidence": 1.0
+    },
+    {
+      "entity": "Kyunghyun Cho",
+      "type": "PERSON",
+      "type_label": "Person",
+      "frequency": 3,
+      "page_count": 2,
+      "confidence": 1.0
+    },
+    {
+      "entity": "Oriol Vinyals",
+      "type": "ORG",
+      "type_label": "Organization",
+      "frequency": 3,
+      "page_count": 2,
+      "confidence": 1.0
+    },
+    {
+      "entity": "Google",
+      "type": "ORG",
+      "type_label": "Organization",
+      "frequency": 2,
+      "page_count": 2,
+      "confidence": 1.0
+    },
+    {
+      "entity": "Ashish",
+      "type": "PERSON",
+      "type_label": "Person",
+      "frequency": 2,
+      "page_count": 1,
+      "confidence": 0.9
+    },
+    {
+      "entity": "Noam",
+      "type": "PERSON",
+      "type_label": "Person",
+      "frequency": 2,
+      "page_count": 1,
+      "confidence": 1.0
+    },
+    {
+      "entity": "Google Brain",
+      "type": "ORG",
+      "type_label": "Organization",
+      "frequency": 2,
+      "page_count": 1,
+      "confidence": 1.0
+    },
+    {
+      "entity": "Illia",
+      "type": "GPE",
+      "type_label": "Location (Geo-Political)",
+      "frequency": 2,
+      "page_count": 1,
+      "confidence": 1.0
+    },
+    {
+      "entity": "English",
+      "type": "NORP",
+      "type_label": "Nationality / Group",
+      "frequency": 2,
+      "page_count": 2,
+      "confidence": 1.0
+    },
+    {
+      "entity": "ByteNet",
+      "type": "ORG",
+      "type_label": "Organization",
+      "frequency": 2,
+      "page_count": 1,
+      "confidence": 1.0
+    },
+    {
+      "entity": "Adam",
+      "type": "PERSON",
+      "type_label": "Person",
+      "frequency": 2,
+      "page_count": 2,
+      "confidence": 1.0
+    },
+    {
+      "entity": "RNN",
+      "type": "ORG",
+      "type_label": "Organization",
+      "frequency": 2,
+      "page_count": 2,
+      "confidence": 1.0
+    },
+    {
+      "entity": "Zhu et al",
+      "type": "PERSON",
+      "type_label": "Person",
+      "frequency": 2,
+      "page_count": 1,
+      "confidence": 1.0
+    },
+    {
+      "entity": "Nal Kalchbrenner",
+      "type": "PERSON",
+      "type_label": "Person",
+      "frequency": 2,
+      "page_count": 2,
+      "confidence": 1.0
+    },
+    {
+      "entity": "Geoffrey E Hinton",
+      "type": "PERSON",
+      "type_label": "Person",
+      "frequency": 2,
+      "page_count": 2,
+      "confidence": 1.0
+    }
+  ]
+}
