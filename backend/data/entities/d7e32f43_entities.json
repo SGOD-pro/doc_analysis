@@ -1,0 +1,2856 @@
+{
+  "doc_id": "d7e32f43",
+  "document_name": "d7e32f43.pdf",
+  "total_entities": 52,
+  "unique_entities": 52,
+  "entity_types_found": [
+    "GPE",
+    "LAW",
+    "LOC",
+    "ORG",
+    "PERSON",
+    "WORK_OF_ART"
+  ],
+  "entities": [
+    {
+      "entity": "the Central Government",
+      "type": "ORG",
+      "type_label": "Organization",
+      "frequency": 20,
+      "page_count": 4,
+      "confidence": 1.0
+    },
+    {
+      "entity": "the Central Goods and Services Tax Act",
+      "type": "ORG",
+      "type_label": "Organization",
+      "frequency": 12,
+      "page_count": 6,
+      "confidence": 1.0
+    },
+    {
+      "entity": "Council",
+      "type": "ORG",
+      "type_label": "Organization",
+      "frequency": 11,
+      "page_count": 6,
+      "confidence": 1.0
+    },
+    {
+      "entity": "the Ministry of Finance",
+      "type": "ORG",
+      "type_label": "Organization",
+      "frequency": 10,
+      "page_count": 3,
+      "confidence": 1.0
+    },
+    {
+      "entity": "Department of Revenue",
+      "type": "ORG",
+      "type_label": "Organization",
+      "frequency": 10,
+      "page_count": 3,
+      "confidence": 1.0
+    },
+    {
+      "entity": "AUBSP",
+      "type": "ORG",
+      "type_label": "Organization",
+      "frequency": 8,
+      "page_count": 8,
+      "confidence": 1.0
+    },
+    {
+      "entity": "www.AUBSP.com",
+      "type": "ORG",
+      "type_label": "Organization",
+      "frequency": 8,
+      "page_count": 8,
+      "confidence": 1.0
+    },
+    {
+      "entity": "Services Tax Act",
+      "type": "LAW",
+      "type_label": "Law / Regulation",
+      "frequency": 8,
+      "page_count": 2,
+      "confidence": 1.0
+    },
+    {
+      "entity": "THE GAZETTE OF INDIA",
+      "type": "ORG",
+      "type_label": "Organization",
+      "frequency": 7,
+      "page_count": 7,
+      "confidence": 1.0
+    },
+    {
+      "entity": "Central Goods",
+      "type": "LOC",
+      "type_label": "Location",
+      "frequency": 7,
+      "page_count": 3,
+      "confidence": 1.0
+    },
+    {
+      "entity": "India",
+      "type": "GPE",
+      "type_label": "Location (Geo-Political)",
+      "frequency": 6,
+      "page_count": 2,
+      "confidence": 1.0
+    },
+    {
+      "entity": "the Customs Act",
+      "type": "LAW",
+      "type_label": "Law / Regulation",
+      "frequency": 4,
+      "page_count": 1,
+      "confidence": 1.0
+    },
+    {
+      "entity": "the Integrated Goods and Services Tax Act",
+      "type": "ORG",
+      "type_label": "Organization",
+      "frequency": 4,
+      "page_count": 3,
+      "confidence": 1.0
+    },
+    {
+      "entity": "the Government of India",
+      "type": "ORG",
+      "type_label": "Organization",
+      "frequency": 4,
+      "page_count": 3,
+      "confidence": 1.0
+    },
+    {
+      "entity": "Integrated Goods",
+      "type": "ORG",
+      "type_label": "Organization",
+      "frequency": 3,
+      "page_count": 3,
+      "confidence": 1.0
+    },
+    {
+      "entity": "Parliament",
+      "type": "ORG",
+      "type_label": "Organization",
+      "frequency": 2,
+      "page_count": 1,
+      "confidence": 1.0
+    },
+    {
+      "entity": "the Customs Tariff Act",
+      "type": "LAW",
+      "type_label": "Law / Regulation",
+      "frequency": 2,
+      "page_count": 1,
+      "confidence": 1.0
+    },
+    {
+      "entity": "the Central Excise Act",
+      "type": "LAW",
+      "type_label": "Law / Regulation",
+      "frequency": 2,
+      "page_count": 1,
+      "confidence": 1.0
+    },
+    {
+      "entity": "Central Goods and Services Tax Act",
+      "type": "ORG",
+      "type_label": "Organization",
+      "frequency": 2,
+      "page_count": 2,
+      "confidence": 1.0
+    },
+    {
+      "entity": "MINISTRY OF LAW",
+      "type": "ORG",
+      "type_label": "Organization",
+      "frequency": 1,
+      "page_count": 1,
+      "confidence": 1.0
+    },
+    {
+      "entity": "JUSTICE",
+      "type": "ORG",
+      "type_label": "Organization",
+      "frequency": 1,
+      "page_count": 1,
+      "confidence": 1.0
+    },
+    {
+      "entity": "Legislative Department",
+      "type": "ORG",
+      "type_label": "Organization",
+      "frequency": 1,
+      "page_count": 1,
+      "confidence": 1.0
+    },
+    {
+      "entity": "New Delhi",
+      "type": "GPE",
+      "type_label": "Location (Geo-Political)",
+      "frequency": 1,
+      "page_count": 1,
+      "confidence": 1.0
+    },
+    {
+      "entity": "Saka",
+      "type": "PERSON",
+      "type_label": "Person",
+      "frequency": 1,
+      "page_count": 1,
+      "confidence": 1.0
+    },
+    {
+      "entity": "the Finance Act",
+      "type": "LAW",
+      "type_label": "Law / Regulation",
+      "frequency": 1,
+      "page_count": 1,
+      "confidence": 1.0
+    },
+    {
+      "entity": "the Official Gazette",
+      "type": "ORG",
+      "type_label": "Organization",
+      "frequency": 1,
+      "page_count": 1,
+      "confidence": 1.0
+    },
+    {
+      "entity": "CHAPTER II",
+      "type": "LAW",
+      "type_label": "Law / Regulation",
+      "frequency": 1,
+      "page_count": 1,
+      "confidence": 1.0
+    },
+    {
+      "entity": "Union",
+      "type": "ORG",
+      "type_label": "Organization",
+      "frequency": 1,
+      "page_count": 1,
+      "confidence": 1.0
+    },
+    {
+      "entity": "Hkkx",
+      "type": "ORG",
+      "type_label": "Organization",
+      "frequency": 1,
+      "page_count": 1,
+      "confidence": 1.0
+    },
+    {
+      "entity": "AUTHORITY",
+      "type": "ORG",
+      "type_label": "Organization",
+      "frequency": 1,
+      "page_count": 1,
+      "confidence": 1.0
+    },
+    {
+      "entity": "fnYyh",
+      "type": "ORG",
+      "type_label": "Organization",
+      "frequency": 1,
+      "page_count": 1,
+      "confidence": 1.0
+    },
+    {
+      "entity": "bl Hkkx esa",
+      "type": "ORG",
+      "type_label": "Organization",
+      "frequency": 1,
+      "page_count": 1,
+      "confidence": 1.0
+    },
+    {
+      "entity": "fd",
+      "type": "ORG",
+      "type_label": "Organization",
+      "frequency": 1,
+      "page_count": 1,
+      "confidence": 1.0
+    },
+    {
+      "entity": "xxxGIDHxxx",
+      "type": "ORG",
+      "type_label": "Organization",
+      "frequency": 1,
+      "page_count": 1,
+      "confidence": 1.0
+    },
+    {
+      "entity": "CG-DL-E-31032022-234693",
+      "type": "ORG",
+      "type_label": "Organization",
+      "frequency": 1,
+      "page_count": 1,
+      "confidence": 1.0
+    },
+    {
+      "entity": "Act",
+      "type": "WORK_OF_ART",
+      "type_label": "Work of Art",
+      "frequency": 1,
+      "page_count": 1,
+      "confidence": 1.0
+    },
+    {
+      "entity": "Customs Tariff",
+      "type": "ORG",
+      "type_label": "Organization",
+      "frequency": 1,
+      "page_count": 1,
+      "confidence": 1.0
+    },
+    {
+      "entity": "the Third Schedule",
+      "type": "LOC",
+      "type_label": "Location",
+      "frequency": 1,
+      "page_count": 1,
+      "confidence": 1.0
+    },
+    {
+      "entity": "the Fourth Schedule",
+      "type": "LOC",
+      "type_label": "Location",
+      "frequency": 1,
+      "page_count": 1,
+      "confidence": 1.0
+    },
+    {
+      "entity": "Central Goods and Services",
+      "type": "ORG",
+      "type_label": "Organization",
+      "frequency": 1,
+      "page_count": 1,
+      "confidence": 1.0
+    },
+    {
+      "entity": "Fourth Schedule",
+      "type": "LOC",
+      "type_label": "Location",
+      "frequency": 1,
+      "page_count": 1,
+      "confidence": 1.0
+    },
+    {
+      "entity": "State",
+      "type": "ORG",
+      "type_label": "Organization",
+      "frequency": 1,
+      "page_count": 1,
+      "confidence": 1.0
+    },
+    {
+      "entity": "Availment",
+      "type": "ORG",
+      "type_label": "Organization",
+      "frequency": 1,
+      "page_count": 1,
+      "confidence": 1.0
+    },
+    {
+      "entity": "the Government",
+      "type": "ORG",
+      "type_label": "Organization",
+      "frequency": 1,
+      "page_count": 1,
+      "confidence": 1.0
+    },
+    {
+      "entity": "a Special Economic Zone",
+      "type": "GPE",
+      "type_label": "Location (Geo-Political)",
+      "frequency": 1,
+      "page_count": 1,
+      "confidence": 1.0
+    },
+    {
+      "entity": "the Integrated Goods and Services",
+      "type": "ORG",
+      "type_label": "Organization",
+      "frequency": 1,
+      "page_count": 1,
+      "confidence": 1.0
+    },
+    {
+      "entity": "the Central Goods and Services",
+      "type": "ORG",
+      "type_label": "Organization",
+      "frequency": 1,
+      "page_count": 1,
+      "confidence": 1.0
+    },
+    {
+      "entity": "Integrated Goods and Services",
+      "type": "ORG",
+      "type_label": "Organization",
+      "frequency": 1,
+      "page_count": 1,
+      "confidence": 1.0
+    },
+    {
+      "entity": "Union Territory Goods and Services Tax",
+      "type": "ORG",
+      "type_label": "Organization",
+      "frequency": 1,
+      "page_count": 1,
+      "confidence": 1.0
+    },
+    {
+      "entity": "G. S. R",
+      "type": "PERSON",
+      "type_label": "Person",
+      "frequency": 1,
+      "page_count": 1,
+      "confidence": 1.0
+    },
+    {
+      "entity": "Territory Goods and Services Tax Act",
+      "type": "ORG",
+      "type_label": "Organization",
+      "frequency": 1,
+      "page_count": 1,
+      "confidence": 1.0
+    },
+    {
+      "entity": "the Union Territory Goods and Services Tax Act",
+      "type": "ORG",
+      "type_label": "Organization",
+      "frequency": 1,
+      "page_count": 1,
+      "confidence": 1.0
+    }
+  ],
+  "by_type": {
+    "ORG": [
+      {
+        "entity": "the Central Government",
+        "type": "ORG",
+        "type_label": "Organization",
+        "frequency": 20,
+        "page_count": 4,
+        "confidence": 1.0
+      },
+      {
+        "entity": "the Central Goods and Services Tax Act",
+        "type": "ORG",
+        "type_label": "Organization",
+        "frequency": 12,
+        "page_count": 6,
+        "confidence": 1.0
+      },
+      {
+        "entity": "Council",
+        "type": "ORG",
+        "type_label": "Organization",
+        "frequency": 11,
+        "page_count": 6,
+        "confidence": 1.0
+      },
+      {
+        "entity": "the Ministry of Finance",
+        "type": "ORG",
+        "type_label": "Organization",
+        "frequency": 10,
+        "page_count": 3,
+        "confidence": 1.0
+      },
+      {
+        "entity": "Department of Revenue",
+        "type": "ORG",
+        "type_label": "Organization",
+        "frequency": 10,
+        "page_count": 3,
+        "confidence": 1.0
+      },
+      {
+        "entity": "AUBSP",
+        "type": "ORG",
+        "type_label": "Organization",
+        "frequency": 8,
+        "page_count": 8,
+        "confidence": 1.0
+      },
+      {
+        "entity": "www.AUBSP.com",
+        "type": "ORG",
+        "type_label": "Organization",
+        "frequency": 8,
+        "page_count": 8,
+        "confidence": 1.0
+      },
+      {
+        "entity": "THE GAZETTE OF INDIA",
+        "type": "ORG",
+        "type_label": "Organization",
+        "frequency": 7,
+        "page_count": 7,
+        "confidence": 1.0
+      },
+      {
+        "entity": "the Integrated Goods and Services Tax Act",
+        "type": "ORG",
+        "type_label": "Organization",
+        "frequency": 4,
+        "page_count": 3,
+        "confidence": 1.0
+      },
+      {
+        "entity": "the Government of India",
+        "type": "ORG",
+        "type_label": "Organization",
+        "frequency": 4,
+        "page_count": 3,
+        "confidence": 1.0
+      },
+      {
+        "entity": "Integrated Goods",
+        "type": "ORG",
+        "type_label": "Organization",
+        "frequency": 3,
+        "page_count": 3,
+        "confidence": 1.0
+      },
+      {
+        "entity": "Parliament",
+        "type": "ORG",
+        "type_label": "Organization",
+        "frequency": 2,
+        "page_count": 1,
+        "confidence": 1.0
+      },
+      {
+        "entity": "Central Goods and Services Tax Act",
+        "type": "ORG",
+        "type_label": "Organization",
+        "frequency": 2,
+        "page_count": 2,
+        "confidence": 1.0
+      },
+      {
+        "entity": "MINISTRY OF LAW",
+        "type": "ORG",
+        "type_label": "Organization",
+        "frequency": 1,
+        "page_count": 1,
+        "confidence": 1.0
+      },
+      {
+        "entity": "JUSTICE",
+        "type": "ORG",
+        "type_label": "Organization",
+        "frequency": 1,
+        "page_count": 1,
+        "confidence": 1.0
+      }
+    ],
+    "LAW": [
+      {
+        "entity": "Services Tax Act",
+        "type": "LAW",
+        "type_label": "Law / Regulation",
+        "frequency": 8,
+        "page_count": 2,
+        "confidence": 1.0
+      },
+      {
+        "entity": "the Customs Act",
+        "type": "LAW",
+        "type_label": "Law / Regulation",
+        "frequency": 4,
+        "page_count": 1,
+        "confidence": 1.0
+      },
+      {
+        "entity": "the Customs Tariff Act",
+        "type": "LAW",
+        "type_label": "Law / Regulation",
+        "frequency": 2,
+        "page_count": 1,
+        "confidence": 1.0
+      },
+      {
+        "entity": "the Central Excise Act",
+        "type": "LAW",
+        "type_label": "Law / Regulation",
+        "frequency": 2,
+        "page_count": 1,
+        "confidence": 1.0
+      },
+      {
+        "entity": "the Finance Act",
+        "type": "LAW",
+        "type_label": "Law / Regulation",
+        "frequency": 1,
+        "page_count": 1,
+        "confidence": 1.0
+      },
+      {
+        "entity": "CHAPTER II",
+        "type": "LAW",
+        "type_label": "Law / Regulation",
+        "frequency": 1,
+        "page_count": 1,
+        "confidence": 1.0
+      }
+    ],
+    "LOC": [
+      {
+        "entity": "Central Goods",
+        "type": "LOC",
+        "type_label": "Location",
+        "frequency": 7,
+        "page_count": 3,
+        "confidence": 1.0
+      },
+      {
+        "entity": "the Third Schedule",
+        "type": "LOC",
+        "type_label": "Location",
+        "frequency": 1,
+        "page_count": 1,
+        "confidence": 1.0
+      },
+      {
+        "entity": "the Fourth Schedule",
+        "type": "LOC",
+        "type_label": "Location",
+        "frequency": 1,
+        "page_count": 1,
+        "confidence": 1.0
+      },
+      {
+        "entity": "Fourth Schedule",
+        "type": "LOC",
+        "type_label": "Location",
+        "frequency": 1,
+        "page_count": 1,
+        "confidence": 1.0
+      }
+    ],
+    "GPE": [
+      {
+        "entity": "India",
+        "type": "GPE",
+        "type_label": "Location (Geo-Political)",
+        "frequency": 6,
+        "page_count": 2,
+        "confidence": 1.0
+      },
+      {
+        "entity": "New Delhi",
+        "type": "GPE",
+        "type_label": "Location (Geo-Political)",
+        "frequency": 1,
+        "page_count": 1,
+        "confidence": 1.0
+      },
+      {
+        "entity": "a Special Economic Zone",
+        "type": "GPE",
+        "type_label": "Location (Geo-Political)",
+        "frequency": 1,
+        "page_count": 1,
+        "confidence": 1.0
+      }
+    ],
+    "PERSON": [
+      {
+        "entity": "Saka",
+        "type": "PERSON",
+        "type_label": "Person",
+        "frequency": 1,
+        "page_count": 1,
+        "confidence": 1.0
+      },
+      {
+        "entity": "G. S. R",
+        "type": "PERSON",
+        "type_label": "Person",
+        "frequency": 1,
+        "page_count": 1,
+        "confidence": 1.0
+      }
+    ],
+    "WORK_OF_ART": [
+      {
+        "entity": "Act",
+        "type": "WORK_OF_ART",
+        "type_label": "Work of Art",
+        "frequency": 1,
+        "page_count": 1,
+        "confidence": 1.0
+      }
+    ]
+  },
+  "sentence_mentions": [
+    {
+      "entity": "MINISTRY OF LAW",
+      "canonical": "ministry of law",
+      "type": "ORG",
+      "page": 1,
+      "sentence_idx": 0
+    },
+    {
+      "entity": "JUSTICE",
+      "canonical": "justice",
+      "type": "ORG",
+      "page": 1,
+      "sentence_idx": 0
+    },
+    {
+      "entity": "Legislative Department",
+      "canonical": "legislative department",
+      "type": "ORG",
+      "page": 1,
+      "sentence_idx": 0
+    },
+    {
+      "entity": "New Delhi",
+      "canonical": "new delhi",
+      "type": "GPE",
+      "page": 1,
+      "sentence_idx": 0
+    },
+    {
+      "entity": "Saka",
+      "canonical": "saka",
+      "type": "PERSON",
+      "page": 1,
+      "sentence_idx": 0
+    },
+    {
+      "entity": "Parliament",
+      "canonical": "parliament",
+      "type": "ORG",
+      "page": 1,
+      "sentence_idx": 1
+    },
+    {
+      "entity": "the Central Government",
+      "canonical": "the central government",
+      "type": "ORG",
+      "page": 1,
+      "sentence_idx": 2
+    },
+    {
+      "entity": "Parliament",
+      "canonical": "parliament",
+      "type": "ORG",
+      "page": 1,
+      "sentence_idx": 3
+    },
+    {
+      "entity": "the Finance Act",
+      "canonical": "the finance act",
+      "type": "LAW",
+      "page": 1,
+      "sentence_idx": 5
+    },
+    {
+      "entity": "the Central Government",
+      "canonical": "the central government",
+      "type": "ORG",
+      "page": 1,
+      "sentence_idx": 5
+    },
+    {
+      "entity": "the Official Gazette",
+      "canonical": "the official gazette",
+      "type": "ORG",
+      "page": 1,
+      "sentence_idx": 5
+    },
+    {
+      "entity": "CHAPTER II",
+      "canonical": "chapter ii",
+      "type": "LAW",
+      "page": 1,
+      "sentence_idx": 5
+    },
+    {
+      "entity": "Union",
+      "canonical": "union",
+      "type": "ORG",
+      "page": 1,
+      "sentence_idx": 6
+    },
+    {
+      "entity": "Hkkx",
+      "canonical": "hkkx",
+      "type": "ORG",
+      "page": 1,
+      "sentence_idx": 8
+    },
+    {
+      "entity": "AUTHORITY",
+      "canonical": "authority",
+      "type": "ORG",
+      "page": 1,
+      "sentence_idx": 8
+    },
+    {
+      "entity": "fnYyh",
+      "canonical": "fnyyh",
+      "type": "ORG",
+      "page": 1,
+      "sentence_idx": 8
+    },
+    {
+      "entity": "bl Hkkx esa",
+      "canonical": "bl hkkx esa",
+      "type": "ORG",
+      "page": 1,
+      "sentence_idx": 9
+    },
+    {
+      "entity": "fd",
+      "canonical": "fd",
+      "type": "ORG",
+      "page": 1,
+      "sentence_idx": 9
+    },
+    {
+      "entity": "xxxGIDHxxx",
+      "canonical": "xxxgidhxxx",
+      "type": "ORG",
+      "page": 1,
+      "sentence_idx": 10
+    },
+    {
+      "entity": "CG-DL-E-31032022-234693",
+      "canonical": "cg-dl-e-31032022-234693",
+      "type": "ORG",
+      "page": 1,
+      "sentence_idx": 13
+    },
+    {
+      "entity": "AUBSP",
+      "canonical": "aubsp",
+      "type": "ORG",
+      "page": 1,
+      "sentence_idx": 13
+    },
+    {
+      "entity": "www.AUBSP.com",
+      "canonical": "www.aubsp.com",
+      "type": "ORG",
+      "page": 1,
+      "sentence_idx": 13
+    },
+    {
+      "entity": "THE GAZETTE OF INDIA",
+      "canonical": "the gazette of india",
+      "type": "ORG",
+      "page": 2,
+      "sentence_idx": 1
+    },
+    {
+      "entity": "the Customs Act",
+      "canonical": "the customs act",
+      "type": "LAW",
+      "page": 2,
+      "sentence_idx": 1
+    },
+    {
+      "entity": "the Customs Act",
+      "canonical": "the customs act",
+      "type": "LAW",
+      "page": 2,
+      "sentence_idx": 1
+    },
+    {
+      "entity": "the Customs Act",
+      "canonical": "the customs act",
+      "type": "LAW",
+      "page": 2,
+      "sentence_idx": 1
+    },
+    {
+      "entity": "Act",
+      "canonical": "act",
+      "type": "WORK_OF_ART",
+      "page": 2,
+      "sentence_idx": 1
+    },
+    {
+      "entity": "the Customs Act",
+      "canonical": "the customs act",
+      "type": "LAW",
+      "page": 2,
+      "sentence_idx": 3
+    },
+    {
+      "entity": "Customs Tariff",
+      "canonical": "customs tariff",
+      "type": "ORG",
+      "page": 2,
+      "sentence_idx": 3
+    },
+    {
+      "entity": "the Customs Tariff Act",
+      "canonical": "the customs tariff act",
+      "type": "LAW",
+      "page": 2,
+      "sentence_idx": 4
+    },
+    {
+      "entity": "the Customs Tariff Act",
+      "canonical": "the customs tariff act",
+      "type": "ORG",
+      "page": 2,
+      "sentence_idx": 4
+    },
+    {
+      "entity": "the Third Schedule",
+      "canonical": "the third schedule",
+      "type": "LOC",
+      "page": 2,
+      "sentence_idx": 4
+    },
+    {
+      "entity": "the Central Excise Act",
+      "canonical": "the central excise act",
+      "type": "LAW",
+      "page": 2,
+      "sentence_idx": 6
+    },
+    {
+      "entity": "the Central Excise Act",
+      "canonical": "the central excise act",
+      "type": "LAW",
+      "page": 2,
+      "sentence_idx": 6
+    },
+    {
+      "entity": "the Fourth Schedule",
+      "canonical": "the fourth schedule",
+      "type": "LOC",
+      "page": 2,
+      "sentence_idx": 6
+    },
+    {
+      "entity": "Central Goods and Services",
+      "canonical": "central goods and services",
+      "type": "ORG",
+      "page": 2,
+      "sentence_idx": 6
+    },
+    {
+      "entity": "the Central Goods and Services Tax Act",
+      "canonical": "the central goods and services tax act",
+      "type": "ORG",
+      "page": 2,
+      "sentence_idx": 7
+    },
+    {
+      "entity": "Central Goods and Services Tax Act",
+      "canonical": "central goods and services tax act",
+      "type": "ORG",
+      "page": 2,
+      "sentence_idx": 7
+    },
+    {
+      "entity": "the Central Goods and Services Tax Act",
+      "canonical": "the central goods and services tax act",
+      "type": "ORG",
+      "page": 2,
+      "sentence_idx": 9
+    },
+    {
+      "entity": "Fourth Schedule",
+      "canonical": "fourth schedule",
+      "type": "LOC",
+      "page": 2,
+      "sentence_idx": 12
+    },
+    {
+      "entity": "AUBSP",
+      "canonical": "aubsp",
+      "type": "ORG",
+      "page": 2,
+      "sentence_idx": 15
+    },
+    {
+      "entity": "www.AUBSP.com",
+      "canonical": "www.aubsp.com",
+      "type": "ORG",
+      "page": 2,
+      "sentence_idx": 15
+    },
+    {
+      "entity": "THE GAZETTE OF INDIA",
+      "canonical": "the gazette of india",
+      "type": "ORG",
+      "page": 3,
+      "sentence_idx": 0
+    },
+    {
+      "entity": "the Central Goods and Services Tax Act",
+      "canonical": "the central goods and services tax act",
+      "type": "ORG",
+      "page": 3,
+      "sentence_idx": 1
+    },
+    {
+      "entity": "Council",
+      "canonical": "council",
+      "type": "ORG",
+      "page": 3,
+      "sentence_idx": 2
+    },
+    {
+      "entity": "AUBSP",
+      "canonical": "aubsp",
+      "type": "ORG",
+      "page": 3,
+      "sentence_idx": 9
+    },
+    {
+      "entity": "www.AUBSP.com",
+      "canonical": "www.aubsp.com",
+      "type": "ORG",
+      "page": 3,
+      "sentence_idx": 9
+    },
+    {
+      "entity": "THE GAZETTE OF INDIA",
+      "canonical": "the gazette of india",
+      "type": "ORG",
+      "page": 4,
+      "sentence_idx": 1
+    },
+    {
+      "entity": "Council",
+      "canonical": "council",
+      "type": "ORG",
+      "page": 4,
+      "sentence_idx": 4
+    },
+    {
+      "entity": "AUBSP",
+      "canonical": "aubsp",
+      "type": "ORG",
+      "page": 4,
+      "sentence_idx": 6
+    },
+    {
+      "entity": "www.AUBSP.com",
+      "canonical": "www.aubsp.com",
+      "type": "ORG",
+      "page": 4,
+      "sentence_idx": 6
+    },
+    {
+      "entity": "THE GAZETTE OF INDIA",
+      "canonical": "the gazette of india",
+      "type": "ORG",
+      "page": 5,
+      "sentence_idx": 0
+    },
+    {
+      "entity": "the Central Goods and Services Tax Act",
+      "canonical": "the central goods and services tax act",
+      "type": "ORG",
+      "page": 5,
+      "sentence_idx": 1
+    },
+    {
+      "entity": "the Central Goods and Services Tax Act",
+      "canonical": "the central goods and services tax act",
+      "type": "ORG",
+      "page": 5,
+      "sentence_idx": 5
+    },
+    {
+      "entity": "State",
+      "canonical": "state",
+      "type": "ORG",
+      "page": 5,
+      "sentence_idx": 11
+    },
+    {
+      "entity": "Council",
+      "canonical": "council",
+      "type": "ORG",
+      "page": 5,
+      "sentence_idx": 14
+    },
+    {
+      "entity": "the Integrated Goods and Services Tax Act",
+      "canonical": "the integrated goods and services tax act",
+      "type": "ORG",
+      "page": 5,
+      "sentence_idx": 14
+    },
+    {
+      "entity": "Availment",
+      "canonical": "availment",
+      "type": "ORG",
+      "page": 5,
+      "sentence_idx": 17
+    },
+    {
+      "entity": "AUBSP",
+      "canonical": "aubsp",
+      "type": "ORG",
+      "page": 5,
+      "sentence_idx": 19
+    },
+    {
+      "entity": "www.AUBSP.com",
+      "canonical": "www.aubsp.com",
+      "type": "ORG",
+      "page": 5,
+      "sentence_idx": 19
+    },
+    {
+      "entity": "THE GAZETTE OF INDIA",
+      "canonical": "the gazette of india",
+      "type": "ORG",
+      "page": 6,
+      "sentence_idx": 1
+    },
+    {
+      "entity": "the Central Goods and Services Tax Act",
+      "canonical": "the central goods and services tax act",
+      "type": "ORG",
+      "page": 6,
+      "sentence_idx": 2
+    },
+    {
+      "entity": "the Government",
+      "canonical": "the government",
+      "type": "ORG",
+      "page": 6,
+      "sentence_idx": 3
+    },
+    {
+      "entity": "Council",
+      "canonical": "council",
+      "type": "ORG",
+      "page": 6,
+      "sentence_idx": 3
+    },
+    {
+      "entity": "the Central Goods and Services Tax Act",
+      "canonical": "the central goods and services tax act",
+      "type": "ORG",
+      "page": 6,
+      "sentence_idx": 6
+    },
+    {
+      "entity": "a Special Economic Zone",
+      "canonical": "a special economic zone",
+      "type": "GPE",
+      "page": 6,
+      "sentence_idx": 6
+    },
+    {
+      "entity": "the Central Goods and Services Tax Act",
+      "canonical": "the central goods and services tax act",
+      "type": "ORG",
+      "page": 6,
+      "sentence_idx": 7
+    },
+    {
+      "entity": "the Government of India",
+      "canonical": "the government of india",
+      "type": "ORG",
+      "page": 6,
+      "sentence_idx": 8
+    },
+    {
+      "entity": "the Ministry of Finance",
+      "canonical": "the ministry of finance",
+      "type": "ORG",
+      "page": 6,
+      "sentence_idx": 8
+    },
+    {
+      "entity": "Department of Revenue",
+      "canonical": "department of revenue",
+      "type": "ORG",
+      "page": 6,
+      "sentence_idx": 8
+    },
+    {
+      "entity": "the Central Government",
+      "canonical": "the central government",
+      "type": "ORG",
+      "page": 6,
+      "sentence_idx": 8
+    },
+    {
+      "entity": "Council",
+      "canonical": "council",
+      "type": "ORG",
+      "page": 6,
+      "sentence_idx": 8
+    },
+    {
+      "entity": "the Integrated Goods and Services",
+      "canonical": "the integrated goods and services",
+      "type": "ORG",
+      "page": 6,
+      "sentence_idx": 8
+    },
+    {
+      "entity": "the Central Government",
+      "canonical": "the central government",
+      "type": "ORG",
+      "page": 6,
+      "sentence_idx": 9
+    },
+    {
+      "entity": "the Central Government",
+      "canonical": "the central government",
+      "type": "ORG",
+      "page": 6,
+      "sentence_idx": 9
+    },
+    {
+      "entity": "the Integrated Goods and Services Tax Act",
+      "canonical": "the integrated goods and services tax act",
+      "type": "ORG",
+      "page": 6,
+      "sentence_idx": 9
+    },
+    {
+      "entity": "the Government of India",
+      "canonical": "the government of india",
+      "type": "ORG",
+      "page": 6,
+      "sentence_idx": 11
+    },
+    {
+      "entity": "the Ministry of Finance",
+      "canonical": "the ministry of finance",
+      "type": "ORG",
+      "page": 6,
+      "sentence_idx": 11
+    },
+    {
+      "entity": "Department of Revenue",
+      "canonical": "department of revenue",
+      "type": "ORG",
+      "page": 6,
+      "sentence_idx": 11
+    },
+    {
+      "entity": "the Central Government",
+      "canonical": "the central government",
+      "type": "ORG",
+      "page": 6,
+      "sentence_idx": 11
+    },
+    {
+      "entity": "Council",
+      "canonical": "council",
+      "type": "ORG",
+      "page": 6,
+      "sentence_idx": 11
+    },
+    {
+      "entity": "the Central Goods and Services",
+      "canonical": "the central goods and services",
+      "type": "ORG",
+      "page": 6,
+      "sentence_idx": 11
+    },
+    {
+      "entity": "the Central Government",
+      "canonical": "the central government",
+      "type": "ORG",
+      "page": 6,
+      "sentence_idx": 11
+    },
+    {
+      "entity": "the Central Government",
+      "canonical": "the central government",
+      "type": "ORG",
+      "page": 6,
+      "sentence_idx": 11
+    },
+    {
+      "entity": "Central Goods",
+      "canonical": "central goods",
+      "type": "LOC",
+      "page": 6,
+      "sentence_idx": 13
+    },
+    {
+      "entity": "Integrated Goods",
+      "canonical": "integrated goods",
+      "type": "ORG",
+      "page": 6,
+      "sentence_idx": 13
+    },
+    {
+      "entity": "Central Goods",
+      "canonical": "central goods",
+      "type": "ORG",
+      "page": 6,
+      "sentence_idx": 14
+    },
+    {
+      "entity": "AUBSP",
+      "canonical": "aubsp",
+      "type": "ORG",
+      "page": 6,
+      "sentence_idx": 15
+    },
+    {
+      "entity": "www.AUBSP.com",
+      "canonical": "www.aubsp.com",
+      "type": "ORG",
+      "page": 6,
+      "sentence_idx": 15
+    },
+    {
+      "entity": "THE GAZETTE OF INDIA",
+      "canonical": "the gazette of india",
+      "type": "ORG",
+      "page": 7,
+      "sentence_idx": 0
+    },
+    {
+      "entity": "the Central Goods and Services Tax Act",
+      "canonical": "the central goods and services tax act",
+      "type": "ORG",
+      "page": 7,
+      "sentence_idx": 0
+    },
+    {
+      "entity": "India",
+      "canonical": "india",
+      "type": "GPE",
+      "page": 7,
+      "sentence_idx": 1
+    },
+    {
+      "entity": "the Ministry of Finance",
+      "canonical": "the ministry of finance",
+      "type": "ORG",
+      "page": 7,
+      "sentence_idx": 1
+    },
+    {
+      "entity": "Department of Revenue",
+      "canonical": "department of revenue",
+      "type": "ORG",
+      "page": 7,
+      "sentence_idx": 1
+    },
+    {
+      "entity": "the Central Government",
+      "canonical": "the central government",
+      "type": "ORG",
+      "page": 7,
+      "sentence_idx": 1
+    },
+    {
+      "entity": "Council",
+      "canonical": "council",
+      "type": "ORG",
+      "page": 7,
+      "sentence_idx": 1
+    },
+    {
+      "entity": "Services Tax Act",
+      "canonical": "services tax act",
+      "type": "LAW",
+      "page": 7,
+      "sentence_idx": 1
+    },
+    {
+      "entity": "India",
+      "canonical": "india",
+      "type": "GPE",
+      "page": 7,
+      "sentence_idx": 4
+    },
+    {
+      "entity": "the Ministry of Finance",
+      "canonical": "the ministry of finance",
+      "type": "ORG",
+      "page": 7,
+      "sentence_idx": 4
+    },
+    {
+      "entity": "Department of Revenue",
+      "canonical": "department of revenue",
+      "type": "ORG",
+      "page": 7,
+      "sentence_idx": 4
+    },
+    {
+      "entity": "the Central Government",
+      "canonical": "the central government",
+      "type": "ORG",
+      "page": 7,
+      "sentence_idx": 4
+    },
+    {
+      "entity": "Services Tax Act",
+      "canonical": "services tax act",
+      "type": "LAW",
+      "page": 7,
+      "sentence_idx": 4
+    },
+    {
+      "entity": "Integrated Goods and Services",
+      "canonical": "integrated goods and services",
+      "type": "ORG",
+      "page": 7,
+      "sentence_idx": 6
+    },
+    {
+      "entity": "the Government of India",
+      "canonical": "the government of india",
+      "type": "ORG",
+      "page": 7,
+      "sentence_idx": 7
+    },
+    {
+      "entity": "the Ministry of Finance",
+      "canonical": "the ministry of finance",
+      "type": "ORG",
+      "page": 7,
+      "sentence_idx": 7
+    },
+    {
+      "entity": "Department of Revenue",
+      "canonical": "department of revenue",
+      "type": "ORG",
+      "page": 7,
+      "sentence_idx": 7
+    },
+    {
+      "entity": "the Central Government",
+      "canonical": "the central government",
+      "type": "ORG",
+      "page": 7,
+      "sentence_idx": 7
+    },
+    {
+      "entity": "Council",
+      "canonical": "council",
+      "type": "ORG",
+      "page": 7,
+      "sentence_idx": 7
+    },
+    {
+      "entity": "the Integrated Goods and Services Tax Act",
+      "canonical": "the integrated goods and services tax act",
+      "type": "ORG",
+      "page": 7,
+      "sentence_idx": 7
+    },
+    {
+      "entity": "the Central Goods and Services Tax Act",
+      "canonical": "the central goods and services tax act",
+      "type": "ORG",
+      "page": 7,
+      "sentence_idx": 7
+    },
+    {
+      "entity": "the Central Government",
+      "canonical": "the central government",
+      "type": "ORG",
+      "page": 7,
+      "sentence_idx": 8
+    },
+    {
+      "entity": "the Central Government",
+      "canonical": "the central government",
+      "type": "ORG",
+      "page": 7,
+      "sentence_idx": 8
+    },
+    {
+      "entity": "the Integrated Goods and Services Tax Act",
+      "canonical": "the integrated goods and services tax act",
+      "type": "ORG",
+      "page": 7,
+      "sentence_idx": 8
+    },
+    {
+      "entity": "Central Goods and Services Tax Act",
+      "canonical": "central goods and services tax act",
+      "type": "ORG",
+      "page": 7,
+      "sentence_idx": 8
+    },
+    {
+      "entity": "India",
+      "canonical": "india",
+      "type": "GPE",
+      "page": 7,
+      "sentence_idx": 9
+    },
+    {
+      "entity": "the Ministry of Finance",
+      "canonical": "the ministry of finance",
+      "type": "ORG",
+      "page": 7,
+      "sentence_idx": 9
+    },
+    {
+      "entity": "Department of Revenue",
+      "canonical": "department of revenue",
+      "type": "ORG",
+      "page": 7,
+      "sentence_idx": 9
+    },
+    {
+      "entity": "the Central Government",
+      "canonical": "the central government",
+      "type": "ORG",
+      "page": 7,
+      "sentence_idx": 9
+    },
+    {
+      "entity": "Council",
+      "canonical": "council",
+      "type": "ORG",
+      "page": 7,
+      "sentence_idx": 9
+    },
+    {
+      "entity": "Services Tax Act",
+      "canonical": "services tax act",
+      "type": "LAW",
+      "page": 7,
+      "sentence_idx": 9
+    },
+    {
+      "entity": "Central Goods",
+      "canonical": "central goods",
+      "type": "LOC",
+      "page": 7,
+      "sentence_idx": 11
+    },
+    {
+      "entity": "Integrated Goods",
+      "canonical": "integrated goods",
+      "type": "ORG",
+      "page": 7,
+      "sentence_idx": 12
+    },
+    {
+      "entity": "Central Goods",
+      "canonical": "central goods",
+      "type": "ORG",
+      "page": 7,
+      "sentence_idx": 12
+    },
+    {
+      "entity": "AUBSP",
+      "canonical": "aubsp",
+      "type": "ORG",
+      "page": 7,
+      "sentence_idx": 14
+    },
+    {
+      "entity": "www.AUBSP.com",
+      "canonical": "www.aubsp.com",
+      "type": "ORG",
+      "page": 7,
+      "sentence_idx": 14
+    },
+    {
+      "entity": "THE GAZETTE OF INDIA",
+      "canonical": "the gazette of india",
+      "type": "ORG",
+      "page": 8,
+      "sentence_idx": 1
+    },
+    {
+      "entity": "India",
+      "canonical": "india",
+      "type": "GPE",
+      "page": 8,
+      "sentence_idx": 2
+    },
+    {
+      "entity": "the Ministry of Finance",
+      "canonical": "the ministry of finance",
+      "type": "ORG",
+      "page": 8,
+      "sentence_idx": 2
+    },
+    {
+      "entity": "Department of Revenue",
+      "canonical": "department of revenue",
+      "type": "ORG",
+      "page": 8,
+      "sentence_idx": 2
+    },
+    {
+      "entity": "the Central Government",
+      "canonical": "the central government",
+      "type": "ORG",
+      "page": 8,
+      "sentence_idx": 2
+    },
+    {
+      "entity": "Services Tax Act",
+      "canonical": "services tax act",
+      "type": "LAW",
+      "page": 8,
+      "sentence_idx": 2
+    },
+    {
+      "entity": "Services Tax Act",
+      "canonical": "services tax act",
+      "type": "LAW",
+      "page": 8,
+      "sentence_idx": 2
+    },
+    {
+      "entity": "Union Territory Goods and Services Tax",
+      "canonical": "union territory goods and services tax",
+      "type": "ORG",
+      "page": 8,
+      "sentence_idx": 3
+    },
+    {
+      "entity": "the Government of India",
+      "canonical": "the government of india",
+      "type": "ORG",
+      "page": 8,
+      "sentence_idx": 4
+    },
+    {
+      "entity": "the Ministry of Finance",
+      "canonical": "the ministry of finance",
+      "type": "ORG",
+      "page": 8,
+      "sentence_idx": 4
+    },
+    {
+      "entity": "Department of Revenue",
+      "canonical": "department of revenue",
+      "type": "ORG",
+      "page": 8,
+      "sentence_idx": 4
+    },
+    {
+      "entity": "G. S. R",
+      "canonical": "g. s. r",
+      "type": "PERSON",
+      "page": 8,
+      "sentence_idx": 4
+    },
+    {
+      "entity": "the Central Government",
+      "canonical": "the central government",
+      "type": "ORG",
+      "page": 8,
+      "sentence_idx": 4
+    },
+    {
+      "entity": "Council",
+      "canonical": "council",
+      "type": "ORG",
+      "page": 8,
+      "sentence_idx": 4
+    },
+    {
+      "entity": "Territory Goods and Services Tax Act",
+      "canonical": "territory goods and services tax act",
+      "type": "ORG",
+      "page": 8,
+      "sentence_idx": 4
+    },
+    {
+      "entity": "the Central Goods and Services Tax Act",
+      "canonical": "the central goods and services tax act",
+      "type": "ORG",
+      "page": 8,
+      "sentence_idx": 4
+    },
+    {
+      "entity": "the Central Government",
+      "canonical": "the central government",
+      "type": "ORG",
+      "page": 8,
+      "sentence_idx": 5
+    },
+    {
+      "entity": "the Central Government",
+      "canonical": "the central government",
+      "type": "ORG",
+      "page": 8,
+      "sentence_idx": 5
+    },
+    {
+      "entity": "the Union Territory Goods and Services Tax Act",
+      "canonical": "the union territory goods and services tax act",
+      "type": "ORG",
+      "page": 8,
+      "sentence_idx": 5
+    },
+    {
+      "entity": "the Central Goods and Services Tax Act",
+      "canonical": "the central goods and services tax act",
+      "type": "ORG",
+      "page": 8,
+      "sentence_idx": 5
+    },
+    {
+      "entity": "India",
+      "canonical": "india",
+      "type": "GPE",
+      "page": 8,
+      "sentence_idx": 6
+    },
+    {
+      "entity": "the Ministry of Finance",
+      "canonical": "the ministry of finance",
+      "type": "ORG",
+      "page": 8,
+      "sentence_idx": 6
+    },
+    {
+      "entity": "Department of Revenue",
+      "canonical": "department of revenue",
+      "type": "ORG",
+      "page": 8,
+      "sentence_idx": 6
+    },
+    {
+      "entity": "the Central Government",
+      "canonical": "the central government",
+      "type": "ORG",
+      "page": 8,
+      "sentence_idx": 6
+    },
+    {
+      "entity": "Council",
+      "canonical": "council",
+      "type": "ORG",
+      "page": 8,
+      "sentence_idx": 6
+    },
+    {
+      "entity": "Services Tax Act",
+      "canonical": "services tax act",
+      "type": "LAW",
+      "page": 8,
+      "sentence_idx": 6
+    },
+    {
+      "entity": "India",
+      "canonical": "india",
+      "type": "GPE",
+      "page": 8,
+      "sentence_idx": 9
+    },
+    {
+      "entity": "the Ministry of Finance",
+      "canonical": "the ministry of finance",
+      "type": "ORG",
+      "page": 8,
+      "sentence_idx": 9
+    },
+    {
+      "entity": "Department of Revenue",
+      "canonical": "department of revenue",
+      "type": "ORG",
+      "page": 8,
+      "sentence_idx": 9
+    },
+    {
+      "entity": "the Central Government",
+      "canonical": "the central government",
+      "type": "ORG",
+      "page": 8,
+      "sentence_idx": 9
+    },
+    {
+      "entity": "Services Tax Act",
+      "canonical": "services tax act",
+      "type": "LAW",
+      "page": 8,
+      "sentence_idx": 9
+    },
+    {
+      "entity": "Services Tax Act",
+      "canonical": "services tax act",
+      "type": "LAW",
+      "page": 8,
+      "sentence_idx": 9
+    },
+    {
+      "entity": "Integrated Goods",
+      "canonical": "integrated goods",
+      "type": "ORG",
+      "page": 8,
+      "sentence_idx": 11
+    },
+    {
+      "entity": "Central Goods",
+      "canonical": "central goods",
+      "type": "LOC",
+      "page": 8,
+      "sentence_idx": 11
+    },
+    {
+      "entity": "Central Goods",
+      "canonical": "central goods",
+      "type": "ORG",
+      "page": 8,
+      "sentence_idx": 12
+    },
+    {
+      "entity": "Central Goods",
+      "canonical": "central goods",
+      "type": "LOC",
+      "page": 8,
+      "sentence_idx": 13
+    },
+    {
+      "entity": "AUBSP",
+      "canonical": "aubsp",
+      "type": "ORG",
+      "page": 8,
+      "sentence_idx": 14
+    },
+    {
+      "entity": "www.AUBSP.com",
+      "canonical": "www.aubsp.com",
+      "type": "ORG",
+      "page": 8,
+      "sentence_idx": 14
+    }
+  ],
+  "mentions": [
+    {
+      "entity": "MINISTRY OF LAW",
+      "type": "ORG",
+      "page": 1
+    },
+    {
+      "entity": "JUSTICE",
+      "type": "ORG",
+      "page": 1
+    },
+    {
+      "entity": "Legislative Department",
+      "type": "ORG",
+      "page": 1
+    },
+    {
+      "entity": "New Delhi",
+      "type": "GPE",
+      "page": 1
+    },
+    {
+      "entity": "Saka",
+      "type": "PERSON",
+      "page": 1
+    },
+    {
+      "entity": "Parliament",
+      "type": "ORG",
+      "page": 1
+    },
+    {
+      "entity": "the Central Government",
+      "type": "ORG",
+      "page": 1
+    },
+    {
+      "entity": "Parliament",
+      "type": "ORG",
+      "page": 1
+    },
+    {
+      "entity": "the Finance Act",
+      "type": "LAW",
+      "page": 1
+    },
+    {
+      "entity": "the Central Government",
+      "type": "ORG",
+      "page": 1
+    },
+    {
+      "entity": "the Official Gazette",
+      "type": "ORG",
+      "page": 1
+    },
+    {
+      "entity": "CHAPTER II",
+      "type": "LAW",
+      "page": 1
+    },
+    {
+      "entity": "Union",
+      "type": "ORG",
+      "page": 1
+    },
+    {
+      "entity": "Hkkx",
+      "type": "ORG",
+      "page": 1
+    },
+    {
+      "entity": "AUTHORITY",
+      "type": "ORG",
+      "page": 1
+    },
+    {
+      "entity": "fnYyh",
+      "type": "ORG",
+      "page": 1
+    },
+    {
+      "entity": "bl Hkkx esa",
+      "type": "ORG",
+      "page": 1
+    },
+    {
+      "entity": "fd",
+      "type": "ORG",
+      "page": 1
+    },
+    {
+      "entity": "xxxGIDHxxx",
+      "type": "ORG",
+      "page": 1
+    },
+    {
+      "entity": "CG-DL-E-31032022-234693",
+      "type": "ORG",
+      "page": 1
+    },
+    {
+      "entity": "AUBSP",
+      "type": "ORG",
+      "page": 1
+    },
+    {
+      "entity": "www.AUBSP.com",
+      "type": "ORG",
+      "page": 1
+    },
+    {
+      "entity": "THE GAZETTE OF INDIA",
+      "type": "ORG",
+      "page": 2
+    },
+    {
+      "entity": "the Customs Act",
+      "type": "LAW",
+      "page": 2
+    },
+    {
+      "entity": "the Customs Act",
+      "type": "LAW",
+      "page": 2
+    },
+    {
+      "entity": "the Customs Act",
+      "type": "LAW",
+      "page": 2
+    },
+    {
+      "entity": "Act",
+      "type": "WORK_OF_ART",
+      "page": 2
+    },
+    {
+      "entity": "the Customs Act",
+      "type": "LAW",
+      "page": 2
+    },
+    {
+      "entity": "Customs Tariff",
+      "type": "ORG",
+      "page": 2
+    },
+    {
+      "entity": "the Customs Tariff Act",
+      "type": "LAW",
+      "page": 2
+    },
+    {
+      "entity": "the Customs Tariff Act",
+      "type": "ORG",
+      "page": 2
+    },
+    {
+      "entity": "the Third Schedule",
+      "type": "LOC",
+      "page": 2
+    },
+    {
+      "entity": "the Central Excise Act",
+      "type": "LAW",
+      "page": 2
+    },
+    {
+      "entity": "the Central Excise Act",
+      "type": "LAW",
+      "page": 2
+    },
+    {
+      "entity": "the Fourth Schedule",
+      "type": "LOC",
+      "page": 2
+    },
+    {
+      "entity": "Central Goods and Services",
+      "type": "ORG",
+      "page": 2
+    },
+    {
+      "entity": "the Central Goods and Services Tax Act",
+      "type": "ORG",
+      "page": 2
+    },
+    {
+      "entity": "Central Goods and Services Tax Act",
+      "type": "ORG",
+      "page": 2
+    },
+    {
+      "entity": "the Central Goods and Services Tax Act",
+      "type": "ORG",
+      "page": 2
+    },
+    {
+      "entity": "Fourth Schedule",
+      "type": "LOC",
+      "page": 2
+    },
+    {
+      "entity": "AUBSP",
+      "type": "ORG",
+      "page": 2
+    },
+    {
+      "entity": "www.AUBSP.com",
+      "type": "ORG",
+      "page": 2
+    },
+    {
+      "entity": "THE GAZETTE OF INDIA",
+      "type": "ORG",
+      "page": 3
+    },
+    {
+      "entity": "the Central Goods and Services Tax Act",
+      "type": "ORG",
+      "page": 3
+    },
+    {
+      "entity": "Council",
+      "type": "ORG",
+      "page": 3
+    },
+    {
+      "entity": "AUBSP",
+      "type": "ORG",
+      "page": 3
+    },
+    {
+      "entity": "www.AUBSP.com",
+      "type": "ORG",
+      "page": 3
+    },
+    {
+      "entity": "THE GAZETTE OF INDIA",
+      "type": "ORG",
+      "page": 4
+    },
+    {
+      "entity": "Council",
+      "type": "ORG",
+      "page": 4
+    },
+    {
+      "entity": "AUBSP",
+      "type": "ORG",
+      "page": 4
+    },
+    {
+      "entity": "www.AUBSP.com",
+      "type": "ORG",
+      "page": 4
+    },
+    {
+      "entity": "THE GAZETTE OF INDIA",
+      "type": "ORG",
+      "page": 5
+    },
+    {
+      "entity": "the Central Goods and Services Tax Act",
+      "type": "ORG",
+      "page": 5
+    },
+    {
+      "entity": "the Central Goods and Services Tax Act",
+      "type": "ORG",
+      "page": 5
+    },
+    {
+      "entity": "State",
+      "type": "ORG",
+      "page": 5
+    },
+    {
+      "entity": "Council",
+      "type": "ORG",
+      "page": 5
+    },
+    {
+      "entity": "the Integrated Goods and Services Tax Act",
+      "type": "ORG",
+      "page": 5
+    },
+    {
+      "entity": "Availment",
+      "type": "ORG",
+      "page": 5
+    },
+    {
+      "entity": "AUBSP",
+      "type": "ORG",
+      "page": 5
+    },
+    {
+      "entity": "www.AUBSP.com",
+      "type": "ORG",
+      "page": 5
+    },
+    {
+      "entity": "THE GAZETTE OF INDIA",
+      "type": "ORG",
+      "page": 6
+    },
+    {
+      "entity": "the Central Goods and Services Tax Act",
+      "type": "ORG",
+      "page": 6
+    },
+    {
+      "entity": "the Government",
+      "type": "ORG",
+      "page": 6
+    },
+    {
+      "entity": "Council",
+      "type": "ORG",
+      "page": 6
+    },
+    {
+      "entity": "the Central Goods and Services Tax Act",
+      "type": "ORG",
+      "page": 6
+    },
+    {
+      "entity": "a Special Economic Zone",
+      "type": "GPE",
+      "page": 6
+    },
+    {
+      "entity": "the Central Goods and Services Tax Act",
+      "type": "ORG",
+      "page": 6
+    },
+    {
+      "entity": "the Government of India",
+      "type": "ORG",
+      "page": 6
+    },
+    {
+      "entity": "the Ministry of Finance",
+      "type": "ORG",
+      "page": 6
+    },
+    {
+      "entity": "Department of Revenue",
+      "type": "ORG",
+      "page": 6
+    },
+    {
+      "entity": "the Central Government",
+      "type": "ORG",
+      "page": 6
+    },
+    {
+      "entity": "Council",
+      "type": "ORG",
+      "page": 6
+    },
+    {
+      "entity": "the Integrated Goods and Services",
+      "type": "ORG",
+      "page": 6
+    },
+    {
+      "entity": "the Central Government",
+      "type": "ORG",
+      "page": 6
+    },
+    {
+      "entity": "the Central Government",
+      "type": "ORG",
+      "page": 6
+    },
+    {
+      "entity": "the Integrated Goods and Services Tax Act",
+      "type": "ORG",
+      "page": 6
+    },
+    {
+      "entity": "the Government of India",
+      "type": "ORG",
+      "page": 6
+    },
+    {
+      "entity": "the Ministry of Finance",
+      "type": "ORG",
+      "page": 6
+    },
+    {
+      "entity": "Department of Revenue",
+      "type": "ORG",
+      "page": 6
+    },
+    {
+      "entity": "the Central Government",
+      "type": "ORG",
+      "page": 6
+    },
+    {
+      "entity": "Council",
+      "type": "ORG",
+      "page": 6
+    },
+    {
+      "entity": "the Central Goods and Services",
+      "type": "ORG",
+      "page": 6
+    },
+    {
+      "entity": "the Central Government",
+      "type": "ORG",
+      "page": 6
+    },
+    {
+      "entity": "the Central Government",
+      "type": "ORG",
+      "page": 6
+    },
+    {
+      "entity": "Central Goods",
+      "type": "LOC",
+      "page": 6
+    },
+    {
+      "entity": "Integrated Goods",
+      "type": "ORG",
+      "page": 6
+    },
+    {
+      "entity": "Central Goods",
+      "type": "ORG",
+      "page": 6
+    },
+    {
+      "entity": "AUBSP",
+      "type": "ORG",
+      "page": 6
+    },
+    {
+      "entity": "www.AUBSP.com",
+      "type": "ORG",
+      "page": 6
+    },
+    {
+      "entity": "THE GAZETTE OF INDIA",
+      "type": "ORG",
+      "page": 7
+    },
+    {
+      "entity": "the Central Goods and Services Tax Act",
+      "type": "ORG",
+      "page": 7
+    },
+    {
+      "entity": "India",
+      "type": "GPE",
+      "page": 7
+    },
+    {
+      "entity": "the Ministry of Finance",
+      "type": "ORG",
+      "page": 7
+    },
+    {
+      "entity": "Department of Revenue",
+      "type": "ORG",
+      "page": 7
+    },
+    {
+      "entity": "the Central Government",
+      "type": "ORG",
+      "page": 7
+    },
+    {
+      "entity": "Council",
+      "type": "ORG",
+      "page": 7
+    },
+    {
+      "entity": "Services Tax Act",
+      "type": "LAW",
+      "page": 7
+    },
+    {
+      "entity": "India",
+      "type": "GPE",
+      "page": 7
+    },
+    {
+      "entity": "the Ministry of Finance",
+      "type": "ORG",
+      "page": 7
+    },
+    {
+      "entity": "Department of Revenue",
+      "type": "ORG",
+      "page": 7
+    },
+    {
+      "entity": "the Central Government",
+      "type": "ORG",
+      "page": 7
+    },
+    {
+      "entity": "Services Tax Act",
+      "type": "LAW",
+      "page": 7
+    },
+    {
+      "entity": "Integrated Goods and Services",
+      "type": "ORG",
+      "page": 7
+    },
+    {
+      "entity": "the Government of India",
+      "type": "ORG",
+      "page": 7
+    },
+    {
+      "entity": "the Ministry of Finance",
+      "type": "ORG",
+      "page": 7
+    },
+    {
+      "entity": "Department of Revenue",
+      "type": "ORG",
+      "page": 7
+    },
+    {
+      "entity": "the Central Government",
+      "type": "ORG",
+      "page": 7
+    },
+    {
+      "entity": "Council",
+      "type": "ORG",
+      "page": 7
+    },
+    {
+      "entity": "the Integrated Goods and Services Tax Act",
+      "type": "ORG",
+      "page": 7
+    },
+    {
+      "entity": "the Central Goods and Services Tax Act",
+      "type": "ORG",
+      "page": 7
+    },
+    {
+      "entity": "the Central Government",
+      "type": "ORG",
+      "page": 7
+    },
+    {
+      "entity": "the Central Government",
+      "type": "ORG",
+      "page": 7
+    },
+    {
+      "entity": "the Integrated Goods and Services Tax Act",
+      "type": "ORG",
+      "page": 7
+    },
+    {
+      "entity": "Central Goods and Services Tax Act",
+      "type": "ORG",
+      "page": 7
+    },
+    {
+      "entity": "India",
+      "type": "GPE",
+      "page": 7
+    },
+    {
+      "entity": "the Ministry of Finance",
+      "type": "ORG",
+      "page": 7
+    },
+    {
+      "entity": "Department of Revenue",
+      "type": "ORG",
+      "page": 7
+    },
+    {
+      "entity": "the Central Government",
+      "type": "ORG",
+      "page": 7
+    },
+    {
+      "entity": "Council",
+      "type": "ORG",
+      "page": 7
+    },
+    {
+      "entity": "Services Tax Act",
+      "type": "LAW",
+      "page": 7
+    },
+    {
+      "entity": "Central Goods",
+      "type": "LOC",
+      "page": 7
+    },
+    {
+      "entity": "Integrated Goods",
+      "type": "ORG",
+      "page": 7
+    },
+    {
+      "entity": "Central Goods",
+      "type": "ORG",
+      "page": 7
+    },
+    {
+      "entity": "AUBSP",
+      "type": "ORG",
+      "page": 7
+    },
+    {
+      "entity": "www.AUBSP.com",
+      "type": "ORG",
+      "page": 7
+    },
+    {
+      "entity": "THE GAZETTE OF INDIA",
+      "type": "ORG",
+      "page": 8
+    },
+    {
+      "entity": "India",
+      "type": "GPE",
+      "page": 8
+    },
+    {
+      "entity": "the Ministry of Finance",
+      "type": "ORG",
+      "page": 8
+    },
+    {
+      "entity": "Department of Revenue",
+      "type": "ORG",
+      "page": 8
+    },
+    {
+      "entity": "the Central Government",
+      "type": "ORG",
+      "page": 8
+    },
+    {
+      "entity": "Services Tax Act",
+      "type": "LAW",
+      "page": 8
+    },
+    {
+      "entity": "Services Tax Act",
+      "type": "LAW",
+      "page": 8
+    },
+    {
+      "entity": "Union Territory Goods and Services Tax",
+      "type": "ORG",
+      "page": 8
+    },
+    {
+      "entity": "the Government of India",
+      "type": "ORG",
+      "page": 8
+    },
+    {
+      "entity": "the Ministry of Finance",
+      "type": "ORG",
+      "page": 8
+    },
+    {
+      "entity": "Department of Revenue",
+      "type": "ORG",
+      "page": 8
+    },
+    {
+      "entity": "G. S. R",
+      "type": "PERSON",
+      "page": 8
+    },
+    {
+      "entity": "the Central Government",
+      "type": "ORG",
+      "page": 8
+    },
+    {
+      "entity": "Council",
+      "type": "ORG",
+      "page": 8
+    },
+    {
+      "entity": "Territory Goods and Services Tax Act",
+      "type": "ORG",
+      "page": 8
+    },
+    {
+      "entity": "the Central Goods and Services Tax Act",
+      "type": "ORG",
+      "page": 8
+    },
+    {
+      "entity": "the Central Government",
+      "type": "ORG",
+      "page": 8
+    },
+    {
+      "entity": "the Central Government",
+      "type": "ORG",
+      "page": 8
+    },
+    {
+      "entity": "the Union Territory Goods and Services Tax Act",
+      "type": "ORG",
+      "page": 8
+    },
+    {
+      "entity": "the Central Goods and Services Tax Act",
+      "type": "ORG",
+      "page": 8
+    },
+    {
+      "entity": "India",
+      "type": "GPE",
+      "page": 8
+    },
+    {
+      "entity": "the Ministry of Finance",
+      "type": "ORG",
+      "page": 8
+    },
+    {
+      "entity": "Department of Revenue",
+      "type": "ORG",
+      "page": 8
+    },
+    {
+      "entity": "the Central Government",
+      "type": "ORG",
+      "page": 8
+    },
+    {
+      "entity": "Council",
+      "type": "ORG",
+      "page": 8
+    },
+    {
+      "entity": "Services Tax Act",
+      "type": "LAW",
+      "page": 8
+    },
+    {
+      "entity": "India",
+      "type": "GPE",
+      "page": 8
+    },
+    {
+      "entity": "the Ministry of Finance",
+      "type": "ORG",
+      "page": 8
+    },
+    {
+      "entity": "Department of Revenue",
+      "type": "ORG",
+      "page": 8
+    },
+    {
+      "entity": "the Central Government",
+      "type": "ORG",
+      "page": 8
+    },
+    {
+      "entity": "Services Tax Act",
+      "type": "LAW",
+      "page": 8
+    },
+    {
+      "entity": "Services Tax Act",
+      "type": "LAW",
+      "page": 8
+    },
+    {
+      "entity": "Integrated Goods",
+      "type": "ORG",
+      "page": 8
+    },
+    {
+      "entity": "Central Goods",
+      "type": "LOC",
+      "page": 8
+    },
+    {
+      "entity": "Central Goods",
+      "type": "ORG",
+      "page": 8
+    },
+    {
+      "entity": "Central Goods",
+      "type": "LOC",
+      "page": 8
+    },
+    {
+      "entity": "AUBSP",
+      "type": "ORG",
+      "page": 8
+    },
+    {
+      "entity": "www.AUBSP.com",
+      "type": "ORG",
+      "page": 8
+    }
+  ],
+  "top_entities": [
+    {
+      "entity": "the Central Government",
+      "type": "ORG",
+      "type_label": "Organization",
+      "frequency": 20,
+      "page_count": 4,
+      "confidence": 1.0
+    },
+    {
+      "entity": "the Central Goods and Services Tax Act",
+      "type": "ORG",
+      "type_label": "Organization",
+      "frequency": 12,
+      "page_count": 6,
+      "confidence": 1.0
+    },
+    {
+      "entity": "Council",
+      "type": "ORG",
+      "type_label": "Organization",
+      "frequency": 11,
+      "page_count": 6,
+      "confidence": 1.0
+    },
+    {
+      "entity": "the Ministry of Finance",
+      "type": "ORG",
+      "type_label": "Organization",
+      "frequency": 10,
+      "page_count": 3,
+      "confidence": 1.0
+    },
+    {
+      "entity": "Department of Revenue",
+      "type": "ORG",
+      "type_label": "Organization",
+      "frequency": 10,
+      "page_count": 3,
+      "confidence": 1.0
+    },
+    {
+      "entity": "AUBSP",
+      "type": "ORG",
+      "type_label": "Organization",
+      "frequency": 8,
+      "page_count": 8,
+      "confidence": 1.0
+    },
+    {
+      "entity": "www.AUBSP.com",
+      "type": "ORG",
+      "type_label": "Organization",
+      "frequency": 8,
+      "page_count": 8,
+      "confidence": 1.0
+    },
+    {
+      "entity": "Services Tax Act",
+      "type": "LAW",
+      "type_label": "Law / Regulation",
+      "frequency": 8,
+      "page_count": 2,
+      "confidence": 1.0
+    },
+    {
+      "entity": "THE GAZETTE OF INDIA",
+      "type": "ORG",
+      "type_label": "Organization",
+      "frequency": 7,
+      "page_count": 7,
+      "confidence": 1.0
+    },
+    {
+      "entity": "Central Goods",
+      "type": "LOC",
+      "type_label": "Location",
+      "frequency": 7,
+      "page_count": 3,
+      "confidence": 1.0
+    },
+    {
+      "entity": "India",
+      "type": "GPE",
+      "type_label": "Location (Geo-Political)",
+      "frequency": 6,
+      "page_count": 2,
+      "confidence": 1.0
+    },
+    {
+      "entity": "the Customs Act",
+      "type": "LAW",
+      "type_label": "Law / Regulation",
+      "frequency": 4,
+      "page_count": 1,
+      "confidence": 1.0
+    },
+    {
+      "entity": "the Integrated Goods and Services Tax Act",
+      "type": "ORG",
+      "type_label": "Organization",
+      "frequency": 4,
+      "page_count": 3,
+      "confidence": 1.0
+    },
+    {
+      "entity": "the Government of India",
+      "type": "ORG",
+      "type_label": "Organization",
+      "frequency": 4,
+      "page_count": 3,
+      "confidence": 1.0
+    },
+    {
+      "entity": "Integrated Goods",
+      "type": "ORG",
+      "type_label": "Organization",
+      "frequency": 3,
+      "page_count": 3,
+      "confidence": 1.0
+    },
+    {
+      "entity": "Parliament",
+      "type": "ORG",
+      "type_label": "Organization",
+      "frequency": 2,
+      "page_count": 1,
+      "confidence": 1.0
+    },
+    {
+      "entity": "the Customs Tariff Act",
+      "type": "LAW",
+      "type_label": "Law / Regulation",
+      "frequency": 2,
+      "page_count": 1,
+      "confidence": 1.0
+    },
+    {
+      "entity": "the Central Excise Act",
+      "type": "LAW",
+      "type_label": "Law / Regulation",
+      "frequency": 2,
+      "page_count": 1,
+      "confidence": 1.0
+    },
+    {
+      "entity": "Central Goods and Services Tax Act",
+      "type": "ORG",
+      "type_label": "Organization",
+      "frequency": 2,
+      "page_count": 2,
+      "confidence": 1.0
+    },
+    {
+      "entity": "MINISTRY OF LAW",
+      "type": "ORG",
+      "type_label": "Organization",
+      "frequency": 1,
+      "page_count": 1,
+      "confidence": 1.0
+    },
+    {
+      "entity": "JUSTICE",
+      "type": "ORG",
+      "type_label": "Organization",
+      "frequency": 1,
+      "page_count": 1,
+      "confidence": 1.0
+    },
+    {
+      "entity": "Legislative Department",
+      "type": "ORG",
+      "type_label": "Organization",
+      "frequency": 1,
+      "page_count": 1,
+      "confidence": 1.0
+    },
+    {
+      "entity": "New Delhi",
+      "type": "GPE",
+      "type_label": "Location (Geo-Political)",
+      "frequency": 1,
+      "page_count": 1,
+      "confidence": 1.0
+    },
+    {
+      "entity": "Saka",
+      "type": "PERSON",
+      "type_label": "Person",
+      "frequency": 1,
+      "page_count": 1,
+      "confidence": 1.0
+    },
+    {
+      "entity": "the Finance Act",
+      "type": "LAW",
+      "type_label": "Law / Regulation",
+      "frequency": 1,
+      "page_count": 1,
+      "confidence": 1.0
+    }
+  ]
+}

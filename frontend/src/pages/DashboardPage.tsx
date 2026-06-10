@@ -79,14 +79,14 @@ export default function DashboardPage() {
 
       {/* ── Stat cards ──────────────────────────────────── */}
       <div style={{ display: "grid", gridTemplateColumns: "repeat(4, 1fr)", gap: 14 }}>
-        <StatCard value={s?.total_documents ?? 0}   label="Total Documents"   icon={<FileText size={20} color="#4f8ef7" />} color="var(--accent)"  dimColor="var(--accent-dim)" />
-        <StatCard value={s?.total_entities ?? 0}    label="Unique Entities"   icon={<Users size={20} color="#9b6dff" />}    color="var(--purple)"  dimColor="var(--purple-dim)" />
-        <StatCard value={s?.total_topics ?? 0}      label="Topics Discovered" icon={<Tag size={20} color="#00d4b8" />}       color="var(--teal)"    dimColor="var(--teal-dim)"   />
-        <StatCard value={s?.total_graph_nodes ?? 0} label="Graph Nodes"       icon={<Share2 size={20} color="#f5a623" />}    color="var(--amber)"   dimColor="var(--amber-dim)"  />
+        <StatCard value={s?.total_documents ?? 0} label="Total Documents" icon={<FileText size={20} color="#4f8ef7" />} color="var(--accent)" dimColor="var(--accent-dim)" />
+        <StatCard value={s?.total_entities ?? 0} label="Unique Entities" icon={<Users size={20} color="#9b6dff" />} color="var(--purple)" dimColor="var(--purple-dim)" />
+        <StatCard value={s?.total_topics ?? 0} label="Topics Discovered" icon={<Tag size={20} color="#00d4b8" />} color="var(--teal)" dimColor="var(--teal-dim)" />
+        <StatCard value={s?.total_graph_nodes ?? 0} label="Graph Nodes" icon={<Share2 size={20} color="#f5a623" />} color="var(--amber)" dimColor="var(--amber-dim)" />
       </div>
 
       {/* ── Row 2: Org chart + Topic distribution ─────────── */}
-      <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: 16 }}>
+      <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: 16, height: "max-content" }}>
 
         {/* Top Organizations bar chart */}
         <div className="card" style={{ padding: "20px 22px" }}>
@@ -95,10 +95,10 @@ export default function DashboardPage() {
             <span style={{ fontWeight: 600, fontSize: 14 }}>Top Organizations</span>
           </div>
           {ea?.top_organizations?.length ? (
-            <ResponsiveContainer width="100%" height={220}>
-              <BarChart data={ea.top_organizations.slice(0, 8)} layout="vertical" margin={{ left: 10, right: 20 }}>
+            <ResponsiveContainer width="100%" height={300}>
+              <BarChart data={ea.top_organizations.slice(0, 8)} layout="vertical" margin={{ left: 2, right: 20 }}>
                 <XAxis type="number" tick={{ fontSize: 11 }} />
-                <YAxis dataKey="entity" type="category" tick={{ fontSize: 11 }} width={90} />
+                <YAxis  className=" capitalize" dataKey="entity" type="category" tick={{ fontSize: 11 }} width={120} />
                 <Tooltip
                   contentStyle={{ background: "var(--bg-card)", border: "1px solid var(--border)", borderRadius: 8, fontSize: 12 }}
                   labelStyle={{ color: "var(--text-primary)" }}
@@ -120,7 +120,7 @@ export default function DashboardPage() {
             <span style={{ fontWeight: 600, fontSize: 14 }}>Topic Distribution</span>
           </div>
           {ta?.topic_distribution?.length ? (
-            <ResponsiveContainer width="100%" height={220}>
+            <ResponsiveContainer width="100%" height={300}>
               <PieChart>
                 <Pie
                   data={ta.topic_distribution.slice(0, 8).map(t => ({
@@ -162,7 +162,7 @@ export default function DashboardPage() {
               <AreaChart data={ta.top_keywords.slice(0, 15)} margin={{ left: 0, right: 10 }}>
                 <defs>
                   <linearGradient id="kw-grad" x1="0" y1="0" x2="0" y2="1">
-                    <stop offset="5%"  stopColor="#00d4b8" stopOpacity={0.3} />
+                    <stop offset="5%" stopColor="#00d4b8" stopOpacity={0.3} />
                     <stop offset="95%" stopColor="#00d4b8" stopOpacity={0} />
                   </linearGradient>
                 </defs>
@@ -211,10 +211,10 @@ export default function DashboardPage() {
           </div>
           <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: 12 }}>
             {[
-              { label: "Total Nodes",       value: s?.total_graph_nodes ?? 0,      color: "var(--accent)" },
-              { label: "Total Edges",       value: s?.total_graph_edges ?? 0,      color: "var(--purple)" },
+              { label: "Total Nodes", value: s?.total_graph_nodes ?? 0, color: "var(--accent)" },
+              { label: "Total Edges", value: s?.total_graph_edges ?? 0, color: "var(--purple)" },
               { label: "Avg Graph Density", value: (s?.average_graph_density ?? 0).toFixed(3), color: "var(--teal)" },
-              { label: "Top Entity",        value: s?.most_connected_entities?.[0] ?? "—", color: "var(--amber)" },
+              { label: "Top Entity", value: s?.most_connected_entities?.[0] ?? "—", color: "var(--amber)" },
             ].map(({ label, value, color }) => (
               <div key={label} style={{ background: "var(--bg-secondary)", borderRadius: 8, padding: "12px 14px", border: "1px solid var(--border)" }}>
                 <div style={{ fontSize: 18, fontWeight: 700, color }}>{value}</div>

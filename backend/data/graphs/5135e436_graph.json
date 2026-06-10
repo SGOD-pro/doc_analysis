@@ -1,0 +1,166 @@
+{
+  "doc_id": "5135e436",
+  "document_name": "5135e436.pdf",
+  "nodes": [
+    {
+      "id": "Transformer",
+      "label": "Transformer",
+      "type": "MODEL",
+      "type_label": "AI / ML Model",
+      "frequency": 20,
+      "degree": 1,
+      "centrality": 0.11111,
+      "betweenness": 0.0,
+      "closeness": 0.11111,
+      "pagerank": 0.1
+    },
+    {
+      "id": "Yoshua_Bengio",
+      "label": "Yoshua Bengio",
+      "type": "PERSON",
+      "type_label": "Person",
+      "frequency": 5,
+      "degree": 1,
+      "centrality": 0.11111,
+      "betweenness": 0.0,
+      "closeness": 0.11111,
+      "pagerank": 0.1
+    },
+    {
+      "id": "Ilya_Sutskever",
+      "label": "Ilya Sutskever",
+      "type": "PERSON",
+      "type_label": "Person",
+      "frequency": 4,
+      "degree": 1,
+      "centrality": 0.11111,
+      "betweenness": 0.0,
+      "closeness": 0.11111,
+      "pagerank": 0.1
+    },
+    {
+      "id": "English",
+      "label": "English",
+      "type": "NORP",
+      "type_label": "Nationality / Group",
+      "frequency": 3,
+      "degree": 1,
+      "centrality": 0.11111,
+      "betweenness": 0.0,
+      "closeness": 0.11111,
+      "pagerank": 0.1
+    },
+    {
+      "id": "Kyunghyun_Cho",
+      "label": "Kyunghyun Cho",
+      "type": "PERSON",
+      "type_label": "Person",
+      "frequency": 3,
+      "degree": 1,
+      "centrality": 0.11111,
+      "betweenness": 0.0,
+      "closeness": 0.11111,
+      "pagerank": 0.1
+    },
+    {
+      "id": "Oriol_Vinyals",
+      "label": "Oriol Vinyals",
+      "type": "PERSON",
+      "type_label": "Person",
+      "frequency": 3,
+      "degree": 1,
+      "centrality": 0.11111,
+      "betweenness": 0.0,
+      "closeness": 0.11111,
+      "pagerank": 0.1
+    },
+    {
+      "id": "Sepp_Hochreiter",
+      "label": "Sepp Hochreiter",
+      "type": "PERSON",
+      "type_label": "Person",
+      "frequency": 2,
+      "degree": 1,
+      "centrality": 0.11111,
+      "betweenness": 0.0,
+      "closeness": 0.11111,
+      "pagerank": 0.1
+    },
+    {
+      "id": "Jürgen_Schmidhuber",
+      "label": "Jürgen Schmidhuber",
+      "type": "PERSON",
+      "type_label": "Person",
+      "frequency": 2,
+      "degree": 1,
+      "centrality": 0.11111,
+      "betweenness": 0.0,
+      "closeness": 0.11111,
+      "pagerank": 0.1
+    },
+    {
+      "id": "Mike_Schuster",
+      "label": "Mike Schuster",
+      "type": "PERSON",
+      "type_label": "Person",
+      "frequency": 2,
+      "degree": 1,
+      "centrality": 0.11111,
+      "betweenness": 0.0,
+      "closeness": 0.11111,
+      "pagerank": 0.1
+    },
+    {
+      "id": "Yonghui_Wu",
+      "label": "Yonghui Wu",
+      "type": "PERSON",
+      "type_label": "Person",
+      "frequency": 2,
+      "degree": 1,
+      "centrality": 0.11111,
+      "betweenness": 0.0,
+      "closeness": 0.11111,
+      "pagerank": 0.1
+    }
+  ],
+  "edges": [
+    {
+      "source": "Transformer",
+      "target": "English",
+      "relationship": "developed",
+      "weight": 3
+    },
+    {
+      "source": "Yoshua_Bengio",
+      "target": "Kyunghyun_Cho",
+      "relationship": "authored",
+      "weight": 3
+    },
+    {
+      "source": "Ilya_Sutskever",
+      "target": "Oriol_Vinyals",
+      "relationship": "co-occurs_with",
+      "weight": 2
+    },
+    {
+      "source": "Sepp_Hochreiter",
+      "target": "Jürgen_Schmidhuber",
+      "relationship": "co-occurs_with",
+      "weight": 2
+    },
+    {
+      "source": "Mike_Schuster",
+      "target": "Yonghui_Wu",
+      "relationship": "co-occurs_with",
+      "weight": 2
+    }
+  ],
+  "analytics": {
+    "total_nodes": 10,
+    "total_edges": 5,
+    "density": 0.11111,
+    "most_connected_entity": "Transformer",
+    "average_degree": 1.0,
+    "isolated_removed": 195
+  }
+}
