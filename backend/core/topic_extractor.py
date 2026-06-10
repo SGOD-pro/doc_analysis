@@ -188,6 +188,11 @@ _BIGRAM_LABELS: dict[str, str] = {
     "image classification": "Image Classification",
     "object detection": "Object Detection",
     "gradient descent": "Optimization",
+    "training step": "Training Process",
+    "learning rate": "Learning Rate",
+    "batch size": "Batch Processing",
+    "test result": "Test Results",
+    "evaluation metric": "Evaluation Metrics",
     # Medical
     "blood glucose": "Diabetes Management",
     "heart rate": "Cardiovascular Health",
@@ -585,6 +590,141 @@ def _extract_page_trends(pages: list[dict]) -> list[dict]:
         return trends
 
 
+# ── TF-IDF + KMeans clustering (Phase 4 replacement) ───────────────────────────
+def _run_kmeans_clustering(documents: list[str], n_topics: int) -> list[dict] | None:
+    """
+    Phase 4: Replace LDA/NMF with TF-IDF + KMeans clustering.
+    
+    Benefits:
+    - More stable topics
+    - Deterministic output
+    - Better keyword extraction
+    
+    Returns list of topic dicts or None if clustering fails.
+    """
+    try:
+        from sklearn.feature_extraction.text import TfidfVectorizer
+        from sklearn.cluster import KMeans
+        
+        tokenized = [_tokenize_for_vectorizer(d) for d in documents]
+        
+        if len(tokenized) < 3:
+            return None
+        
+        min_df = _adaptive_min_df(len(tokenized))
+        stop_words = _get_stop_words()
+        
+        # TF-IDF vectorization
+        vect = TfidfVectorizer(
+            stop_words=stop_words,
+            min_df=min_df,
+            max_df=0.95,
+            ngram_range=(1, 2),
+            max_features=2000,
+            token_pattern=r'\S+',
+        )
+        
+        dtm = vect.fit_transform(tokenized)
+        
+        if dtm.shape[0] < 3 or dtm.shape[1] < 5:
+            return None
+        
+        # Determine optimal cluster count
+        n_clusters = _determine_optimal_clusters(dtm, n_topics)
+        
+        # KMeans clustering
+        kmeans = KMeans(
+            n_clusters=n_clusters,
+            random_state=42,
+            n_init=10,
+            max_iter=300,
+        )
+        labels = kmeans.fit_predict(dtm)
+        
+        feature_names = vect.get_feature_names_out()
+        total_docs = len(documents)
+        results: list[dict] = []
+        
+        for cluster_id in range(n_clusters):
+            # Get documents in this cluster
+            cluster_mask = labels == cluster_id
+            cluster_docs = dtm[cluster_mask]
+            
+            if cluster_docs.shape[0] == 0:
+                continue
+            
+            # Get centroid and extract top terms
+            centroid = cluster_docs.mean(axis=0)
+            centroid_array = np.asarray(centroid).flatten()
+            top_indices = centroid_array.argsort()[::-1][:10]
+            
+            keywords = [feature_names[i] for i in top_indices if centroid_array[i] > 0]
+            
+            if not keywords:
+                continue
+            
+            doc_count = int(cluster_mask.sum())
+            coherence = _compute_coherence_from_cluster(cluster_docs, top_indices)
+            
+            results.append({
+                "topic_id":      cluster_id,
+                "topic":         _name_topic(keywords),
+                "keywords":      keywords[:8],
+                "coherence":     round(coherence, 4),
+                "topic_weight":  _topic_weight(coherence, doc_count, total_docs),
+                "document_count": doc_count,
+                "method":        "kmeans",
+            })
+        
+        results.sort(key=lambda x: x["topic_weight"], reverse=True)
+        return _deduplicate_topics(results) or None
+        
+    except Exception as e:
+        print(f"[Topics] KMeans failed: {e}")
+        return None
+
+
+def _determine_optimal_clusters(dtm, target_topics: int) -> int:
+    """
+    Determine optimal number of clusters using a simple heuristic.
+    
+    Uses the elbow method approximation based on document count.
+    Falls back to target_topics if determination fails.
+    """
+    n_docs = dtm.shape[0]
+    n_features = dtm.shape[1]
+    
+    # Minimum 2, maximum based on document count
+    min_clusters = 2
+    max_clusters = min(n_docs // 2, target_topics + 3, 10)
+    
+    # Heuristic: use sqrt of document count as starting point
+    import math
+    estimated = max(min_clusters, min(int(math.sqrt(n_docs)), max_clusters))
+    
+    return estimated
+
+
+def _compute_coherence_from_cluster(cluster_docs, top_indices) -> float:
+    """Compute coherence score for a KMeans cluster."""
+    if cluster_docs.shape[0] == 0:
+        return 0.0
+    
+    # Average TF-IDF mass concentrated in top terms
+    centroid = cluster_docs.mean(axis=0)
+    centroid_array = np.asarray(centroid).flatten()
+    
+    total_mass = centroid_array.sum()
+    if total_mass == 0:
+        return 0.0
+    
+    top_mass = sum(centroid_array[i] for i in top_indices if i < len(centroid_array))
+    return top_mass / total_mass
+
+
+import numpy as np
+
+
 # ── Main ──────────────────────────────────────────────────────────────────────
 def extract_topics(doc_data: dict[str, Any]) -> dict[str, Any]:
     ensure_dirs()
@@ -612,15 +752,11 @@ def extract_topics(doc_data: dict[str, Any]) -> dict[str, Any]:
     topics: list[dict] | None = None
     method_used: str | None = None
 
-    if n_paras >= 5:
-        topics = _run_lda(topic_docs, n_topics_target)
+    # Phase 4: Use KMeans clustering as primary method
+    if n_paras >= 3:
+        topics = _run_kmeans_clustering(topic_docs, n_topics_target)
         if topics:
-            method_used = "LDA"
-
-    if topics is None and n_paras >= 3:
-        topics = _run_nmf(topic_docs, n_topics_target)
-        if topics:
-            method_used = "NMF"
+            method_used = "KMeans"
 
     if topics is None:
         fallback_docs = topic_docs if topic_docs else [doc_data.get("full_text", "")]

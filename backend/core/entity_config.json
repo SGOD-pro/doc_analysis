@@ -11,6 +11,8 @@
     "GPT-4":                "MODEL",
     "LLaMA":                "MODEL",
     "Llama":                "MODEL",
+    "Llama-2":              "MODEL",
+    "Llama-3":              "MODEL",
     "RoBERTa":              "MODEL",
     "XLNet":                "MODEL",
     "ALBERT":               "MODEL",
@@ -32,12 +34,21 @@
     "GLEU":                 "METRIC",
     "perplexity":           "METRIC",
     "F1":                   "METRIC",
+    "accuracy":             "METRIC",
+    "precision":            "METRIC",
+    "recall":               "METRIC",
+    "AUC":                  "METRIC",
+    "MSE":                  "METRIC",
+    "RMSE":                 "METRIC",
+    "MAE":                  "METRIC",
     "WMT":                  "BENCHMARK",
     "SQuAD":                "BENCHMARK",
     "GLUE":                 "BENCHMARK",
     "SuperGLUE":            "BENCHMARK",
     "ImageNet":             "BENCHMARK",
     "COCO":                 "BENCHMARK",
+    "MNIST":                "DATASET",
+    "CIFAR":                "DATASET",
     "WSJ":                  "DATASET",
     "Penn Treebank":        "DATASET",
     "BooksCorpus":          "DATASET",
@@ -63,10 +74,49 @@
     "BatchNorm":            "FUNCTION"
   },
 
+  "domain_dictionaries": {
+    "MODEL": [
+      "Transformer", "BERT", "GPT", "GPT-2", "GPT-3", "GPT-4", "LLaMA", "Llama",
+      "RoBERTa", "XLNet", "ALBERT", "T5", "BART", "LSTM", "BiLSTM", "GRU",
+      "CNN", "ResNet", "VGG", "ELMo", "Word2Vec", "GloVe", "FastText",
+      "EfficientNet", "ViT", "CLIP", "Stable Diffusion", "Midjourney",
+      "Whisper", "CodeLlama", "Mistral", "Mixtral", "Gemini", "Claude"
+    ],
+    "DATASET": [
+      "MNIST", "CIFAR", "ImageNet", "COCO", "WSJ", "Penn Treebank",
+      "BooksCorpus", "CommonCrawl", "SQuAD", "GLUE", "SuperGLUE",
+      "WikiText", "OpenWebText", "LAION", "ConceptNet", "Freebase"
+    ],
+    "METRIC": [
+      "BLEU", "ROUGE", "METEOR", "GLEU", "perplexity", "F1", "accuracy",
+      "precision", "recall", "AUC", "MSE", "RMSE", "MAE", "loss",
+      "cross-entropy", "log-likelihood", "BPS", "TER", "WER", "CER"
+    ],
+    "LEGAL_TERM": [
+      "indemnification", "force majeure", "governing law", "jurisdiction",
+      "liability", "warranty", "confidentiality", "non-disclosure",
+      "intellectual property", "patent", "trademark", "copyright",
+      "breach", "termination", "amendment", "assignment", "severability"
+    ],
+    "MEDICAL_TERM": [
+      "diagnosis", "treatment", "prognosis", "symptom", "syndrome",
+      "pathology", "etiology", "epidemiology", "pharmacology",
+      "therapeutic", "clinical trial", "placebo", "randomized",
+      "double-blind", "cohort", "longitudinal", "meta-analysis"
+    ],
+    "FINANCIAL_TERM": [
+      "EBITDA", "revenue", "earnings", "dividend", "equity", "liability",
+      "asset", "cash flow", "ROI", "ROE", "P/E ratio", "market cap",
+      "IPO", "merger", "acquisition", "leveraged", "derivative",
+      "hedge fund", "portfolio", "volatility", "beta", "alpha"
+    ]
+  },
+
   "location_exclusions": [
     "BERT", "GPT", "LSTM", "CNN", "WMT", "WSJ", "CoRR", "EOS", "BOS",
     "GLUE", "SQuAD", "ImageNet", "CommonCrawl", "Transformer", "RoBERTa",
-    "Attention", "softmax", "dropout", "LayerNorm"
+    "Attention", "softmax", "dropout", "LayerNorm", "Adam", "Linear",
+    "RNN", "LSTM", "GRU", "ReLU", "ViT", "CLIP"
   ],
 
   "junk_patterns": [

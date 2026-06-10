@@ -37,6 +37,7 @@ def _load_config() -> dict:
         else:
             _CONFIG = {
                 "reclassify": {},
+                "domain_dictionaries": {},
                 "location_exclusions": [],
                 "junk_patterns": [],
                 "graph_edge_weight_threshold": 2,
@@ -223,6 +224,180 @@ _NORP_PERSON_FIRST_NAMES: set[str] = {
     "denny", "lukasz", "quoc",
 }
 
+# Common false positive ORG detections (actually common words/names)
+_ORG_FALSE_POSITIVES: set[str] = {
+    "adam", "linear", "attention", "transformer", "model", "network",
+    "layer", "output", "input", "training", "testing", "validation",
+    "baseline", "result", "results", "method", "approach", "system",
+}
+
+# Valid person name patterns - must have at least one capital letter and be multi-char
+_PERSON_NAME_PATTERN = re.compile(r'^[A-Z][a-z]+(?:\s+[A-Z][a-z]+)*$')
+
+# Single lowercase letters or very short strings that are not valid persons
+_INVALID_PERSON_PATTERNS = [
+    r'^[a-z]$',           # Single lowercase letter
+    r'^[a-z]{1,2}$',      # 1-2 lowercase letters
+    r'^[dkznxy]$',        # Common variable names
+    r'^[abc]$',           # Generic labels
+    r'^\d+$',             # Pure numbers
+]
+
+
+def is_valid_person(text: str) -> tuple[bool, float]:
+    """
+    Validate if text is a genuine person name.
+    
+    Returns:
+        (is_valid, confidence) tuple
+        
+    Rejects:
+        - Single lowercase letters (dk, zn, abc)
+        - Very short strings (< 3 chars)
+        - All lowercase strings
+        - Strings matching variable name patterns
+        
+    Accepts:
+        - Proper capitalized names (Geoffrey Hinton, Andrew Ng)
+        - Multi-word names with proper capitalization
+    """
+    text = text.strip()
+    
+    # Too short to be a real name
+    if len(text) < 3:
+        return False, 0.0
+    
+    # Check against invalid patterns
+    for pattern in _INVALID_PERSON_PATTERNS:
+        if re.match(pattern, text, re.IGNORECASE):
+            return False, 0.0
+    
+    # All lowercase = likely not a proper name
+    if text.islower():
+        return False, 0.0
+    
+    # Must start with capital letter
+    if not text[0].isupper():
+        return False, 0.0
+    
+    # Check for proper name pattern (Capitalized words)
+    if _PERSON_NAME_PATTERN.match(text):
+        return True, 1.0
+    
+    # Names with initials (e.g., "John A. Smith")
+    if re.match(r'^[A-Z][a-z]+\s+[A-Z]\.?\s*[A-Z][a-z]+$', text):
+        return True, 0.95
+    
+    # Single capitalized word that looks like a name
+    if re.match(r'^[A-Z][a-z]{2,}$', text) and ' ' not in text:
+        # Lower confidence for single names
+        return True, 0.7
+    
+    # Default: not a valid person name
+    return False, 0.0
+
+
+def is_valid_org(text: str) -> tuple[bool, float]:
+    """
+    Validate if text is a genuine organization name.
+    
+    Returns:
+        (is_valid, confidence) tuple
+        
+    Rejects:
+        - Common false positives (Adam, Linear, etc.)
+        - Generic technical terms
+        - Single common words
+        
+    Accepts:
+        - Multi-word organization names
+        - Known acronyms with context
+        - Proper company/institution names
+    """
+    text_lower = text.lower().strip()
+    
+    # Check against known false positives
+    if text_lower in _ORG_FALSE_POSITIVES:
+        return False, 0.0
+    
+    # All caps acronyms of reasonable length
+    if text.isupper() and len(text) >= 3 and len(text) <= 10:
+        return True, 0.85
+    
+    # Multi-word with proper capitalization
+    if ' ' in text and text[0].isupper():
+        return True, 0.9
+    
+    # Contains common org suffixes
+    org_suffixes = ['inc', 'ltd', 'corp', 'corporation', 'company', 'llc', 
+                    'university', 'institute', 'laboratory', 'lab', 'foundation']
+    if any(text_lower.endswith(s) for s in org_suffixes):
+        return True, 0.95
+    
+    # Single capitalized word: check if it looks like a proper noun (not a common word)
+    # Well-known tech companies are often single words
+    if len(text.split()) == 1 and text[0].isupper() and len(text) >= 4:
+        # Check if it's NOT a common English word (heuristic: no vowels pattern = likely not common)
+        has_vowel_pattern = any(c in text_lower for c in 'aeiou')
+        if has_vowel_pattern and text.isalpha():
+            # Could be a company name like Google, Apple, Microsoft
+            return True, 0.65
+    
+    # Default rejection for ambiguous short single words
+    if len(text.split()) == 1 and len(text) < 4:
+        return False, 0.0
+    
+    return True, 0.7
+
+
+def is_valid_location(text: str) -> bool:
+    """Phase 6: Ensure GPE/LOC entities are genuine geographic places."""
+    cfg = _load_config()
+    exclusions = {e.lower() for e in cfg.get("location_exclusions", [])}
+    if canonical_key(text) in exclusions:
+        return False
+    # Reject if it looks like a technical term (all caps acronym with no vowels possible)
+    if re.match(r'^[A-Z]{2,6}$', text.strip()):
+        # Short all-caps: likely a dataset/model name, not a place
+        return False
+    return True
+
+
+def calculate_entity_confidence(text: str, entity_type: str, spacy_type: str) -> float:
+    """
+    Calculate confidence score for an entity based on validation strength.
+    
+    Args:
+        text: Entity text
+        entity_type: Final entity type
+        spacy_type: Original spaCy type
+        
+    Returns:
+        Confidence score 0.0-1.0
+    """
+    # If type was reclassified, slightly lower confidence
+    base_confidence = 1.0 if entity_type == spacy_type else 0.9
+    
+    # Type-specific validation
+    if entity_type == "PERSON":
+        is_valid, conf = is_valid_person(text)
+        if not is_valid:
+            return 0.0
+        return min(1.0, (base_confidence + conf) / 2)
+    
+    elif entity_type == "ORG":
+        is_valid, conf = is_valid_org(text)
+        if not is_valid:
+            return max(0.0, base_confidence - 0.3)
+        return min(1.0, (base_confidence + conf) / 2)
+    
+    elif entity_type in ("GPE", "LOC"):
+        if not is_valid_location(text):
+            return 0.0
+        return base_confidence
+    
+    return base_confidence
+
 
 # ── Main validation pipeline ───────────────────────────────────────────────────
 def validate_entity(raw_text: str, spacy_type: str) -> ValidatedEntity | None:
@@ -255,25 +430,34 @@ def validate_entity(raw_text: str, spacy_type: str) -> ValidatedEntity | None:
     # 5. Reclassify type
     final_type = reclassify_entity(norm, effective_type)
 
-    # 6. Location validation
-    if effective_type in ("GPE", "LOC"):
-        if not is_valid_location(norm):
-            if final_type in ("GPE", "LOC"):
-                return None
+    # 6. Type-specific validation with confidence scoring
+    confidence = calculate_entity_confidence(norm, final_type, spacy_type)
+    
+    # Reject entities with zero confidence
+    if confidence <= 0.0:
+        # Special case: allow low-confidence ORG if it's multi-word
+        if final_type == "ORG" and ' ' in norm and len(norm) > 5:
+            confidence = 0.4
+        else:
+            return None
 
-    # 7. Final allowed-type check
+    # 7. Location validation (additional check)
+    if final_type in ("GPE", "LOC"):
+        if not is_valid_location(norm):
+            return None
+
+    # 8. Final allowed-type check
     if final_type not in ALLOWED_TYPES:
         return None
 
     label = ENTITY_LABELS.get(final_type, final_type)
-    confidence = 1.0 if final_type == spacy_type else 0.9
 
     return ValidatedEntity(
         text=norm,
         original=raw_text,
         type=final_type,
         type_label=label,
-        confidence=confidence,
+        confidence=round(confidence, 3),
     )
 
 

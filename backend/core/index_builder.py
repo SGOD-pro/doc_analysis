@@ -206,13 +206,34 @@ def _update_global_index(
 
 
 # ── Search ────────────────────────────────────────────────────────────────────
+
+# BM25 parameters (Phase 5)
+BM25_K1 = 1.5  # Term frequency saturation
+BM25_B = 0.75  # Length normalization
+
+
+def _bm25_score(tf: float, doc_len: float, avg_doc_len: float, idf: float) -> float:
+    """
+    Phase 5: BM25 scoring function.
+    
+    Formula: IDF * (tf * (k1 + 1)) / (tf + k1 * (1 - b + b * doc_len/avg_doc_len))
+    """
+    if tf <= 0:
+        return 0.0
+    
+    # BM25 term frequency component
+    tf_component = (tf * (BM25_K1 + 1)) / (tf + BM25_K1 * (1 - BM25_B + BM25_B * doc_len / max(avg_doc_len, 1)))
+    
+    return idf * tf_component
+
+
 def search_documents(query: str, top_k: int = 20) -> list[dict[str, Any]]:
     """
-    Phase 4: Cosine-similarity TF-IDF search.
+    Phase 5: BM25 search with improved relevance ranking.
     - Unigrams + bigrams
-    - Proper IDF: log(N/df)
-    - Score = sum of TF-IDF(term) per paragraph
-    - No artificial scaling
+    - BM25 scoring (better than TF-IDF for search)
+    - Proper document length normalization
+    - Preserves existing index structure
     """
     ensure_dirs()
 
@@ -233,22 +254,43 @@ def search_documents(query: str, top_k: int = 20) -> list[dict[str, Any]]:
     term_index = gi.get("term_index", {})
     doc_freq   = gi.get("doc_freq", {})
 
-    # Accumulate scores per paragraph
-    scores: dict[str, dict] = defaultdict(lambda: {"score": 0.0, "hits": [], "tf_sum": 0.0})
+    # Calculate average document length (in terms)
+    total_terms_all_docs = sum(
+        len(set(term_index.get(term, []))) 
+        for term in term_index
+    )
+    avg_doc_len = total_terms_all_docs / max(num_docs, 1)
+
+    # Accumulate scores per paragraph with BM25
+    scores: dict[str, dict] = defaultdict(lambda: {
+        "score": 0.0, 
+        "hits": [], 
+        "tf_sum": 0.0,
+        "doc_len": 0.0,
+    })
 
     for term in query_terms:
         if term not in term_index:
             continue
+        
         df = len(doc_freq.get(term, ["_"]))
-        # Sublinear IDF: 1 + log((N+1)/(df+1)) — always > 0, works for single-doc corpora
-        idf = 1.0 + math.log((num_docs + 1) / (df + 1))
+        # BM25 IDF: log((N - df + 0.5) / (df + 0.5) + 1)
+        idf = math.log((num_docs - df + 0.5) / (df + 0.5) + 1)
 
         for posting in term_index[term]:
             key = f"{posting['doc_id']}__p{posting['page']}__i{posting['paragraph_idx']}"
             tf  = posting.get("tf", 1)
-            # TF-IDF contribution
-            scores[key]["score"]   += (1 + math.log(tf)) * idf if tf > 0 else idf
+            
+            # Estimate paragraph length (use word count from snippet or default)
+            snippet_words = len(posting.get("snippet", "").split())
+            para_len = max(snippet_words, 20)  # Minimum estimate
+            
+            # BM25 score contribution
+            bm25_contrib = _bm25_score(tf, para_len, avg_doc_len, idf)
+            
+            scores[key]["score"]   += bm25_contrib
             scores[key]["tf_sum"]  += tf
+            scores[key]["doc_len"]  = para_len
             scores[key]["doc_id"]   = posting["doc_id"]
             scores[key]["doc_name"] = posting["doc_name"]
             scores[key]["page"]     = posting["page"]
@@ -283,7 +325,7 @@ def search_documents(query: str, top_k: int = 20) -> list[dict[str, Any]]:
             "page":            item["page"],
             "paragraph_idx":   item["paragraph_idx"],
             "snippet":         snippet,
-            "relevance_score": norm_score,  # clean [0,1] cosine-style score
+            "relevance_score": norm_score,  # normalized BM25 score [0,1]
             "raw_score":       round(item["score"], 4),
             "matched_terms":   [t for t in set(item["hits"]) if "_" not in t],
             "matched_bigrams": [t.replace("_", " ") for t in set(item["hits"]) if "_" in t],

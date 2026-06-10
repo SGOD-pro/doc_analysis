@@ -67,6 +67,7 @@ def get_platform_analytics() -> dict[str, Any]:
     # ── Entity stats ──────────────────────────────────────────────────
     total_entities = 0
     entity_type_counter: Counter = Counter()
+    entity_confidences: list[float] = []
 
     # Collectors for each display type
     collected: dict[str, list[dict]] = defaultdict(list)
@@ -83,9 +84,19 @@ def get_platform_analytics() -> dict[str, Any]:
             for t in ("ORG", "PERSON", "GPE", "LOC", "PRODUCT",
                       "MODEL", "METRIC", "BENCHMARK", "DATASET",
                       "JOURNAL", "VENUE", "EVENT", "WORK_OF_ART"):
-                collected[t].extend(by_type.get(t, [])[:8])
+                entities = by_type.get(t, [])[:8]
+                collected[t].extend(entities)
+                # Collect confidence scores
+                for ent in entities:
+                    if "confidence" in ent:
+                        entity_confidences.append(ent["confidence"])
         except Exception:
             pass
+
+    avg_entity_confidence = (
+        round(sum(entity_confidences) / len(entity_confidences), 3)
+        if entity_confidences else 0.0
+    )
 
     # ── Topic stats ───────────────────────────────────────────────────
     total_topics = 0
@@ -114,6 +125,8 @@ def get_platform_analytics() -> dict[str, Any]:
     total_edges = 0
     graph_density_vals = []
     most_connected_entities = []
+    relation_counts: Counter = Counter()
+    graph_quality_scores: list[float] = []
 
     for gf in GRAPHS_DIR.glob("*_graph.json"):
         try:
@@ -127,12 +140,35 @@ def get_platform_analytics() -> dict[str, Any]:
             mc = a.get("most_connected_entity", "")
             if mc:
                 most_connected_entities.append(mc)
+            
+            # Collect relation counts
+            edges = gd.get("edges", [])
+            for edge in edges:
+                rel = edge.get("relation", edge.get("type", ""))
+                if rel:
+                    relation_counts[rel] += 1
+            
+            # Calculate graph quality score (based on density and connectivity)
+            density = a.get("density", 0.0)
+            nodes = a.get("total_nodes", 0)
+            edges_count = a.get("total_edges", 0)
+            # Quality = density * log(1 + avg_degree), capped at 1.0
+            if nodes > 1:
+                avg_degree = 2 * edges_count / nodes
+                import math
+                quality = min(1.0, density * math.log(1 + avg_degree))
+                graph_quality_scores.append(round(quality, 3))
         except Exception:
             pass
 
     avg_density = (
         round(sum(graph_density_vals) / len(graph_density_vals), 5)
         if graph_density_vals else 0.0
+    )
+    
+    avg_graph_quality = (
+        round(sum(graph_quality_scores) / len(graph_quality_scores), 3)
+        if graph_quality_scores else 0.0
     )
 
     # ── Build response ────────────────────────────────────────────────
