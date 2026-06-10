@@ -1,0 +1,609 @@
+{
+  "doc_id": "test_medical",
+  "document_name": "Clinical Trial Report",
+  "total_topics": 2,
+  "method_used": "LDA",
+  "topics": [
+    {
+      "topic_id": 0,
+      "topic": "Outcomes Retrospective Versus Controls",
+      "keywords": [
+        "adverse",
+        "outcomes retrospective",
+        "versus controls",
+        "reported",
+        "patients",
+        "adverse events",
+        "versus",
+        "ct scan",
+        "patients versus",
+        "headache"
+      ],
+      "coherence": 0.1954,
+      "topic_weight": 0.5172,
+      "document_count": 5,
+      "method": "LDA"
+    },
+    {
+      "topic_id": 1,
+      "topic": "Placebo Group Count Normalization",
+      "keywords": [
+        "patients",
+        "placebo group",
+        "wbc",
+        "count normalization",
+        "achieved treatment",
+        "group",
+        "weeks",
+        "versus placebo",
+        "wbc count",
+        "arm"
+      ],
+      "coherence": 0.1758,
+      "topic_weight": 0.4255,
+      "document_count": 4,
+      "method": "LDA"
+    }
+  ],
+  "top_keywords": [
+    {
+      "keyword": "patients",
+      "count": 5
+    },
+    {
+      "keyword": "randomized",
+      "count": 2
+    },
+    {
+      "keyword": "reduction",
+      "count": 2
+    },
+    {
+      "keyword": "treatment",
+      "count": 2
+    },
+    {
+      "keyword": "versus",
+      "count": 2
+    },
+    {
+      "keyword": "glucose",
+      "count": 2
+    },
+    {
+      "keyword": "monitoring",
+      "count": 2
+    },
+    {
+      "keyword": "intervals",
+      "count": 2
+    },
+    {
+      "keyword": "weeks",
+      "count": 2
+    },
+    {
+      "keyword": "outcomes",
+      "count": 2
+    },
+    {
+      "keyword": "month",
+      "count": 2
+    },
+    {
+      "keyword": "hba1c",
+      "count": 1
+    },
+    {
+      "keyword": "glucose-lowering",
+      "count": 1
+    },
+    {
+      "keyword": "opoietin-stimulat",
+      "count": 1
+    },
+    {
+      "keyword": "follow-up",
+      "count": 1
+    },
+    {
+      "keyword": "quality-of",
+      "count": 1
+    },
+    {
+      "keyword": "ldl",
+      "count": 1
+    },
+    {
+      "keyword": "mri",
+      "count": 1
+    },
+    {
+      "keyword": "wbc",
+      "count": 1
+    },
+    {
+      "keyword": "rbc",
+      "count": 1
+    },
+    {
+      "keyword": "receive",
+      "count": 1
+    },
+    {
+      "keyword": "intensive",
+      "count": 1
+    },
+    {
+      "keyword": "therapy",
+      "count": 1
+    },
+    {
+      "keyword": "cholesterol",
+      "count": 1
+    },
+    {
+      "keyword": "achieved",
+      "count": 1
+    },
+    {
+      "keyword": "arm",
+      "count": 1
+    },
+    {
+      "keyword": "placebo",
+      "count": 1
+    },
+    {
+      "keyword": "group",
+      "count": 1
+    },
+    {
+      "keyword": "clinical",
+      "count": 1
+    },
+    {
+      "keyword": "trial",
+      "count": 1
+    }
+  ],
+  "page_trends": [
+    {
+      "page": 1,
+      "top_keywords": [
+        {
+          "keyword": "therapy",
+          "score": 0.4043
+        },
+        {
+          "keyword": "receive",
+          "score": 0.4043
+        },
+        {
+          "keyword": "intensive",
+          "score": 0.4043
+        },
+        {
+          "keyword": "hba1c",
+          "score": 0.4043
+        },
+        {
+          "keyword": "glucose-lowering",
+          "score": 0.4043
+        },
+        {
+          "keyword": "randomized",
+          "score": 0.3472
+        },
+        {
+          "keyword": "patients",
+          "score": 0.2496
+        }
+      ]
+    },
+    {
+      "page": 2,
+      "top_keywords": [
+        {
+          "keyword": "arm",
+          "score": 0.3489
+        },
+        {
+          "keyword": "group",
+          "score": 0.3489
+        },
+        {
+          "keyword": "ldl",
+          "score": 0.3489
+        },
+        {
+          "keyword": "placebo",
+          "score": 0.3489
+        },
+        {
+          "keyword": "cholesterol",
+          "score": 0.3489
+        },
+        {
+          "keyword": "achieved",
+          "score": 0.3489
+        },
+        {
+          "keyword": "versus",
+          "score": 0.2997
+        },
+        {
+          "keyword": "treatment",
+          "score": 0.2997
+        }
+      ]
+    },
+    {
+      "page": 3,
+      "top_keywords": [
+        {
+          "keyword": "trial",
+          "score": 0.3681
+        },
+        {
+          "keyword": "diabetes",
+          "score": 0.3681
+        },
+        {
+          "keyword": "clinical",
+          "score": 0.3681
+        },
+        {
+          "keyword": "medical",
+          "score": 0.3681
+        },
+        {
+          "keyword": "academic",
+          "score": 0.3681
+        },
+        {
+          "keyword": "centers",
+          "score": 0.3681
+        },
+        {
+          "keyword": "enrolled",
+          "score": 0.3681
+        },
+        {
+          "keyword": "patients",
+          "score": 0.2273
+        }
+      ]
+    },
+    {
+      "page": 4,
+      "top_keywords": [
+        {
+          "keyword": "revealed",
+          "score": 0.3312
+        },
+        {
+          "keyword": "receiving",
+          "score": 0.3312
+        },
+        {
+          "keyword": "significant",
+          "score": 0.3312
+        },
+        {
+          "keyword": "mri",
+          "score": 0.3312
+        },
+        {
+          "keyword": "intervention",
+          "score": 0.3312
+        },
+        {
+          "keyword": "hippocampal",
+          "score": 0.3312
+        },
+        {
+          "keyword": "imaging",
+          "score": 0.3312
+        },
+        {
+          "keyword": "atrophy",
+          "score": 0.3312
+        }
+      ]
+    },
+    {
+      "page": 5,
+      "top_keywords": [
+        {
+          "keyword": "glucose",
+          "score": 0.5396
+        },
+        {
+          "keyword": "monitoring",
+          "score": 0.5396
+        },
+        {
+          "keyword": "performed",
+          "score": 0.2698
+        },
+        {
+          "keyword": "minute",
+          "score": 0.2698
+        },
+        {
+          "keyword": "blood",
+          "score": 0.2698
+        },
+        {
+          "keyword": "devices",
+          "score": 0.2698
+        },
+        {
+          "keyword": "continuous",
+          "score": 0.2698
+        },
+        {
+          "keyword": "intervals",
+          "score": 0.2317
+        }
+      ]
+    },
+    {
+      "page": 6,
+      "top_keywords": [
+        {
+          "keyword": "treated",
+          "score": 0.351
+        },
+        {
+          "keyword": "reported",
+          "score": 0.351
+        },
+        {
+          "keyword": "headache",
+          "score": 0.351
+        },
+        {
+          "keyword": "nausea",
+          "score": 0.351
+        },
+        {
+          "keyword": "events",
+          "score": 0.351
+        },
+        {
+          "keyword": "controls",
+          "score": 0.351
+        },
+        {
+          "keyword": "adverse",
+          "score": 0.351
+        },
+        {
+          "keyword": "versus",
+          "score": 0.3014
+        }
+      ]
+    },
+    {
+      "page": 7,
+      "top_keywords": [
+        {
+          "keyword": "significantly",
+          "score": 0.3383
+        },
+        {
+          "keyword": "sensitivity",
+          "score": 0.3383
+        },
+        {
+          "keyword": "metformin",
+          "score": 0.3383
+        },
+        {
+          "keyword": "modification",
+          "score": 0.3383
+        },
+        {
+          "keyword": "lifestyle",
+          "score": 0.3383
+        },
+        {
+          "keyword": "insulin",
+          "score": 0.3383
+        },
+        {
+          "keyword": "combined",
+          "score": 0.3383
+        },
+        {
+          "keyword": "improved",
+          "score": 0.3383
+        }
+      ]
+    },
+    {
+      "page": 8,
+      "top_keywords": [
+        {
+          "keyword": "wbc",
+          "score": 0.351
+        },
+        {
+          "keyword": "responding",
+          "score": 0.351
+        },
+        {
+          "keyword": "occurred",
+          "score": 0.351
+        },
+        {
+          "keyword": "protocol",
+          "score": 0.351
+        },
+        {
+          "keyword": "immunotherapy",
+          "score": 0.351
+        },
+        {
+          "keyword": "normalization",
+          "score": 0.351
+        },
+        {
+          "keyword": "count",
+          "score": 0.351
+        },
+        {
+          "keyword": "weeks",
+          "score": 0.3014
+        }
+      ]
+    },
+    {
+      "page": 9,
+      "top_keywords": [
+        {
+          "keyword": "transfusion",
+          "score": 0.378
+        },
+        {
+          "keyword": "requirements",
+          "score": 0.378
+        },
+        {
+          "keyword": "rbc",
+          "score": 0.378
+        },
+        {
+          "keyword": "opoietin-stimulat",
+          "score": 0.378
+        },
+        {
+          "keyword": "decreased",
+          "score": 0.378
+        },
+        {
+          "keyword": "administration",
+          "score": 0.378
+        },
+        {
+          "keyword": "agent",
+          "score": 0.378
+        }
+      ]
+    },
+    {
+      "page": 10,
+      "top_keywords": [
+        {
+          "keyword": "surgical",
+          "score": 0.3595
+        },
+        {
+          "keyword": "scan",
+          "score": 0.3595
+        },
+        {
+          "keyword": "retrospective",
+          "score": 0.3595
+        },
+        {
+          "keyword": "cohort",
+          "score": 0.3595
+        },
+        {
+          "keyword": "findings",
+          "score": 0.3595
+        },
+        {
+          "keyword": "correlated",
+          "score": 0.3595
+        },
+        {
+          "keyword": "ct",
+          "score": 0.3595
+        },
+        {
+          "keyword": "outcomes",
+          "score": 0.3087
+        }
+      ]
+    },
+    {
+      "page": 11,
+      "top_keywords": [
+        {
+          "keyword": "trials",
+          "score": 0.3435
+        },
+        {
+          "keyword": "provide",
+          "score": 0.3435
+        },
+        {
+          "keyword": "efficacy",
+          "score": 0.3435
+        },
+        {
+          "keyword": "highest",
+          "score": 0.3435
+        },
+        {
+          "keyword": "evaluating",
+          "score": 0.3435
+        },
+        {
+          "keyword": "evidence",
+          "score": 0.3435
+        },
+        {
+          "keyword": "controlled",
+          "score": 0.3435
+        },
+        {
+          "keyword": "randomized",
+          "score": 0.295
+        }
+      ]
+    },
+    {
+      "page": 12,
+      "top_keywords": [
+        {
+          "keyword": "month",
+          "score": 0.5662
+        },
+        {
+          "keyword": "validated",
+          "score": 0.2831
+        },
+        {
+          "keyword": "quality-of",
+          "score": 0.2831
+        },
+        {
+          "keyword": "scales",
+          "score": 0.2831
+        },
+        {
+          "keyword": "follow-up",
+          "score": 0.2831
+        },
+        {
+          "keyword": "life",
+          "score": 0.2831
+        },
+        {
+          "keyword": "patient",
+          "score": 0.2831
+        },
+        {
+          "keyword": "assessed",
+          "score": 0.2831
+        }
+      ]
+    }
+  ],
+  "paragraphs_used": 5
+}

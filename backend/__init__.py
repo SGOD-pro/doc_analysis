@@ -1,1 +1,0 @@
-# Document Analytics Platform - Backend

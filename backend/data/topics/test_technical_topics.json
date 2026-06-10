@@ -1,0 +1,609 @@
+{
+  "doc_id": "test_technical",
+  "document_name": "API Architecture Guide",
+  "total_topics": 2,
+  "method_used": "NMF",
+  "topics": [
+    {
+      "topic_id": 1,
+      "topic": "User Product Resolvers Backed",
+      "keywords": [
+        "user product",
+        "resolvers backed",
+        "resolvers",
+        "schema defines",
+        "schema",
+        "graphql",
+        "graphql schema",
+        "order",
+        "order resolvers",
+        "defines"
+      ],
+      "coherence": 0.5899,
+      "topic_weight": 0.4873,
+      "document_count": 1,
+      "method": "NMF"
+    },
+    {
+      "topic_id": 0,
+      "topic": "User Identity Roles Expiration",
+      "keywords": [
+        "tokens",
+        "identity",
+        "time",
+        "user identity",
+        "roles",
+        "roles expiration",
+        "signed claims",
+        "signed",
+        "identity roles",
+        "jwt"
+      ],
+      "coherence": 0.3138,
+      "topic_weight": 0.4549,
+      "document_count": 2,
+      "method": "NMF"
+    }
+  ],
+  "top_keywords": [
+    {
+      "keyword": "api",
+      "count": 2
+    },
+    {
+      "keyword": "tokens",
+      "count": 2
+    },
+    {
+      "keyword": "identity",
+      "count": 2
+    },
+    {
+      "keyword": "user",
+      "count": 2
+    },
+    {
+      "keyword": "schema",
+      "count": 2
+    },
+    {
+      "keyword": "decouples",
+      "count": 2
+    },
+    {
+      "keyword": "service",
+      "count": 2
+    },
+    {
+      "keyword": "database",
+      "count": 2
+    },
+    {
+      "keyword": "tests",
+      "count": 2
+    },
+    {
+      "keyword": "ci/cd",
+      "count": 1
+    },
+    {
+      "keyword": "version-controll",
+      "count": 1
+    },
+    {
+      "keyword": "service-to",
+      "count": 1
+    },
+    {
+      "keyword": "rest",
+      "count": 1
+    },
+    {
+      "keyword": "jwt",
+      "count": 1
+    },
+    {
+      "keyword": "sla",
+      "count": 1
+    },
+    {
+      "keyword": "tls",
+      "count": 1
+    },
+    {
+      "keyword": "exposes",
+      "count": 1
+    },
+    {
+      "keyword": "endpoints",
+      "count": 1
+    },
+    {
+      "keyword": "secured",
+      "count": 1
+    },
+    {
+      "keyword": "oauth",
+      "count": 1
+    },
+    {
+      "keyword": "bearer",
+      "count": 1
+    },
+    {
+      "keyword": "issued",
+      "count": 1
+    },
+    {
+      "keyword": "provider",
+      "count": 1
+    },
+    {
+      "keyword": "signed",
+      "count": 1
+    },
+    {
+      "keyword": "claims",
+      "count": 1
+    },
+    {
+      "keyword": "roles",
+      "count": 1
+    },
+    {
+      "keyword": "expiration",
+      "count": 1
+    },
+    {
+      "keyword": "time",
+      "count": 1
+    },
+    {
+      "keyword": "docker",
+      "count": 1
+    },
+    {
+      "keyword": "containers",
+      "count": 1
+    }
+  ],
+  "page_trends": [
+    {
+      "page": 1,
+      "top_keywords": [
+        {
+          "keyword": "secured",
+          "score": 0.3129
+        },
+        {
+          "keyword": "rest",
+          "score": 0.3129
+        },
+        {
+          "keyword": "exposes",
+          "score": 0.3129
+        },
+        {
+          "keyword": "endpoints",
+          "score": 0.3129
+        },
+        {
+          "keyword": "bearer",
+          "score": 0.3129
+        },
+        {
+          "keyword": "issued",
+          "score": 0.3129
+        },
+        {
+          "keyword": "provider",
+          "score": 0.3129
+        },
+        {
+          "keyword": "oauth",
+          "score": 0.3129
+        }
+      ]
+    },
+    {
+      "page": 2,
+      "top_keywords": [
+        {
+          "keyword": "time",
+          "score": 0.3489
+        },
+        {
+          "keyword": "roles",
+          "score": 0.3489
+        },
+        {
+          "keyword": "signed",
+          "score": 0.3489
+        },
+        {
+          "keyword": "expiration",
+          "score": 0.3489
+        },
+        {
+          "keyword": "jwt",
+          "score": 0.3489
+        },
+        {
+          "keyword": "claims",
+          "score": 0.3489
+        },
+        {
+          "keyword": "identity",
+          "score": 0.2997
+        },
+        {
+          "keyword": "user",
+          "score": 0.2997
+        }
+      ]
+    },
+    {
+      "page": 3,
+      "top_keywords": [
+        {
+          "keyword": "rolling",
+          "score": 0.3333
+        },
+        {
+          "keyword": "scaling",
+          "score": 0.3333
+        },
+        {
+          "keyword": "containers",
+          "score": 0.3333
+        },
+        {
+          "keyword": "deployments",
+          "score": 0.3333
+        },
+        {
+          "keyword": "docker",
+          "score": 0.3333
+        },
+        {
+          "keyword": "enabling",
+          "score": 0.3333
+        },
+        {
+          "keyword": "horizontal",
+          "score": 0.3333
+        },
+        {
+          "keyword": "kubernetes",
+          "score": 0.3333
+        }
+      ]
+    },
+    {
+      "page": 4,
+      "top_keywords": [
+        {
+          "keyword": "resolvers",
+          "score": 0.3435
+        },
+        {
+          "keyword": "graphql",
+          "score": 0.3435
+        },
+        {
+          "keyword": "order",
+          "score": 0.3435
+        },
+        {
+          "keyword": "defines",
+          "score": 0.3435
+        },
+        {
+          "keyword": "backed",
+          "score": 0.3435
+        },
+        {
+          "keyword": "postgresql",
+          "score": 0.3435
+        },
+        {
+          "keyword": "product",
+          "score": 0.3435
+        },
+        {
+          "keyword": "schema",
+          "score": 0.295
+        }
+      ]
+    },
+    {
+      "page": 5,
+      "top_keywords": [
+        {
+          "keyword": "logic",
+          "score": 0.3658
+        },
+        {
+          "keyword": "authentication",
+          "score": 0.3658
+        },
+        {
+          "keyword": "layer",
+          "score": 0.3658
+        },
+        {
+          "keyword": "business",
+          "score": 0.3658
+        },
+        {
+          "keyword": "architecture",
+          "score": 0.3658
+        },
+        {
+          "keyword": "microservice",
+          "score": 0.3658
+        },
+        {
+          "keyword": "decouples",
+          "score": 0.3141
+        },
+        {
+          "keyword": "service",
+          "score": 0.3141
+        }
+      ]
+    },
+    {
+      "page": 6,
+      "top_keywords": [
+        {
+          "keyword": "reduces",
+          "score": 0.3383
+        },
+        {
+          "keyword": "records",
+          "score": 0.3383
+        },
+        {
+          "keyword": "redis",
+          "score": 0.3383
+        },
+        {
+          "keyword": "query",
+          "score": 0.3383
+        },
+        {
+          "keyword": "frequently",
+          "score": 0.3383
+        },
+        {
+          "keyword": "accessed",
+          "score": 0.3383
+        },
+        {
+          "keyword": "caching",
+          "score": 0.3383
+        },
+        {
+          "keyword": "latency",
+          "score": 0.3383
+        }
+      ]
+    },
+    {
+      "page": 7,
+      "top_keywords": [
+        {
+          "keyword": "tests",
+          "score": 0.5547
+        },
+        {
+          "keyword": "request",
+          "score": 0.2774
+        },
+        {
+          "keyword": "unit",
+          "score": 0.2774
+        },
+        {
+          "keyword": "security",
+          "score": 0.2774
+        },
+        {
+          "keyword": "scans",
+          "score": 0.2774
+        },
+        {
+          "keyword": "pull",
+          "score": 0.2774
+        },
+        {
+          "keyword": "ci/cd",
+          "score": 0.2774
+        },
+        {
+          "keyword": "integration",
+          "score": 0.2774
+        }
+      ]
+    },
+    {
+      "page": 8,
+      "top_keywords": [
+        {
+          "keyword": "terraform",
+          "score": 0.3536
+        },
+        {
+          "keyword": "reproducibly",
+          "score": 0.3536
+        },
+        {
+          "keyword": "provisions",
+          "score": 0.3536
+        },
+        {
+          "keyword": "resources",
+          "score": 0.3536
+        },
+        {
+          "keyword": "infrastructure",
+          "score": 0.3536
+        },
+        {
+          "keyword": "environments",
+          "score": 0.3536
+        },
+        {
+          "keyword": "code",
+          "score": 0.3536
+        },
+        {
+          "keyword": "cloud",
+          "score": 0.3536
+        }
+      ]
+    },
+    {
+      "page": 9,
+      "top_keywords": [
+        {
+          "keyword": "queue",
+          "score": 0.3383
+        },
+        {
+          "keyword": "event",
+          "score": 0.3383
+        },
+        {
+          "keyword": "downstream",
+          "score": 0.3383
+        },
+        {
+          "keyword": "consumers",
+          "score": 0.3383
+        },
+        {
+          "keyword": "apache",
+          "score": 0.3383
+        },
+        {
+          "keyword": "message",
+          "score": 0.3383
+        },
+        {
+          "keyword": "kafka",
+          "score": 0.3383
+        },
+        {
+          "keyword": "producers",
+          "score": 0.3383
+        }
+      ]
+    },
+    {
+      "page": 10,
+      "top_keywords": [
+        {
+          "keyword": "zones",
+          "score": 0.3383
+        },
+        {
+          "keyword": "uptime",
+          "score": 0.3383
+        },
+        {
+          "keyword": "sla",
+          "score": 0.3383
+        },
+        {
+          "keyword": "load",
+          "score": 0.3383
+        },
+        {
+          "keyword": "balancing",
+          "score": 0.3383
+        },
+        {
+          "keyword": "ensures",
+          "score": 0.3383
+        },
+        {
+          "keyword": "availability",
+          "score": 0.3383
+        },
+        {
+          "keyword": "production",
+          "score": 0.3383
+        }
+      ]
+    },
+    {
+      "page": 11,
+      "top_keywords": [
+        {
+          "keyword": "version-controll",
+          "score": 0.393
+        },
+        {
+          "keyword": "flyway",
+          "score": 0.393
+        },
+        {
+          "keyword": "files",
+          "score": 0.393
+        },
+        {
+          "keyword": "migrations",
+          "score": 0.393
+        },
+        {
+          "keyword": "managed",
+          "score": 0.393
+        },
+        {
+          "keyword": "schema",
+          "score": 0.3375
+        },
+        {
+          "keyword": "database",
+          "score": 0.3375
+        }
+      ]
+    },
+    {
+      "page": 12,
+      "top_keywords": [
+        {
+          "keyword": "tls",
+          "score": 0.3853
+        },
+        {
+          "keyword": "service-to",
+          "score": 0.3853
+        },
+        {
+          "keyword": "communication",
+          "score": 0.3853
+        },
+        {
+          "keyword": "internal",
+          "score": 0.3853
+        },
+        {
+          "keyword": "network",
+          "score": 0.3853
+        },
+        {
+          "keyword": "enforced",
+          "score": 0.3853
+        },
+        {
+          "keyword": "service",
+          "score": 0.3309
+        }
+      ]
+    }
+  ],
+  "paragraphs_used": 3
+}

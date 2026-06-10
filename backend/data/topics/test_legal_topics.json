@@ -1,0 +1,568 @@
+{
+  "doc_id": "test_legal",
+  "document_name": "Software License Agreement",
+  "total_topics": 2,
+  "method_used": "LDA",
+  "topics": [
+    {
+      "topic_id": 1,
+      "topic": "Effective Date Written Notice",
+      "keywords": [
+        "months",
+        "effective date",
+        "licensor",
+        "written notice",
+        "party engaging",
+        "representations",
+        "business activities",
+        "engaging",
+        "activities",
+        "competing business"
+      ],
+      "coherence": 0.1586,
+      "topic_weight": 0.2952,
+      "document_count": 3,
+      "method": "LDA"
+    },
+    {
+      "topic_id": 0,
+      "topic": "Property Rights Forth Indemnification",
+      "keywords": [
+        "shall",
+        "law",
+        "property rights",
+        "indemnification",
+        "client",
+        "forth indemnification",
+        "forth",
+        "delaware excluding",
+        "laws",
+        "contract"
+      ],
+      "coherence": 0.1581,
+      "topic_weight": 0.2949,
+      "document_count": 3,
+      "method": "LDA"
+    }
+  ],
+  "top_keywords": [
+    {
+      "keyword": "agreement",
+      "count": 3
+    },
+    {
+      "keyword": "obligations",
+      "count": 3
+    },
+    {
+      "keyword": "shall",
+      "count": 3
+    },
+    {
+      "keyword": "arbitration",
+      "count": 3
+    },
+    {
+      "keyword": "party",
+      "count": 2
+    },
+    {
+      "keyword": "law",
+      "count": 2
+    },
+    {
+      "keyword": "contract",
+      "count": 2
+    },
+    {
+      "keyword": "survive",
+      "count": 2
+    },
+    {
+      "keyword": "months",
+      "count": 2
+    },
+    {
+      "keyword": "breach",
+      "count": 2
+    },
+    {
+      "keyword": "article 12",
+      "count": 1
+    },
+    {
+      "keyword": "section 15",
+      "count": 1
+    },
+    {
+      "keyword": "clause 4",
+      "count": 1
+    },
+    {
+      "keyword": "non-compete",
+      "count": 1
+    },
+    {
+      "keyword": "sets",
+      "count": 1
+    },
+    {
+      "keyword": "forth",
+      "count": 1
+    },
+    {
+      "keyword": "indemnification",
+      "count": 1
+    },
+    {
+      "keyword": "licensor",
+      "count": 1
+    },
+    {
+      "keyword": "provide",
+      "count": 1
+    },
+    {
+      "keyword": "days",
+      "count": 1
+    },
+    {
+      "keyword": "written",
+      "count": 1
+    },
+    {
+      "keyword": "notice",
+      "count": 1
+    },
+    {
+      "keyword": "terminating",
+      "count": 1
+    },
+    {
+      "keyword": "license",
+      "count": 1
+    },
+    {
+      "keyword": "grant",
+      "count": 1
+    },
+    {
+      "keyword": "governing",
+      "count": 1
+    },
+    {
+      "keyword": "laws",
+      "count": 1
+    },
+    {
+      "keyword": "state",
+      "count": 1
+    },
+    {
+      "keyword": "delaware",
+      "count": 1
+    },
+    {
+      "keyword": "excluding",
+      "count": 1
+    }
+  ],
+  "page_trends": [
+    {
+      "page": 1,
+      "top_keywords": [
+        {
+          "keyword": "sets",
+          "score": 0.3818
+        },
+        {
+          "keyword": "12",
+          "score": 0.3818
+        },
+        {
+          "keyword": "forth",
+          "score": 0.3818
+        },
+        {
+          "keyword": "indemnification",
+          "score": 0.3818
+        },
+        {
+          "keyword": "article",
+          "score": 0.3818
+        },
+        {
+          "keyword": "party",
+          "score": 0.3263
+        },
+        {
+          "keyword": "agreement",
+          "score": 0.287
+        },
+        {
+          "keyword": "obligations",
+          "score": 0.287
+        }
+      ]
+    },
+    {
+      "page": 2,
+      "top_keywords": [
+        {
+          "keyword": "written",
+          "score": 0.3333
+        },
+        {
+          "keyword": "terminating",
+          "score": 0.3333
+        },
+        {
+          "keyword": "notice",
+          "score": 0.3333
+        },
+        {
+          "keyword": "provide",
+          "score": 0.3333
+        },
+        {
+          "keyword": "license",
+          "score": 0.3333
+        },
+        {
+          "keyword": "15",
+          "score": 0.3333
+        },
+        {
+          "keyword": "days",
+          "score": 0.3333
+        },
+        {
+          "keyword": "grant",
+          "score": 0.3333
+        }
+      ]
+    },
+    {
+      "page": 3,
+      "top_keywords": [
+        {
+          "keyword": "law",
+          "score": 0.5704
+        },
+        {
+          "keyword": "rules",
+          "score": 0.2852
+        },
+        {
+          "keyword": "excluding",
+          "score": 0.2852
+        },
+        {
+          "keyword": "state",
+          "score": 0.2852
+        },
+        {
+          "keyword": "governing",
+          "score": 0.2852
+        },
+        {
+          "keyword": "laws",
+          "score": 0.2852
+        },
+        {
+          "keyword": "delaware",
+          "score": 0.2852
+        },
+        {
+          "keyword": "conflict",
+          "score": 0.2852
+        }
+      ]
+    },
+    {
+      "page": 4,
+      "top_keywords": [
+        {
+          "keyword": "vest",
+          "score": 0.3417
+        },
+        {
+          "keyword": "rights",
+          "score": 0.3417
+        },
+        {
+          "keyword": "payment",
+          "score": 0.3417
+        },
+        {
+          "keyword": "property",
+          "score": 0.3417
+        },
+        {
+          "keyword": "intellectual",
+          "score": 0.3417
+        },
+        {
+          "keyword": "exclusively",
+          "score": 0.3417
+        },
+        {
+          "keyword": "deliverables",
+          "score": 0.3417
+        },
+        {
+          "keyword": "client",
+          "score": 0.3417
+        }
+      ]
+    },
+    {
+      "page": 5,
+      "top_keywords": [
+        {
+          "keyword": "arbitration",
+          "score": 0.7071
+        },
+        {
+          "keyword": "clause",
+          "score": 0.4714
+        },
+        {
+          "keyword": "association",
+          "score": 0.2357
+        },
+        {
+          "keyword": "mandates",
+          "score": 0.2357
+        },
+        {
+          "keyword": "4",
+          "score": 0.2357
+        },
+        {
+          "keyword": "american",
+          "score": 0.2357
+        },
+        {
+          "keyword": "binding",
+          "score": 0.2357
+        }
+      ]
+    },
+    {
+      "page": 6,
+      "top_keywords": [
+        {
+          "keyword": "events",
+          "score": 0.3309
+        },
+        {
+          "keyword": "majeure",
+          "score": 0.3309
+        },
+        {
+          "keyword": "performance",
+          "score": 0.3309
+        },
+        {
+          "keyword": "qualifying",
+          "score": 0.3309
+        },
+        {
+          "keyword": "duration",
+          "score": 0.3309
+        },
+        {
+          "keyword": "event",
+          "score": 0.3309
+        },
+        {
+          "keyword": "excuse",
+          "score": 0.3309
+        },
+        {
+          "keyword": "force",
+          "score": 0.3309
+        }
+      ]
+    },
+    {
+      "page": 7,
+      "top_keywords": [
+        {
+          "keyword": "years",
+          "score": 0.4131
+        },
+        {
+          "keyword": "termination",
+          "score": 0.4131
+        },
+        {
+          "keyword": "confidentiality",
+          "score": 0.4131
+        },
+        {
+          "keyword": "period",
+          "score": 0.4131
+        },
+        {
+          "keyword": "survive",
+          "score": 0.3531
+        },
+        {
+          "keyword": "agreement",
+          "score": 0.3105
+        },
+        {
+          "keyword": "obligations",
+          "score": 0.3105
+        }
+      ]
+    },
+    {
+      "page": 8,
+      "top_keywords": [
+        {
+          "keyword": "review",
+          "score": 0.3333
+        },
+        {
+          "keyword": "revealed",
+          "score": 0.3333
+        },
+        {
+          "keyword": "statements",
+          "score": 0.3333
+        },
+        {
+          "keyword": "target",
+          "score": 0.3333
+        },
+        {
+          "keyword": "diligence",
+          "score": 0.3333
+        },
+        {
+          "keyword": "financial",
+          "score": 0.3333
+        },
+        {
+          "keyword": "misrepresentations",
+          "score": 0.3333
+        },
+        {
+          "keyword": "company",
+          "score": 0.3333
+        }
+      ]
+    },
+    {
+      "page": 9,
+      "top_keywords": [
+        {
+          "keyword": "restricts",
+          "score": 0.3438
+        },
+        {
+          "keyword": "covenant",
+          "score": 0.3438
+        },
+        {
+          "keyword": "engaging",
+          "score": 0.3438
+        },
+        {
+          "keyword": "non-compete",
+          "score": 0.3438
+        },
+        {
+          "keyword": "competing",
+          "score": 0.3438
+        },
+        {
+          "keyword": "business",
+          "score": 0.3438
+        },
+        {
+          "keyword": "activities",
+          "score": 0.3438
+        },
+        {
+          "keyword": "months",
+          "score": 0.2939
+        }
+      ]
+    },
+    {
+      "page": 10,
+      "top_keywords": [
+        {
+          "keyword": "breach",
+          "score": 0.5951
+        },
+        {
+          "keyword": "require",
+          "score": 0.2975
+        },
+        {
+          "keyword": "damages",
+          "score": 0.2975
+        },
+        {
+          "keyword": "valid",
+          "score": 0.2975
+        },
+        {
+          "keyword": "causation",
+          "score": 0.2975
+        },
+        {
+          "keyword": "demonstration",
+          "score": 0.2975
+        },
+        {
+          "keyword": "claims",
+          "score": 0.2975
+        },
+        {
+          "keyword": "contract",
+          "score": 0.2543
+        }
+      ]
+    },
+    {
+      "page": 11,
+      "top_keywords": [
+        {
+          "keyword": "warranties",
+          "score": 0.3934
+        },
+        {
+          "keyword": "representations",
+          "score": 0.3934
+        },
+        {
+          "keyword": "closing",
+          "score": 0.3934
+        },
+        {
+          "keyword": "date",
+          "score": 0.3934
+        },
+        {
+          "keyword": "effective",
+          "score": 0.3934
+        },
+        {
+          "keyword": "months",
+          "score": 0.3363
+        },
+        {
+          "keyword": "survive",
+          "score": 0.3363
+        }
+      ]
+    }
+  ],
+  "paragraphs_used": 6
+}

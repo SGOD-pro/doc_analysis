@@ -1,0 +1,613 @@
+{
+  "doc_id": "test_finance",
+  "document_name": "Q3 2023 Earnings Report",
+  "total_topics": 2,
+  "method_used": "LDA",
+  "topics": [
+    {
+      "topic_id": 1,
+      "topic": "Revenue Growth Points Year",
+      "keywords": [
+        "improved",
+        "segment",
+        "debt",
+        "revenue growth",
+        "points year",
+        "primarily",
+        "company margin",
+        "rates",
+        "share reflecting",
+        "repayment"
+      ],
+      "coherence": 0.1114,
+      "topic_weight": 0.3168,
+      "document_count": 5,
+      "method": "LDA"
+    },
+    {
+      "topic_id": 0,
+      "topic": "Years Exceeding Expenditures Averaged",
+      "keywords": [
+        "rate",
+        "years exceeding",
+        "expenditures averaged",
+        "averaged",
+        "capital",
+        "relative",
+        "p/e",
+        "hurdle rate",
+        "ratio reflects",
+        "portfolio decline"
+      ],
+      "coherence": 0.1217,
+      "topic_weight": 0.223,
+      "document_count": 3,
+      "method": "LDA"
+    }
+  ],
+  "top_keywords": [
+    {
+      "keyword": "share",
+      "count": 3
+    },
+    {
+      "keyword": "rate",
+      "count": 3
+    },
+    {
+      "keyword": "improved",
+      "count": 2
+    },
+    {
+      "keyword": "segment",
+      "count": 2
+    },
+    {
+      "keyword": "capital",
+      "count": 2
+    },
+    {
+      "keyword": "increase",
+      "count": 2
+    },
+    {
+      "keyword": "risk",
+      "count": 2
+    },
+    {
+      "keyword": "portfolio",
+      "count": 2
+    },
+    {
+      "keyword": "forward",
+      "count": 2
+    },
+    {
+      "keyword": "earnings",
+      "count": 2
+    },
+    {
+      "keyword": "debt",
+      "count": 2
+    },
+    {
+      "keyword": "year-over",
+      "count": 1
+    },
+    {
+      "keyword": "vestment-grade",
+      "count": 1
+    },
+    {
+      "keyword": "p/e",
+      "count": 1
+    },
+    {
+      "keyword": "ebitda",
+      "count": 1
+    },
+    {
+      "keyword": "roi",
+      "count": 1
+    },
+    {
+      "keyword": "company",
+      "count": 1
+    },
+    {
+      "keyword": "margin",
+      "count": 1
+    },
+    {
+      "keyword": "percentage",
+      "count": 1
+    },
+    {
+      "keyword": "points",
+      "count": 1
+    },
+    {
+      "keyword": "year",
+      "count": 1
+    },
+    {
+      "keyword": "reaching",
+      "count": 1
+    },
+    {
+      "keyword": "revenue",
+      "count": 1
+    },
+    {
+      "keyword": "growth",
+      "count": 1
+    },
+    {
+      "keyword": "driven",
+      "count": 1
+    },
+    {
+      "keyword": "primarily",
+      "count": 1
+    },
+    {
+      "keyword": "strong",
+      "count": 1
+    },
+    {
+      "keyword": "enterprise",
+      "count": 1
+    },
+    {
+      "keyword": "software",
+      "count": 1
+    },
+    {
+      "keyword": "operating",
+      "count": 1
+    }
+  ],
+  "page_trends": [
+    {
+      "page": 1,
+      "top_keywords": [
+        {
+          "keyword": "year-over",
+          "score": 0.3383
+        },
+        {
+          "keyword": "points",
+          "score": 0.3383
+        },
+        {
+          "keyword": "year",
+          "score": 0.3383
+        },
+        {
+          "keyword": "reaching",
+          "score": 0.3383
+        },
+        {
+          "keyword": "percentage",
+          "score": 0.3383
+        },
+        {
+          "keyword": "company",
+          "score": 0.3383
+        },
+        {
+          "keyword": "ebitda",
+          "score": 0.3383
+        },
+        {
+          "keyword": "margin",
+          "score": 0.3383
+        }
+      ]
+    },
+    {
+      "page": 2,
+      "top_keywords": [
+        {
+          "keyword": "strong",
+          "score": 0.3383
+        },
+        {
+          "keyword": "primarily",
+          "score": 0.3383
+        },
+        {
+          "keyword": "software",
+          "score": 0.3383
+        },
+        {
+          "keyword": "revenue",
+          "score": 0.3383
+        },
+        {
+          "keyword": "performance",
+          "score": 0.3383
+        },
+        {
+          "keyword": "growth",
+          "score": 0.3383
+        },
+        {
+          "keyword": "driven",
+          "score": 0.3383
+        },
+        {
+          "keyword": "enterprise",
+          "score": 0.3383
+        }
+      ]
+    },
+    {
+      "page": 3,
+      "top_keywords": [
+        {
+          "keyword": "supporting",
+          "score": 0.3114
+        },
+        {
+          "keyword": "continued",
+          "score": 0.3114
+        },
+        {
+          "keyword": "billion",
+          "score": 0.3114
+        },
+        {
+          "keyword": "buybacks",
+          "score": 0.3114
+        },
+        {
+          "keyword": "cash",
+          "score": 0.3114
+        },
+        {
+          "keyword": "allocation",
+          "score": 0.3114
+        },
+        {
+          "keyword": "flow",
+          "score": 0.3114
+        },
+        {
+          "keyword": "increased",
+          "score": 0.3114
+        }
+      ]
+    },
+    {
+      "page": 4,
+      "top_keywords": [
+        {
+          "keyword": "sheet",
+          "score": 0.3277
+        },
+        {
+          "keyword": "reflecting",
+          "score": 0.3277
+        },
+        {
+          "keyword": "approved",
+          "score": 0.3277
+        },
+        {
+          "keyword": "dividend",
+          "score": 0.3277
+        },
+        {
+          "keyword": "confidence",
+          "score": 0.3277
+        },
+        {
+          "keyword": "balance",
+          "score": 0.3277
+        },
+        {
+          "keyword": "cents",
+          "score": 0.3277
+        },
+        {
+          "keyword": "board",
+          "score": 0.3277
+        }
+      ]
+    },
+    {
+      "page": 5,
+      "top_keywords": [
+        {
+          "keyword": "vestment-grade",
+          "score": 0.3435
+        },
+        {
+          "keyword": "reduced",
+          "score": 0.3435
+        },
+        {
+          "keyword": "credit",
+          "score": 0.3435
+        },
+        {
+          "keyword": "corporate",
+          "score": 0.3435
+        },
+        {
+          "keyword": "bonds",
+          "score": 0.3435
+        },
+        {
+          "keyword": "diversification",
+          "score": 0.3435
+        },
+        {
+          "keyword": "exposure",
+          "score": 0.3435
+        },
+        {
+          "keyword": "risk",
+          "score": 0.295
+        }
+      ]
+    },
+    {
+      "page": 6,
+      "top_keywords": [
+        {
+          "keyword": "sensitivity",
+          "score": 0.3766
+        },
+        {
+          "keyword": "point",
+          "score": 0.3766
+        },
+        {
+          "keyword": "decline",
+          "score": 0.3766
+        },
+        {
+          "keyword": "basis",
+          "score": 0.3766
+        },
+        {
+          "keyword": "analysis",
+          "score": 0.3766
+        },
+        {
+          "keyword": "increase",
+          "score": 0.3234
+        },
+        {
+          "keyword": "portfolio",
+          "score": 0.3234
+        },
+        {
+          "keyword": "rate",
+          "score": 0.2857
+        }
+      ]
+    },
+    {
+      "page": 7,
+      "top_keywords": [
+        {
+          "keyword": "rates",
+          "score": 0.3383
+        },
+        {
+          "keyword": "remained",
+          "score": 0.3383
+        },
+        {
+          "keyword": "lending",
+          "score": 0.3383
+        },
+        {
+          "keyword": "default",
+          "score": 0.3383
+        },
+        {
+          "keyword": "consumer",
+          "score": 0.3383
+        },
+        {
+          "keyword": "historical",
+          "score": 0.3383
+        },
+        {
+          "keyword": "norms",
+          "score": 0.3383
+        },
+        {
+          "keyword": "loan",
+          "score": 0.3383
+        }
+      ]
+    },
+    {
+      "page": 8,
+      "top_keywords": [
+        {
+          "keyword": "valuation",
+          "score": 0.3249
+        },
+        {
+          "keyword": "premium",
+          "score": 0.3249
+        },
+        {
+          "keyword": "ratio",
+          "score": 0.3249
+        },
+        {
+          "keyword": "reflects",
+          "score": 0.3249
+        },
+        {
+          "keyword": "relative",
+          "score": 0.3249
+        },
+        {
+          "keyword": "p/e",
+          "score": 0.3249
+        },
+        {
+          "keyword": "industry",
+          "score": 0.3249
+        },
+        {
+          "keyword": "peers",
+          "score": 0.3249
+        }
+      ]
+    },
+    {
+      "page": 9,
+      "top_keywords": [
+        {
+          "keyword": "years",
+          "score": 0.3277
+        },
+        {
+          "keyword": "roi",
+          "score": 0.3277
+        },
+        {
+          "keyword": "fiscal",
+          "score": 0.3277
+        },
+        {
+          "keyword": "averaged",
+          "score": 0.3277
+        },
+        {
+          "keyword": "expenditures",
+          "score": 0.3277
+        },
+        {
+          "keyword": "hurdle",
+          "score": 0.3277
+        },
+        {
+          "keyword": "past",
+          "score": 0.3277
+        },
+        {
+          "keyword": "exceeding",
+          "score": 0.3277
+        }
+      ]
+    },
+    {
+      "page": 10,
+      "top_keywords": [
+        {
+          "keyword": "debt",
+          "score": 0.6103
+        },
+        {
+          "keyword": "ratios",
+          "score": 0.3052
+        },
+        {
+          "keyword": "disciplined",
+          "score": 0.3052
+        },
+        {
+          "keyword": "net",
+          "score": 0.3052
+        },
+        {
+          "keyword": "declined",
+          "score": 0.3052
+        },
+        {
+          "keyword": "leverage",
+          "score": 0.3052
+        },
+        {
+          "keyword": "repayment",
+          "score": 0.3052
+        },
+        {
+          "keyword": "improved",
+          "score": 0.2621
+        }
+      ]
+    },
+    {
+      "page": 11,
+      "top_keywords": [
+        {
+          "keyword": "swaps",
+          "score": 0.3524
+        },
+        {
+          "keyword": "contracts",
+          "score": 0.3524
+        },
+        {
+          "keyword": "foreign",
+          "score": 0.3524
+        },
+        {
+          "keyword": "hedged",
+          "score": 0.3524
+        },
+        {
+          "keyword": "currency",
+          "score": 0.3524
+        },
+        {
+          "keyword": "market",
+          "score": 0.3524
+        },
+        {
+          "keyword": "risk",
+          "score": 0.3027
+        },
+        {
+          "keyword": "forward",
+          "score": 0.3027
+        }
+      ]
+    },
+    {
+      "page": 12,
+      "top_keywords": [
+        {
+          "keyword": "exceeded",
+          "score": 0.398
+        },
+        {
+          "keyword": "consensus",
+          "score": 0.398
+        },
+        {
+          "keyword": "analyst",
+          "score": 0.398
+        },
+        {
+          "keyword": "estimates",
+          "score": 0.398
+        },
+        {
+          "keyword": "approximately",
+          "score": 0.398
+        },
+        {
+          "keyword": "earnings",
+          "score": 0.3418
+        },
+        {
+          "keyword": "share",
+          "score": 0.3019
+        }
+      ]
+    }
+  ],
+  "paragraphs_used": 8
+}

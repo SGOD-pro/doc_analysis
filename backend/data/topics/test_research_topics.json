@@ -1,0 +1,716 @@
+{
+  "doc_id": "test_research",
+  "document_name": "Attention Is All You Need",
+  "total_topics": 3,
+  "method_used": "LDA",
+  "topics": [
+    {
+      "topic_id": 2,
+      "topic": "Sequence Output",
+      "keywords": [
+        "sequence",
+        "output",
+        "encoder",
+        "decoder",
+        "score",
+        "dataset",
+        "model",
+        "input",
+        "bleu",
+        "sub-layer sub-layer"
+      ],
+      "coherence": 0.8458,
+      "topic_weight": 0.8675,
+      "document_count": 9,
+      "method": "LDA"
+    },
+    {
+      "topic_id": 1,
+      "topic": "Training Steps",
+      "keywords": [
+        "training",
+        "steps",
+        "models",
+        "score",
+        "wmt",
+        "bleu",
+        "model",
+        "sub-layer sub-layer",
+        "input",
+        "output"
+      ],
+      "coherence": 0.8231,
+      "topic_weight": 0.8539,
+      "document_count": 9,
+      "method": "LDA"
+    },
+    {
+      "topic_id": 0,
+      "topic": "Sub-layer Sub-layer Layer",
+      "keywords": [
+        "sub-layer",
+        "layer",
+        "sub-layer sub-layer",
+        "input",
+        "output",
+        "models",
+        "dataset",
+        "wmt",
+        "decoder",
+        "bleu"
+      ],
+      "coherence": 0.8541,
+      "topic_weight": 0.8325,
+      "document_count": 8,
+      "method": "LDA"
+    }
+  ],
+  "top_keywords": [
+    {
+      "keyword": "sub-layer",
+      "count": 4
+    },
+    {
+      "keyword": "output",
+      "count": 4
+    },
+    {
+      "keyword": "attend",
+      "count": 3
+    },
+    {
+      "keyword": "encoder",
+      "count": 3
+    },
+    {
+      "keyword": "sequence",
+      "count": 3
+    },
+    {
+      "keyword": "decoder",
+      "count": 3
+    },
+    {
+      "keyword": "training",
+      "count": 3
+    },
+    {
+      "keyword": "self-attentio",
+      "count": 2
+    },
+    {
+      "keyword": "wmt",
+      "count": 2
+    },
+    {
+      "keyword": "bleu",
+      "count": 2
+    },
+    {
+      "keyword": "positions",
+      "count": 2
+    },
+    {
+      "keyword": "input",
+      "count": 2
+    },
+    {
+      "keyword": "representations",
+      "count": 2
+    },
+    {
+      "keyword": "steps",
+      "count": 2
+    },
+    {
+      "keyword": "score",
+      "count": 2
+    },
+    {
+      "keyword": "position",
+      "count": 2
+    },
+    {
+      "keyword": "information",
+      "count": 2
+    },
+    {
+      "keyword": "layer",
+      "count": 2
+    },
+    {
+      "keyword": "multi-head",
+      "count": 1
+    },
+    {
+      "keyword": "english-german",
+      "count": 1
+    },
+    {
+      "keyword": "state-of",
+      "count": 1
+    },
+    {
+      "keyword": "the-art",
+      "count": 1
+    },
+    {
+      "keyword": "feed-forward",
+      "count": 1
+    },
+    {
+      "keyword": "cross-attentio",
+      "count": 1
+    },
+    {
+      "keyword": "nvidia",
+      "count": 1
+    },
+    {
+      "keyword": "transformer",
+      "count": 1
+    },
+    {
+      "keyword": "architecture",
+      "count": 1
+    },
+    {
+      "keyword": "relies",
+      "count": 1
+    },
+    {
+      "keyword": "entirely",
+      "count": 1
+    },
+    {
+      "keyword": "attention",
+      "count": 1
+    }
+  ],
+  "page_trends": [
+    {
+      "page": 1,
+      "top_keywords": [
+        {
+          "keyword": "transformer",
+          "score": 0.3333
+        },
+        {
+          "keyword": "recurrence",
+          "score": 0.3333
+        },
+        {
+          "keyword": "relies",
+          "score": 0.3333
+        },
+        {
+          "keyword": "entirely",
+          "score": 0.3333
+        },
+        {
+          "keyword": "attention",
+          "score": 0.3333
+        },
+        {
+          "keyword": "architecture",
+          "score": 0.3333
+        },
+        {
+          "keyword": "dispensing",
+          "score": 0.3333
+        },
+        {
+          "keyword": "convolutions",
+          "score": 0.3333
+        }
+      ]
+    },
+    {
+      "page": 2,
+      "top_keywords": [
+        {
+          "keyword": "subspaces",
+          "score": 0.4225
+        },
+        {
+          "keyword": "representation",
+          "score": 0.4225
+        },
+        {
+          "keyword": "multi-head",
+          "score": 0.4225
+        },
+        {
+          "keyword": "positions",
+          "score": 0.3669
+        },
+        {
+          "keyword": "self-attentio",
+          "score": 0.3669
+        },
+        {
+          "keyword": "attend",
+          "score": 0.3274
+        },
+        {
+          "keyword": "model",
+          "score": 0.2968
+        }
+      ]
+    },
+    {
+      "page": 3,
+      "top_keywords": [
+        {
+          "keyword": "representations",
+          "score": 0.5931
+        },
+        {
+          "keyword": "sequence",
+          "score": 0.515
+        },
+        {
+          "keyword": "symbol",
+          "score": 0.2966
+        },
+        {
+          "keyword": "continuous",
+          "score": 0.2966
+        },
+        {
+          "keyword": "maps",
+          "score": 0.2966
+        },
+        {
+          "keyword": "input",
+          "score": 0.2575
+        },
+        {
+          "keyword": "encoder",
+          "score": 0.2298
+        }
+      ]
+    },
+    {
+      "page": 4,
+      "top_keywords": [
+        {
+          "keyword": "output",
+          "score": 0.5067
+        },
+        {
+          "keyword": "time",
+          "score": 0.3269
+        },
+        {
+          "keyword": "attending",
+          "score": 0.3269
+        },
+        {
+          "keyword": "generates",
+          "score": 0.3269
+        },
+        {
+          "keyword": "symbols",
+          "score": 0.3269
+        },
+        {
+          "keyword": "element",
+          "score": 0.3269
+        },
+        {
+          "keyword": "sequence",
+          "score": 0.2839
+        },
+        {
+          "keyword": "decoder",
+          "score": 0.2533
+        }
+      ]
+    },
+    {
+      "page": 5,
+      "top_keywords": [
+        {
+          "keyword": "train",
+          "score": 0.3479
+        },
+        {
+          "keyword": "sentence",
+          "score": 0.3479
+        },
+        {
+          "keyword": "consisting",
+          "score": 0.3479
+        },
+        {
+          "keyword": "million",
+          "score": 0.3479
+        },
+        {
+          "keyword": "pairs",
+          "score": 0.3479
+        },
+        {
+          "keyword": "english-german",
+          "score": 0.3479
+        },
+        {
+          "keyword": "wmt",
+          "score": 0.3021
+        },
+        {
+          "keyword": "dataset",
+          "score": 0.3021
+        }
+      ]
+    },
+    {
+      "page": 6,
+      "top_keywords": [
+        {
+          "keyword": "training",
+          "score": 0.5175
+        },
+        {
+          "keyword": "seconds",
+          "score": 0.298
+        },
+        {
+          "keyword": "totaling",
+          "score": 0.298
+        },
+        {
+          "keyword": "taking",
+          "score": 0.298
+        },
+        {
+          "keyword": "step",
+          "score": 0.298
+        },
+        {
+          "keyword": "gpus",
+          "score": 0.298
+        },
+        {
+          "keyword": "base",
+          "score": 0.298
+        },
+        {
+          "keyword": "nvidia",
+          "score": 0.298
+        }
+      ]
+    },
+    {
+      "page": 7,
+      "top_keywords": [
+        {
+          "keyword": "the-art",
+          "score": 0.333
+        },
+        {
+          "keyword": "state-of",
+          "score": 0.333
+        },
+        {
+          "keyword": "benchmark",
+          "score": 0.333
+        },
+        {
+          "keyword": "improvements",
+          "score": 0.333
+        },
+        {
+          "keyword": "points",
+          "score": 0.333
+        },
+        {
+          "keyword": "achieved",
+          "score": 0.333
+        },
+        {
+          "keyword": "wmt",
+          "score": 0.2892
+        },
+        {
+          "keyword": "score",
+          "score": 0.2892
+        }
+      ]
+    },
+    {
+      "page": 8,
+      "top_keywords": [
+        {
+          "keyword": "sine",
+          "score": 0.3535
+        },
+        {
+          "keyword": "encodings",
+          "score": 0.3535
+        },
+        {
+          "keyword": "inject",
+          "score": 0.3535
+        },
+        {
+          "keyword": "functions",
+          "score": 0.3535
+        },
+        {
+          "keyword": "cosine",
+          "score": 0.3535
+        },
+        {
+          "keyword": "positional",
+          "score": 0.3535
+        },
+        {
+          "keyword": "position",
+          "score": 0.307
+        },
+        {
+          "keyword": "information",
+          "score": 0.307
+        }
+      ]
+    },
+    {
+      "page": 9,
+      "top_keywords": [
+        {
+          "keyword": "sub-layer",
+          "score": 0.6675
+        },
+        {
+          "keyword": "residual",
+          "score": 0.3843
+        },
+        {
+          "keyword": "normalization",
+          "score": 0.3843
+        },
+        {
+          "keyword": "connections",
+          "score": 0.3843
+        },
+        {
+          "keyword": "layer",
+          "score": 0.3337
+        }
+      ]
+    },
+    {
+      "page": 10,
+      "top_keywords": [
+        {
+          "keyword": "transformations",
+          "score": 0.378
+        },
+        {
+          "keyword": "relu",
+          "score": 0.378
+        },
+        {
+          "keyword": "consist",
+          "score": 0.378
+        },
+        {
+          "keyword": "linear",
+          "score": 0.378
+        },
+        {
+          "keyword": "activation",
+          "score": 0.378
+        },
+        {
+          "keyword": "feed-forward",
+          "score": 0.378
+        },
+        {
+          "keyword": "networks",
+          "score": 0.378
+        }
+      ]
+    },
+    {
+      "page": 11,
+      "top_keywords": [
+        {
+          "keyword": "sub-layer",
+          "score": 0.6397
+        },
+        {
+          "keyword": "dropout",
+          "score": 0.3683
+        },
+        {
+          "keyword": "added",
+          "score": 0.3683
+        },
+        {
+          "keyword": "normalized",
+          "score": 0.3683
+        },
+        {
+          "keyword": "input",
+          "score": 0.3198
+        },
+        {
+          "keyword": "output",
+          "score": 0.2854
+        }
+      ]
+    },
+    {
+      "page": 12,
+      "top_keywords": [
+        {
+          "keyword": "mechanism",
+          "score": 0.4011
+        },
+        {
+          "keyword": "enables",
+          "score": 0.4011
+        },
+        {
+          "keyword": "layer",
+          "score": 0.3483
+        },
+        {
+          "keyword": "positions",
+          "score": 0.3483
+        },
+        {
+          "keyword": "position",
+          "score": 0.3483
+        },
+        {
+          "keyword": "self-attentio",
+          "score": 0.3483
+        },
+        {
+          "keyword": "decoder",
+          "score": 0.3108
+        },
+        {
+          "keyword": "attend",
+          "score": 0.3108
+        }
+      ]
+    },
+    {
+      "page": 13,
+      "top_keywords": [
+        {
+          "keyword": "integrating",
+          "score": 0.3502
+        },
+        {
+          "keyword": "cross-attentio",
+          "score": 0.3502
+        },
+        {
+          "keyword": "context",
+          "score": 0.3502
+        },
+        {
+          "keyword": "layers",
+          "score": 0.3502
+        },
+        {
+          "keyword": "allow",
+          "score": 0.3502
+        },
+        {
+          "keyword": "information",
+          "score": 0.3041
+        },
+        {
+          "keyword": "encoder",
+          "score": 0.2713
+        },
+        {
+          "keyword": "output",
+          "score": 0.2713
+        }
+      ]
+    },
+    {
+      "page": 14,
+      "top_keywords": [
+        {
+          "keyword": "warmup",
+          "score": 0.365
+        },
+        {
+          "keyword": "schedule",
+          "score": 0.365
+        },
+        {
+          "keyword": "rate",
+          "score": 0.365
+        },
+        {
+          "keyword": "learning",
+          "score": 0.365
+        },
+        {
+          "keyword": "optimizer",
+          "score": 0.365
+        },
+        {
+          "keyword": "adam",
+          "score": 0.365
+        },
+        {
+          "keyword": "steps",
+          "score": 0.3169
+        },
+        {
+          "keyword": "training",
+          "score": 0.3169
+        }
+      ]
+    },
+    {
+      "page": 15,
+      "top_keywords": [
+        {
+          "keyword": "translation",
+          "score": 0.3591
+        },
+        {
+          "keyword": "tokenized",
+          "score": 0.3591
+        },
+        {
+          "keyword": "evaluated",
+          "score": 0.3591
+        },
+        {
+          "keyword": "machine",
+          "score": 0.3591
+        },
+        {
+          "keyword": "performance",
+          "score": 0.3591
+        },
+        {
+          "keyword": "dataset",
+          "score": 0.3118
+        },
+        {
+          "keyword": "score",
+          "score": 0.3118
+        },
+        {
+          "keyword": "bleu",
+          "score": 0.3118
+        }
+      ]
+    }
+  ],
+  "paragraphs_used": 10
+}
