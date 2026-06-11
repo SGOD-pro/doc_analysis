@@ -1,14 +1,22 @@
 {
   "documents": {
-    "0c6e2e96": {
-      "doc_id": "0c6e2e96",
+    "5135e436": {
+      "doc_id": "5135e436",
       "original_name": "attension.pdf",
-      "saved_path": "data\\uploads\\0c6e2e96.pdf",
+      "saved_path": "data/uploads/5135e436.pdf",
       "format": "pdf",
       "status": "processed",
-      "error": "No spaCy model found. Run: python -m spacy download en_core_web_sm",
-      "document_name": "0c6e2e96.pdf",
+      "document_name": "5135e436.pdf",
       "total_pages": 15
+    },
+    "d7e32f43": {
+      "doc_id": "d7e32f43",
+      "original_name": "finance_act_of_2022.pdf",
+      "saved_path": "data/uploads/d7e32f43.pdf",
+      "format": "pdf",
+      "status": "processed",
+      "document_name": "d7e32f43.pdf",
+      "total_pages": 8
     }
   }
 }
