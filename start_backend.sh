@@ -24,7 +24,7 @@ uv run python -c "import spacy; spacy.load('en_core_web_sm')" 2>/dev/null || \
   uv run python -m spacy download en_core_web_sm
 
 echo "✅ Starting FastAPI server on http://localhost:8000"
-echo "   API Docs: http://localhost:8000/docs"
+echo "   API Docs: http://localhost:8001/docs"
 echo ""
 
-uv run uvicorn backend.api.main:app --host 0.0.0.0 --port 8000 --reload
+uv run uvicorn backend.api.main:app --host 0.0.0.0 --port 8001 --reload
